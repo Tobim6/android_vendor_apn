@@ -80,6 +80,24 @@
     />
     <apn
         mcc="230"
+        mnc="02"
+        carrier="O2 CZ IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="230"
+        mnc="02"
+        carrier="O2 CZ XCAP"
+        apn="xcap"
+        authtype="1"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="xcap"
+    />
+    <apn
+        mcc="230"
         mnc="03"
         carrier="Vodafone CZ"
         apn="internet"
