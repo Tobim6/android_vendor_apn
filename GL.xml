@@ -17,18 +17,4 @@
         type="default,supl"
         user=""
     />
-    <apn
-        mcc="290"
-        mnc="01"
-        carrier="Tele MMS"
-        apn="internet"
-        mmsc="http://mms.tele.gl/mms/wapenc"
-        mmsport="8080"
-        mmsproxy="10.112.222.37"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
 </apns>

@@ -8,15 +8,6 @@
     <apn
         mcc="603"
         mnc="01"
-        carrier="Mobilis"
-        apn="internet"
-        password="internet"
-        type="default,supl"
-        user="internet"
-    />
-    <apn
-        mcc="603"
-        mnc="01"
         carrier="Mobilis MMS"
         apn="mms"
         mmsc="http://172.025.049.009/servlets/mms"
@@ -31,7 +22,7 @@
         mnc="02"
         carrier="Djezzy"
         apn="djezzy.internet"
-        type="default,supl,mms"
+        type="mms"
     />
     <apn
         mcc="603"
@@ -51,17 +42,5 @@
         password="nedjma"
         type="default,supl"
         user="nedjma"
-    />
-    <apn
-        mcc="603"
-        mnc="03"
-        carrier="Nedjma MMS"
-        apn="nedjmaMMS"
-        mmsc="http://10.10.111.1"
-        mmsport="9201"
-        mmsproxy="192.168.52.3"
-        password="mms"
-        type="mms"
-        user="mms"
     />
 </apns>

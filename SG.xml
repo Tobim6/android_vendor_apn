@@ -120,7 +120,7 @@
         carrier_id="1707"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,ia,supl"
+        type="ia"
     />
     <apn
         mcc="525"
@@ -130,18 +130,7 @@
         carrier_id="1707"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,ia,supl"
-    />
-    <apn
-        mcc="525"
-        mnc="05"
-        carrier="SH IMS"
-        apn="ims"
-        carrier_id="1707"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-        user_visible="false"
+        type="ia"
     />
     <apn
         mcc="525"
@@ -162,7 +151,7 @@
         carrier_id="2434"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,ia,supl"
+        type="ia"
     />
     <apn
         mcc="525"
@@ -174,7 +163,7 @@
         mvno_type="gid"
         protocol="IPV4V6"
         roaming_protocol="IP"
-        type="default,ia,supl"
+        type="ia"
     />
     <apn
         mcc="525"
@@ -182,6 +171,6 @@
         carrier="SIMBA"
         apn="tpg"
         protocol="IPV4V6"
-        type="default,ia,supl"
+        type="ia"
     />
 </apns>

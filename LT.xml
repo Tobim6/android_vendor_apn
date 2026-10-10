@@ -46,31 +46,6 @@
     <apn
         mcc="246"
         mnc="02"
-        carrier="Bite"
-        apn="wap"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        server="213.226.131.133"
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="246"
-        mnc="02"
-        carrier="Bite LT Internet"
-        apn="banga"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="246"
-        mnc="02"
         carrier="Bite MMS"
         apn="mms"
         mmsc="http://mmsc"
@@ -81,58 +56,6 @@
         proxy=""
         type="mms"
         user="mms@mms"
-    />
-    <apn
-        mcc="246"
-        mnc="03"
-        carrier="Tele2 Internet LT"
-        apn="internet.tele2.lt"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="246"
-        mnc="03"
-        carrier="Tele2 LT"
-        apn="internet.vodafone.net"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="246"
-        mnc="03"
-        carrier="Tele2 LT MMS"
-        apn="wap.tele2.lt"
-        mmsc="http://mmsc.tele2.lt"
-        mmsport="8080"
-        mmsproxy="193.12.40.29"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="246"
-        mnc="03"
-        carrier="Tele2 MMS LT"
-        apn="mms.tele2.lt"
-        mmsc="http://mmsc.tele2.lt/"
-        mmsport="8080"
-        mmsproxy="193.12.40.29"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
     />
     <apn
         mcc="246"
@@ -152,15 +75,6 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="fota"
-    />
-    <apn
-        mcc="246"
-        mnc="081"
-        carrier="VZW Test IMS"
-        apn="VZWIMS"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
     />
     <apn
         mcc="246"
@@ -189,15 +103,6 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="fota"
-    />
-    <apn
-        mcc="246"
-        mnc="81"
-        carrier="VZW Test IMS"
-        apn="VZWIMS"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
     />
     <apn
         mcc="246"

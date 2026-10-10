@@ -19,13 +19,4 @@
         type="mms"
         user=""
     />
-    <apn
-        mcc="541"
-        mnc="05"
-        carrier="Digicel Web"
-        apn="web.digicelpacific.com"
-        password=""
-        type="default,supl"
-        user=""
-    />
 </apns>

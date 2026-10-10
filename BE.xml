@@ -8,107 +8,12 @@
     <apn
         mcc="206"
         mnc="01"
-        carrier="Eastlink Internet"
-        apn="wisp.mobi.eastlink.ca"
-        type="default,supl"
-    />
-    <apn
-        mcc="206"
-        mnc="01"
-        carrier="Eastlink MMS"
-        apn="mms.mobi.eastlink.ca"
-        mmsc="http://mmss.mobi.eastlink.ca"
-        mmsport="8080"
-        mmsproxy="10.232.12.49"
-        type="mms"
-    />
-    <apn
-        mcc="206"
-        mnc="01"
-        carrier="Iusacell Internet"
-        apn="web.iusacellgsm.mx"
-        authtype="0"
-        password="iusacellgsm"
-        type="default,supl"
-        user="iusacellgsm"
-    />
-    <apn
-        mcc="206"
-        mnc="01"
-        carrier="Iusacell MMS"
-        apn="mms.iusacellgsm.mx"
-        authtype="0"
-        mmsc="http://mms.iusacell3g.com/"
-        password="mmsiusacellgsm"
-        type="mms"
-        user="mmsiusacellgsm"
-    />
-    <apn
-        mcc="206"
-        mnc="01"
         carrier="Iusacell Modem"
         apn="modem.iusacellgsm.mx"
         authtype="0"
         password="iusacellgsm"
         type="dun"
         user="iusacellgsm"
-    />
-    <apn
-        mcc="206"
-        mnc="01"
-        carrier="Proximus Internet"
-        apn="internet.proximus.be"
-        type="default,supl"
-    />
-    <apn
-        mcc="206"
-        mnc="01"
-        carrier="Proximus MMS"
-        apn="event.proximus.be"
-        mmsc="http://mmsc.proximus.be/mms"
-        mmsport="8080"
-        mmsproxy="10.55.14.75"
-        password="mms"
-        type="mms"
-        user="mms"
-    />
-    <apn
-        mcc="206"
-        mnc="01"
-        carrier="Scarlet Internet"
-        apn="internet.bmbpartner.be"
-        type="default,supl"
-    />
-    <apn
-        mcc="206"
-        mnc="01"
-        carrier="Scarlet MMS"
-        apn="event.proximus.be"
-        mmsc="http://mmsc.proximus.be/mms"
-        mmsport="8080"
-        mmsproxy="10.55.14.75"
-        password="mms"
-        port=""
-        proxy=""
-        type="mms"
-        user="mms"
-    />
-    <apn
-        mcc="206"
-        mnc="01"
-        carrier="Telenet Intl Roam"
-        apn="telenetwap.be"
-        type="default,supl"
-    />
-    <apn
-        mcc="206"
-        mnc="01"
-        carrier="Telenet MMS Intl Roam"
-        apn="mms.be"
-        mmsc="http://mmsc.telenet.be"
-        mmsport="80"
-        mmsproxy="195.130.149.100"
-        type="mms"
     />
     <apn
         mcc="206"

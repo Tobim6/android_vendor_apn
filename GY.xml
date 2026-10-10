@@ -25,7 +25,7 @@
         carrier="G TT WEB"
         apn="internet.cellinkgy.com"
         password="cellink"
-        type="default,supl"
+        type="supl"
         user="cellink"
     />
     <apn
@@ -44,15 +44,6 @@
     />
     <apn
         mcc="738"
-        mnc="01"
-        carrier="Digicel Web"
-        apn="web"
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="738"
         mnc="02"
         carrier="G TT MMS"
         apn="mms.cellinkgy.com"
@@ -63,15 +54,6 @@
         port=""
         proxy=""
         type="mms"
-        user="cellink"
-    />
-    <apn
-        mcc="738"
-        mnc="02"
-        carrier="G TT WEB"
-        apn="internet.cellinkgy.com"
-        password="cellink"
-        type="default,supl"
         user="cellink"
     />
     <apn

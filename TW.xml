@@ -63,16 +63,6 @@
     />
     <apn
         mcc="466"
-        mnc="88"
-        carrier="KGT MMS"
-        apn="kgtmms"
-        mmsc="http://mms.kgtmms.net.tw/mms/wapenc"
-        mmsport="8080"
-        mmsproxy="172.28.33.5"
-        type="mms"
-    />
-    <apn
-        mcc="466"
         mnc="89"
         carrier="T Star-Internet"
         apn="internet"

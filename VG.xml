@@ -67,13 +67,4 @@
         type="mms"
         user=""
     />
-    <apn
-        mcc="348"
-        mnc="770"
-        carrier="Digicel Web"
-        apn="web"
-        password=""
-        type="default,supl"
-        user=""
-    />
 </apns>

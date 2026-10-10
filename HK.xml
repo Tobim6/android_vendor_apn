@@ -8,54 +8,6 @@
     <apn
         mcc="454"
         mnc="00"
-        carrier="1O1O"
-        apn="mobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        type="default,mms,hipri"
-    />
-    <apn
-        mcc="454"
-        mnc="00"
-        carrier="1O1O"
-        apn="mobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        mvno_match_data="01010000"
-        mvno_type="gid"
-        type="default,mms,hipri"
-    />
-    <apn
-        mcc="454"
-        mnc="00"
-        carrier="1O1O"
-        apn="mobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        type="default,mms,hipri"
-    />
-    <apn
-        mcc="454"
-        mnc="00"
-        carrier="1O1O"
-        apn="mobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        mvno_match_data="01010000"
-        mvno_type="gid"
-        type="default,mms,hipri"
-    />
-    <apn
-        mcc="454"
-        mnc="00"
         carrier="1O1O Tethering"
         apn="lte.internet"
         mvno_match_data="01010000"
@@ -77,91 +29,6 @@
         mvno_match_data="01010000"
         mvno_type="gid"
         type="dun"
-    />
-    <apn
-        mcc="454"
-        mnc="00"
-        carrier="Global Call"
-        apn="globalcall"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        mvno_match_data="01040000"
-        mvno_type="gid"
-        type="default,mms,hipri"
-    />
-    <apn
-        mcc="454"
-        mnc="00"
-        carrier="SUN Mobile"
-        apn="SUNMobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.61"
-        type="default,mms"
-    />
-    <apn
-        mcc="454"
-        mnc="00"
-        carrier="SUN Mobile"
-        apn="SUNMobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.61"
-        mvno_match_data="01030000"
-        mvno_type="gid"
-        type="default,mms"
-    />
-    <apn
-        mcc="454"
-        mnc="00"
-        carrier="SUN Mobile"
-        apn="SUNMobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.61"
-        type="default,mms"
-    />
-    <apn
-        mcc="454"
-        mnc="00"
-        carrier="SUN Mobile"
-        apn="SUNMobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.61"
-        mvno_match_data="01030000"
-        mvno_type="gid"
-        type="default,mms"
-    />
-    <apn
-        mcc="454"
-        mnc="00"
-        carrier="csl"
-        apn="mobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        mvno_match_data="01020000"
-        mvno_type="gid"
-        type="default,mms,hipri"
-    />
-    <apn
-        mcc="454"
-        mnc="00"
-        carrier="csl"
-        apn="mobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        type="default,mms,hipri"
     />
     <apn
         mcc="454"
@@ -178,57 +45,6 @@
         carrier="csl Tethering"
         apn="lte.internet"
         type="dun"
-    />
-    <apn
-        mcc="454"
-        mnc="00"
-        carrier="csl prepaid"
-        apn="cslp1"
-        authtype="3"
-        mmsc="http://mms.hkcsl.com:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        mvno_match_data="02020001"
-        mvno_type="gid"
-        type="default,mms,hipri"
-    />
-    <apn
-        mcc="454"
-        mnc="00"
-        carrier="csl prepaid"
-        apn="cslp1"
-        authtype="3"
-        mmsc="http://mms.hkcsl.com:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        mvno_match_data="02030001"
-        mvno_type="gid"
-        type="default,mms,hipri"
-    />
-    <apn
-        mcc="454"
-        mnc="00"
-        carrier="csl prepaid"
-        apn="cslp3"
-        authtype="3"
-        mmsc="http://mms.hkcsl.com:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        mvno_match_data="02020002"
-        mvno_type="gid"
-        type="default,mms,hipri"
-    />
-    <apn
-        mcc="454"
-        mnc="01"
-        carrier="New World"
-        apn="wap"
-        authtype="1"
-        password="wwm"
-        port="8080"
-        proxy="192.168.111.1"
-        type="default"
-        user="wwm"
     />
     <apn
         mcc="454"
@@ -243,38 +59,6 @@
     />
     <apn
         mcc="454"
-        mnc="01"
-        carrier="New World internet"
-        apn="internet"
-        authtype="1"
-        type="default"
-    />
-    <apn
-        mcc="454"
-        mnc="02"
-        carrier="1O1O"
-        apn="mobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        type="default,mms,hipri"
-    />
-    <apn
-        mcc="454"
-        mnc="02"
-        carrier="1O1O"
-        apn="mobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        mvno_match_data="01010000"
-        mvno_type="gid"
-        type="default,mms,hipri"
-    />
-    <apn
-        mcc="454"
         mnc="02"
         carrier="1O1O Tethering"
         apn="lte.internet"
@@ -288,67 +72,6 @@
         carrier="1O1O Tethering"
         apn="lte.internet"
         type="dun"
-    />
-    <apn
-        mcc="454"
-        mnc="02"
-        carrier="Global Call"
-        apn="globalcall"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        mvno_match_data="01040000"
-        mvno_type="gid"
-        type="default,mms,hipri"
-    />
-    <apn
-        mcc="454"
-        mnc="02"
-        carrier="SUN Mobile"
-        apn="SUNMobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.61"
-        type="default,mms"
-    />
-    <apn
-        mcc="454"
-        mnc="02"
-        carrier="SUN Mobile"
-        apn="SUNMobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.61"
-        mvno_match_data="01030000"
-        mvno_type="gid"
-        type="default,mms"
-    />
-    <apn
-        mcc="454"
-        mnc="02"
-        carrier="csl"
-        apn="mobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        type="default,mms,hipri"
-    />
-    <apn
-        mcc="454"
-        mnc="02"
-        carrier="csl"
-        apn="mobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        mvno_match_data="01020000"
-        mvno_type="gid"
-        type="default,mms,hipri"
     />
     <apn
         mcc="454"
@@ -375,18 +98,7 @@
         mmsc="http://mms.um.three.com.hk:10021/mmsc"
         mmsport="8799"
         mmsproxy="172.20.97.116"
-        type="default,mms,supl,dun"
-    />
-    <apn
-        mcc="454"
-        mnc="03"
-        carrier="3 LTE"
-        apn="mobile.lte.three.com.hk"
-        authtype="1"
-        mmsc="http://mms.um.three.com.hk:10021/mmsc"
-        mmsport="8799"
-        mmsproxy="172.20.97.116"
-        type="default,mms"
+        type="dun"
     />
     <apn
         mcc="454"
@@ -405,26 +117,6 @@
         mmsport="8080"
         mmsproxy="10.30.15.53"
         type="mms"
-    />
-    <apn
-        mcc="454"
-        mnc="04"
-        carrier="3-DB-GPRS"
-        apn="web-g.three.com.hk"
-        port="8080"
-        proxy="10.30.3.151"
-        type="default,supl"
-    />
-    <apn
-        mcc="454"
-        mnc="06"
-        carrier="SmarTone"
-        apn="SmarTone"
-        authtype="3"
-        mmsc="http://mms.smartone.com/server"
-        mmsport="8080"
-        mmsproxy="10.9.9.9"
-        type="default,supl,mms"
     />
     <apn
         mcc="454"
@@ -449,7 +141,7 @@
         mnc="08"
         carrier="Truphone"
         apn="truphone.com"
-        type="default,dun"
+        type="dun"
     />
     <apn
         mcc="454"
@@ -459,17 +151,6 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="default"
-    />
-    <apn
-        mcc="454"
-        mnc="10"
-        carrier="csl"
-        apn="hkcsl"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        type="default,mms,hipri"
     />
     <apn
         mcc="454"
@@ -519,31 +200,6 @@
     />
     <apn
         mcc="454"
-        mnc="12"
-        carrier="CMHK"
-        apn="cmhk"
-        mmsc="http://mms.hk.chinamobile.com/mms"
-        type="default,supl,mms"
-    />
-    <apn
-        mcc="454"
-        mnc="13"
-        carrier="CMHK"
-        apn="cmhk"
-        mmsc="http://mms.hk.chinamobile.com/mms"
-        type="default,supl,mms"
-    />
-    <apn
-        mcc="454"
-        mnc="14"
-        carrier="3-DB-GPRS"
-        apn="web-g.three.com.hk"
-        port="8080"
-        proxy="10.30.15.53"
-        type="default,supl"
-    />
-    <apn
-        mcc="454"
         mnc="14"
         carrier="3-DB-MMS"
         apn="mms-g.three.com.hk"
@@ -554,84 +210,6 @@
     />
     <apn
         mcc="454"
-        mnc="15"
-        carrier="SmarTone HK"
-        apn="SmarTone"
-        mmsc="http://mms.smartone.com/server"
-        mmsport="8080"
-        mmsproxy="10.9.9.9"
-        type="default,supl,mms"
-    />
-    <apn
-        mcc="454"
-        mnc="16"
-        carrier="PCCW GPRS"
-        apn="pccwdata"
-        mmsc=""
-        password=""
-        port="8080"
-        proxy="10.131.2.8"
-        type="default"
-        user=""
-    />
-    <apn
-        mcc="454"
-        mnc="16"
-        carrier="PCCW-HKT"
-        apn="pccw"
-        authtype="1"
-        mmsc="http://3gmms.pccwmobile.com:8080/was"
-        mmsport="8080"
-        mmsproxy="10.140.14.10"
-        type="default,supl,mms"
-    />
-    <apn
-        mcc="454"
-        mnc="16"
-        carrier="csl"
-        apn="pccw"
-        authtype="3"
-        mmsc="http://mms.hkcsl.com:8080"
-        mmsport="8080"
-        mmsproxy="10.140.14.10"
-        type="default,mms,hipri"
-    />
-    <apn
-        mcc="454"
-        mnc="17"
-        carrier="SmarTone HK"
-        apn="SmarTone"
-        mmsc="http://mms.smartone.com/server"
-        mmsport="8080"
-        mmsproxy="10.9.9.9"
-        type="default,supl,mms"
-    />
-    <apn
-        mcc="454"
-        mnc="18"
-        carrier="1O1O"
-        apn="mobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        type="default,mms,hipri"
-    />
-    <apn
-        mcc="454"
-        mnc="18"
-        carrier="1O1O"
-        apn="mobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        mvno_match_data="01010000"
-        mvno_type="gid"
-        type="default,mms,hipri"
-    />
-    <apn
-        mcc="454"
         mnc="18"
         carrier="1O1O Tethering"
         apn="lte.internet"
@@ -649,67 +227,6 @@
     <apn
         mcc="454"
         mnc="18"
-        carrier="Global Call"
-        apn="globalcall"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        mvno_match_data="01040000"
-        mvno_type="gid"
-        type="default,mms,hipri"
-    />
-    <apn
-        mcc="454"
-        mnc="18"
-        carrier="SUN Mobile"
-        apn="SUNMobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.61"
-        type="default,mms"
-    />
-    <apn
-        mcc="454"
-        mnc="18"
-        carrier="SUN Mobile"
-        apn="SUNMobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.61"
-        mvno_match_data="01030000"
-        mvno_type="gid"
-        type="default,mms"
-    />
-    <apn
-        mcc="454"
-        mnc="18"
-        carrier="csl"
-        apn="mobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        type="default,mms,hipri"
-    />
-    <apn
-        mcc="454"
-        mnc="18"
-        carrier="csl"
-        apn="mobile"
-        authtype="3"
-        mmsc="http://192.168.58.171:8002"
-        mmsport="8080"
-        mmsproxy="192.168.59.51"
-        mvno_match_data="01020000"
-        mvno_type="gid"
-        type="default,mms,hipri"
-    />
-    <apn
-        mcc="454"
-        mnc="18"
         carrier="csl Tethering"
         apn="lte.internet"
         type="dun"
@@ -722,28 +239,6 @@
         mvno_match_data="01020000"
         mvno_type="gid"
         type="dun"
-    />
-    <apn
-        mcc="454"
-        mnc="19"
-        carrier="PCCW-HKT"
-        apn="pccw"
-        authtype="1"
-        mmsc="http://3gmms.pccwmobile.com:8080/was"
-        mmsport="8080"
-        mmsproxy="10.140.14.10"
-        type="default,supl,mms"
-    />
-    <apn
-        mcc="454"
-        mnc="19"
-        carrier="csl"
-        apn="pccw"
-        authtype="3"
-        mmsc="http://mms.hkcsl.com:8080"
-        mmsport="8080"
-        mmsproxy="10.140.14.10"
-        type="default,mms,hipri"
     />
     <apn
         mcc="454"
@@ -755,7 +250,7 @@
         mvno_type="spn"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,dun,xcap"
+        type="dun"
     />
     <apn
         mcc="454"
@@ -768,15 +263,6 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="default,dun,xcap"
-    />
-    <apn
-        mcc="454"
-        mnc="31"
-        carrier="CTNET"
-        apn="ctnet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default"
     />
     <apn
         mcc="454"

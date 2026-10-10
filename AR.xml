@@ -81,124 +81,6 @@
     />
     <apn
         mcc="722"
-        mnc="310"
-        carrier="CTI"
-        apn="internet.ctimovil.com.ar"
-        password="guest"
-        type="default,supl"
-        user="guest"
-    />
-    <apn
-        mcc="722"
-        mnc="310"
-        carrier="CTI"
-        apn="internet.ctimovil.com.ar"
-        mmsc=""
-        password="guest"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="guest"
-    />
-    <apn
-        mcc="722"
-        mnc="310"
-        carrier="CTI MMS"
-        apn="mms.ctimovil.com.ar"
-        mmsc="http://mms.ctimovil.com.ar"
-        mmsport="9201"
-        mmsproxy="170.051.255.240"
-        password="ctimms999"
-        type="mms"
-        user="ctimms"
-    />
-    <apn
-        mcc="722"
-        mnc="310"
-        carrier="CTI MMS"
-        apn="mms.ctimovil.com.ar"
-        mmsc="http://mms.ctimovil.com.ar"
-        mmsport="9201"
-        mmsproxy="170.51.255.240"
-        password="ctimms999"
-        port=""
-        proxy=""
-        type="mms"
-        user="ctimms"
-    />
-    <apn
-        mcc="722"
-        mnc="310"
-        carrier="Claro AR"
-        apn="igprs.claro.com.ar"
-        authtype="1"
-        mmsc=""
-        password="ctigpr999"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="ctigprs"
-    />
-    <apn
-        mcc="722"
-        mnc="310"
-        carrier="Claro AR MMS"
-        apn="mms.ctimovil.com.ar"
-        authtype="1"
-        mmsc="http://mms.ctimovil.com.ar"
-        mmsport="8080"
-        mmsproxy="170.051.255.240"
-        password="ctimms999"
-        type="mms"
-        user="ctimms"
-    />
-    <apn
-        mcc="722"
-        mnc="310"
-        carrier="Claro AR MMS"
-        apn="mms.ctimovil.com.ar"
-        authtype="1"
-        mmsc="http://mms.ctimovil.com.ar"
-        mmsport="8080"
-        mmsproxy="170.51.255.240"
-        password="ctimms999"
-        port=""
-        proxy=""
-        type="mms"
-        user="ctimms"
-    />
-    <apn
-        mcc="722"
-        mnc="310"
-        carrier="Claro Internet"
-        apn="igprs.claro.com.ar"
-        password="ctigprs999"
-        type="default,supl"
-        user="ctigprs"
-    />
-    <apn
-        mcc="722"
-        mnc="34"
-        carrier="Personal"
-        apn="datos.personal.com"
-        password="datos"
-        type="default,supl"
-        user="datos"
-    />
-    <apn
-        mcc="722"
-        mnc="34"
-        carrier="Personal"
-        apn="gprs.personal.com"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user="gprs"
-    />
-    <apn
-        mcc="722"
         mnc="34"
         carrier="Personal MMS"
         apn="mms"
@@ -239,24 +121,6 @@
     />
     <apn
         mcc="722"
-        mnc="34"
-        carrier="Personal WAP"
-        apn="gprs.personal.com"
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="722"
-        mnc="341"
-        carrier="Personal"
-        apn="datos.personal.com"
-        password="datos"
-        type="default,supl"
-        user="datos"
-    />
-    <apn
-        mcc="722"
         mnc="341"
         carrier="Personal MMS"
         apn="mms"
@@ -280,14 +144,5 @@
         password="mms"
         type="mms"
         user="mms"
-    />
-    <apn
-        mcc="722"
-        mnc="341"
-        carrier="Personal WAP"
-        apn="gprs.personal.com"
-        password=""
-        type="default,supl"
-        user=""
     />
 </apns>

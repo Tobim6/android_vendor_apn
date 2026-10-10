@@ -14,7 +14,7 @@
         mmsport="9093"
         mmsproxy="smart.nate.com"
         server="*"
-        type="default,mms,supl,fota,cbs"
+        type="fota,cbs"
     />
     <apn
         mcc="450"
@@ -25,7 +25,7 @@
         mmsport="9093"
         mmsproxy="smart.nate.com"
         server="*"
-        type="default,mms,supl,fota,cbs"
+        type="fota,cbs"
     />
     <apn
         mcc="450"
@@ -54,7 +54,7 @@
         mmsproxy="smart.nate.com"
         protocol="IPV4V6"
         server="*"
-        type="default,mms,supl,fota,cbs"
+        type="fota,cbs"
     />
     <apn
         mcc="450"
@@ -65,7 +65,7 @@
         mmsport="9093"
         mmsproxy="smart.nate.com"
         server="*"
-        type="default,mms,supl,fota,cbs"
+        type="fota,cbs"
     />
     <apn
         mcc="450"
@@ -74,7 +74,7 @@
         apn="internet.lguplus.co.kr"
         mmsc="http://omammsc.uplus.co.kr:9084"
         protocol="IPV4V6"
-        type="default,mms,supl,fota,cbs"
+        type="fota,cbs"
     />
     <apn
         mcc="450"
@@ -101,7 +101,7 @@
         apn="lte-roaming.lguplus.co.kr"
         authtype="0"
         mmsc="http://omammsc.uplus.co.kr:9084"
-        type="default,mms,supl,fota,cbs"
+        type="fota,cbs"
     />
     <apn
         mcc="450"
@@ -110,7 +110,7 @@
         apn="wroaming.lguplus.co.kr"
         authtype="0"
         mmsc="http://omammsc.uplus.co.kr:9084"
-        type="default,mms,supl,fota,cbs"
+        type="fota,cbs"
     />
     <apn
         mcc="450"
@@ -120,7 +120,7 @@
         mmsc="http://mmsc.ktfwing.com:9082"
         port="80"
         server="*"
-        type="default,mms,supl,fota,cbs"
+        type="fota,cbs"
     />
     <apn
         mcc="450"
@@ -147,7 +147,7 @@
         mmsport="9093"
         mmsproxy="smart.nate.com"
         server="*"
-        type="default,mms,supl,fota,cbs"
+        type="fota,cbs"
     />
     <apn
         mcc="450"
@@ -158,7 +158,7 @@
         mmsport="9093"
         mmsproxy="smart.nate.com"
         server="*"
-        type="default,mms,supl,fota,cbs"
+        type="fota,cbs"
     />
     <apn
         mcc="450"
@@ -169,6 +169,6 @@
         mmsport="9093"
         mmsproxy="smart.nate.com"
         server="*"
-        type="default,mms,supl,fota,cbs"
+        type="fota,cbs"
     />
 </apns>

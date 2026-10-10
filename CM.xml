@@ -7,15 +7,6 @@
 <apns version="8">
     <apn
         mcc="624"
-        mnc="01"
-        carrier="MTN CM"
-        apn="INTERNET"
-        password="guest"
-        type="default,supl"
-        user="guest"
-    />
-    <apn
-        mcc="624"
         mnc="02"
         carrier="Orange CM"
         apn="orangecmgprs"

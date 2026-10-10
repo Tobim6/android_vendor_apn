@@ -31,32 +31,4 @@
         type="mms"
         user=""
     />
-    <apn
-        mcc="400"
-        mnc="02"
-        carrier="Bakcell"
-        apn="mms"
-        mmsc="http://mms.bakcell.com/mms/wapenc"
-        mmsport="8080"
-        mmsproxy="213.172.91.46"
-        password=""
-        port=""
-        proxy=""
-        type="default,supl,mms"
-        user=""
-    />
-    <apn
-        mcc="400"
-        mnc="04"
-        carrier="Nar"
-        apn="nar"
-        mmsc="http://mmsc"
-        mmsport="8080"
-        mmsproxy="10.20.0.40"
-        password="nar"
-        port=""
-        proxy=""
-        type="default,supl,mms"
-        user="nar"
-    />
 </apns>

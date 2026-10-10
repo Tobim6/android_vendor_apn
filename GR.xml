@@ -17,27 +17,6 @@
     />
     <apn
         mcc="202"
-        mnc="01"
-        carrier="Cosmote Internet"
-        apn="internet"
-        protocol="IPV4V6"
-        roaming_protocol="IP"
-        type="default"
-    />
-    <apn
-        mcc="202"
-        mnc="01"
-        carrier="Cosmote MMS"
-        apn="mms"
-        mmsc="http://mmsc.cosmote.gr:8002"
-        mmsport="8080"
-        mmsproxy="10.10.10.20"
-        protocol="IPV4V6"
-        roaming_protocol="IP"
-        type="mms"
-    />
-    <apn
-        mcc="202"
         mnc="05"
         carrier="Vf IMS"
         apn="ims"
@@ -52,7 +31,7 @@
         apn="internet.vodafone.gr"
         protocol="IP"
         roaming_protocol="IP"
-        type="default,supl,dun"
+        type="dun"
     />
     <apn
         mcc="202"
@@ -99,15 +78,6 @@
     <apn
         mcc="202"
         mnc="10"
-        carrier="Wind Internet"
-        apn="gint.b-online.gr"
-        protocol="IP"
-        roaming_protocol="IP"
-        type="default"
-    />
-    <apn
-        mcc="202"
-        mnc="10"
         carrier="Wind MMS"
         apn="mnet.b-online.gr"
         mmsc="http://192.168.200.95/servlets/mms"
@@ -116,15 +86,6 @@
         protocol="IP"
         roaming_protocol="IP"
         type="mms"
-    />
-    <apn
-        mcc="202"
-        mnc="17"
-        carrier="Nova Internet"
-        apn="internet.nova.gr"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default"
     />
     <apn
         mcc="202"

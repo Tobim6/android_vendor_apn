@@ -138,7 +138,7 @@
         mnc="10"
         carrier="SFR NET"
         apn="sl2sfr"
-        type="default,supl"
+        type="default"
     />
     <apn
         mcc="647"
@@ -149,7 +149,7 @@
         password="wap"
         port="8080"
         proxy="10.0.224.161"
-        type="default,supl"
+        type="default"
         user="wap"
     />
     <apn
@@ -157,6 +157,6 @@
         mnc="10"
         carrier="WEB GPRS SRR"
         apn="websfr"
-        type="default,supl"
+        type="default"
     />
 </apns>

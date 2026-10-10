@@ -97,18 +97,6 @@
     <apn
         mcc="605"
         mnc="03"
-        carrier="Tunisiana MMS"
-        apn="mms.tunisiana.com"
-        mmsc="http://192.168.0.3:19090/was"
-        mmsport="9201"
-        mmsproxy="10.3.2.100"
-        password="mms"
-        type="mms"
-        user="mms"
-    />
-    <apn
-        mcc="605"
-        mnc="03"
         carrier="Tunisiana Wap"
         apn="internet.tunisiana.com"
         password="internet"

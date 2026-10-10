@@ -164,18 +164,6 @@
     <apn
         mcc="460"
         mnc="03"
-        carrier="中国电信 (China Telecom) GPRS"
-        apn="ctnet"
-        authtype="3"
-        password="vnet.mobi"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,hipri,supl"
-        user="ctnet@mycdma.cn"
-    />
-    <apn
-        mcc="460"
-        mnc="03"
         carrier="中国电信彩信 (China Telecom)"
         apn="ctwap"
         authtype="3"
@@ -194,7 +182,7 @@
         carrier_id="1435"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,ia,supl,xcap"
+        type="ia"
     />
     <apn
         mcc="460"
@@ -448,15 +436,6 @@
         proxy="10.0.0.172"
         roaming_protocol="IPV4V6"
         type="mms"
-    />
-    <apn
-        mcc="460"
-        mnc="15"
-        carrier="CBNET"
-        apn="cbnet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
     />
     <apn
         mcc="460"

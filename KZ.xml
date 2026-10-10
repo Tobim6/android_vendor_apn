@@ -7,18 +7,6 @@
 <apns version="8">
     <apn
         mcc="401"
-        mnc="01"
-        carrier="BeeLine KZ"
-        apn="internet.beeline.kz"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user="internet.beeline"
-    />
-    <apn
-        mcc="401"
         mnc="02"
         carrier="Kcell"
         apn="internet"
@@ -52,32 +40,6 @@
         password=""
         port="8080"
         proxy="195.47.255.7"
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="401"
-        mnc="77"
-        carrier="Altel"
-        apn="internet.altel.kz"
-        mmsc=""
-        password=""
-        port=""
-        protocol="IPV4V6"
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="401"
-        mnc="77"
-        carrier="Tele2 Internet"
-        apn="internet.tele2.kz"
-        mmsc=""
-        password=""
-        port=""
-        protocol="IPV4V6"
-        proxy=""
         type="default,supl"
         user=""
     />

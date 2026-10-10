@@ -33,30 +33,4 @@
         type="mms"
         user="mms"
     />
-    <apn
-        mcc="294"
-        mnc="03"
-        carrier="Vip internet"
-        apn="vipoperator"
-        mmsc=""
-        password="vipoperator"
-        port="8080"
-        proxy="78.40.0.1"
-        type="default,supl"
-        user="vipoperator"
-    />
-    <apn
-        mcc="294"
-        mnc="03"
-        carrier="Vip mms"
-        apn="vipoperator.mms"
-        mmsc="http://mmsc.vipoperator.com.mk"
-        mmsport="8080"
-        mmsproxy="78.40.0.1"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
 </apns>

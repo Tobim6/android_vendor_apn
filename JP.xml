@@ -12,7 +12,7 @@
         apn="i-aeonmobile.com"
         authtype="3"
         password="0000"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="user"
     />
     <apn
@@ -22,7 +22,7 @@
         apn="n-aeonmobile.com"
         authtype="3"
         password="0000"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="user@n-aeonmobile.com"
     />
     <apn
@@ -32,7 +32,7 @@
         apn="lte.mobac.net"
         authtype="3"
         password="0000"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="d@w.asahinet.jp"
     />
     <apn
@@ -42,7 +42,7 @@
         apn="biglobe.jp"
         authtype="3"
         password="0000"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="user"
     />
     <apn
@@ -52,7 +52,7 @@
         apn="dti.jp"
         authtype="3"
         password="dti"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="dti"
     />
     <apn
@@ -62,7 +62,7 @@
         apn="freetel.link"
         authtype="3"
         password="freetel"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="freetel@freetel.link"
     />
     <apn
@@ -72,7 +72,7 @@
         apn="dm.jplat.net"
         authtype="3"
         password="his"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="his@his"
     />
     <apn
@@ -82,7 +82,7 @@
         apn="iijmio.jp"
         authtype="3"
         password="iij"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="mio@iij"
     />
     <apn
@@ -103,7 +103,7 @@
         apn="line.me"
         authtype="3"
         password="line"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="line@line"
     />
     <apn
@@ -113,7 +113,7 @@
         apn="linemobile.jp"
         authtype="3"
         password="line"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="line@line"
     />
     <apn
@@ -123,7 +123,7 @@
         apn="lte-d.ocn.ne.jp"
         authtype="3"
         password="mobile"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="mobileid@ocn"
     />
     <apn
@@ -133,7 +133,7 @@
         apn="lte.ocn.ne.jp"
         authtype="3"
         password="mobile"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="mobileid@ocn"
     />
     <apn
@@ -143,18 +143,8 @@
         apn="ocn.ne.jp"
         authtype="3"
         password="mobile"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="mobileid@ocn"
-    />
-    <apn
-        mcc="440"
-        mnc="10"
-        carrier="b-mobile(ドコモ)"
-        apn="bmobile.ne.jp"
-        authtype="3"
-        password="bmobile"
-        type="default,supl"
-        user="bmobile@4g"
     />
     <apn
         mcc="440"
@@ -163,7 +153,7 @@
         apn="mineo-d.jp"
         authtype="2"
         password="mineo"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="mineo@k-opti.com"
     />
     <apn
@@ -173,7 +163,7 @@
         apn="mda.nifty.com"
         authtype="2"
         password="nifty"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="mda@nifty"
     />
     <apn
@@ -183,7 +173,7 @@
         apn="so-net.jp"
         authtype="2"
         password="nuro"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="nuro"
     />
     <apn
@@ -191,14 +181,14 @@
         mnc="10"
         carrier="ドコモ(mopera)"
         apn="mopera.net"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
     />
     <apn
         mcc="440"
         mnc="10"
         carrier="ドコモ(spモード)"
         apn="spmode.ne.jp"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
     />
     <apn
         mcc="440"
@@ -207,7 +197,7 @@
         apn="dm.jplat.net"
         authtype="3"
         password="jci"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="jci@jci"
     />
     <apn
@@ -239,7 +229,7 @@
         apn="rakuten.jp"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,ia,supl"
+        type="ia"
     />
     <apn
         mcc="440"
@@ -259,7 +249,7 @@
         apn="plus.acs.jp"
         authtype="2"
         password="lm"
-        type="default,ia,mms,supl,hipri"
+        type="ia"
         user="lm"
     />
     <apn
@@ -269,7 +259,7 @@
         apn="line.me"
         authtype="3"
         password="line"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="ia,fota,cbs"
         user="line@line"
     />
     <apn
@@ -282,29 +272,8 @@
         mmsport="8080"
         mmsproxy="andmms.softbank.ne.jp"
         password="4g"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="ia,fota,cbs"
         user="plus"
-    />
-    <apn
-        mcc="440"
-        mnc="20"
-        carrier="Softbank(jpspir)"
-        apn="jpspir"
-        mmsc="http://mms/"
-        mmsport="8080"
-        mmsproxy="smilemms.softbank.ne.jp"
-        password="amstkoi"
-        type="default,supl,mms"
-        user="sirobit"
-    />
-    <apn
-        mcc="440"
-        mnc="20"
-        carrier="Softbank(sbm4glte)"
-        apn="sbm4glte"
-        password="softbank"
-        type="default,supl"
-        user="data"
     />
     <apn
         mcc="440"
@@ -316,7 +285,7 @@
         mmsport="8080"
         mmsproxy="andmms.plusacs.ne.jp"
         password="ym"
-        type="default,ia,mms,supl,hipri"
+        type="ia"
         user="ym"
     />
     <apn
@@ -326,7 +295,7 @@
         apn="sb.mvno"
         authtype="3"
         password="jci"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="ia,fota,cbs"
         user="jci@jci"
     />
     <apn
@@ -336,7 +305,7 @@
         apn="mineo-s.jp"
         authtype="2"
         password="mineo"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="ia,fota,cbs"
         user="mineo@k-opti.com"
     />
     <apn
@@ -346,7 +315,7 @@
         apn="so-net.jp"
         authtype="2"
         password="nuro"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="ia,fota,cbs"
         user="nuro"
     />
     <apn
@@ -367,7 +336,7 @@
         apn="i-aeonmobile.com"
         authtype="3"
         password="0000"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="user"
     />
     <apn
@@ -377,7 +346,7 @@
         apn="biglobe.jp"
         authtype="3"
         password="0000"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="user"
     />
     <apn
@@ -387,7 +356,7 @@
         apn="iijmio.jp"
         authtype="3"
         password="iij"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="mio@iij"
     />
     <apn
@@ -408,7 +377,7 @@
         apn="jcommobile.jp"
         authtype="3"
         password="jcom"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="jcom@jcommobile.jp"
     />
     <apn
@@ -418,7 +387,7 @@
         apn="line.me"
         authtype="3"
         password="line"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="line@line"
     />
     <apn
@@ -432,7 +401,7 @@
         password="uq"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,ia,mms,supl,hipri"
+        type="mms,ia"
         user="uq@uqmobile.jp"
     />
     <apn
@@ -442,7 +411,7 @@
         apn="au5g.au-net.ne.jp"
         authtype="2"
         password="au"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="user@au5g.au-net.ne.jp"
     />
     <apn
@@ -452,7 +421,7 @@
         apn="uad5gn.au-net.ne.jp"
         authtype="2"
         password="au"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="au@uad5gn.au-net.ne.jp"
     />
     <apn
@@ -462,7 +431,7 @@
         apn="au.au-net.ne.jp"
         authtype="2"
         password="au"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="user@au.au-net.ne.jp"
     />
     <apn
@@ -472,7 +441,7 @@
         apn="uno.au-net.ne.jp"
         authtype="2"
         password="KpyrR6BP"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="685840734641020@uno.au-net.ne.jp"
     />
     <apn
@@ -482,7 +451,7 @@
         apn="mineo.jp"
         authtype="2"
         password="mineo"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="mineo@k-opti.com"
     />
     <apn
@@ -492,7 +461,7 @@
         apn="so-net.jp"
         authtype="2"
         password="nuro"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
         user="nuro"
     />
     <apn
@@ -501,6 +470,6 @@
         carrier="povo2.0"
         apn="povo.jp"
         protocol="IPV4V6"
-        type="default,ia,mms,supl,hipri,fota,cbs"
+        type="mms,ia,fota,cbs"
     />
 </apns>

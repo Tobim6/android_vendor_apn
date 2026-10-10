@@ -19,13 +19,4 @@
         type="mms"
         user="wap"
     />
-    <apn
-        mcc="746"
-        mnc="03"
-        carrier="Digicel Web"
-        apn="web"
-        password=""
-        type="default,supl"
-        user=""
-    />
 </apns>

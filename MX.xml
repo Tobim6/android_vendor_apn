@@ -24,18 +24,6 @@
     <apn
         mcc="334"
         mnc="020"
-        carrier="Telcel EDGE"
-        apn="internet.itelcel.com"
-        mmsc=""
-        password="webgprs2002"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="webgprs"
-    />
-    <apn
-        mcc="334"
-        mnc="020"
         carrier="Telcel Internet"
         apn="internet.itelcel.com"
         authtype="1"
@@ -43,7 +31,7 @@
         password="webgprs2002"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,supl"
+        type="supl"
         user="webgprs"
     />
     <apn
@@ -59,18 +47,6 @@
         proxy=""
         type="mms"
         user="mmsgprs"
-    />
-    <apn
-        mcc="334"
-        mnc="03"
-        carrier="Movistar MX"
-        apn="internet.movistar.mx"
-        mmsc=""
-        password="movistar"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="movistar"
     />
     <apn
         mcc="334"
@@ -102,7 +78,7 @@
         apn="web.iusacellgsm.mx"
         authtype="0"
         password="iusacellgsm"
-        type="default,supl"
+        type="default"
         user="iusacellgsm"
     />
     <apn
@@ -117,93 +93,12 @@
     />
     <apn
         mcc="334"
-        mnc="050"
-        carrier="Iusacell Internet"
-        apn="web.iusacellgsm.mx"
-        authtype="0"
-        password="iusacellgsm"
-        type="default,supl"
-        user="iusacellgsm"
-    />
-    <apn
-        mcc="334"
-        mnc="050"
-        carrier="Iusacell MMS"
-        apn="mms.iusacellgsm.mx"
-        mmsc="http://mms.iusacell3g.com/"
-        password="mmsiusacellgsm"
-        type="mms"
-        user="mmsiusacellgsm"
-    />
-    <apn
-        mcc="334"
-        mnc="050"
-        carrier="Unefon Internet"
-        apn="web.iusacellgsm.mx"
-        authtype="0"
-        password="iusacellgsm"
-        type="default,supl"
-        user="iusacellgsm"
-    />
-    <apn
-        mcc="334"
-        mnc="050"
-        carrier="Unefon MMS"
-        apn="mms.iusacellgsm.mx"
-        mmsc="http://mms.iusacell3g.com/"
-        password="mmsiusacellgsm"
-        type="mms"
-        user="mmsiusacellgsm"
-    />
-    <apn
-        mcc="334"
         mnc="090"
         carrier="Nextel Internet"
         apn="modem.nexteldata.com.mx"
         password=""
         type="dun"
         user=""
-    />
-    <apn
-        mcc="334"
-        mnc="090"
-        carrier="Nextel Localización"
-        apn="location.nexteldata.com.mx"
-        port="7275"
-        server="supl.nexteldata.com.mx"
-        type="supl"
-    />
-    <apn
-        mcc="334"
-        mnc="090"
-        carrier="Nextel MMS"
-        apn="mms.nexteldata.com.mx"
-        mmsc="http://3gmms.nexteldata.com.mx"
-        mmsport="8080"
-        mmsproxy="129.192.129.104"
-        password=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="334"
-        mnc="090"
-        carrier="Nextel Navegación"
-        apn="wap.nexteldata.com.mx"
-        authtype="0"
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="334"
-        mnc="140"
-        carrier="Bait Internet"
-        apn="internet.wm.com"
-        authtype="1"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
     />
     <apn
         mcc="334"

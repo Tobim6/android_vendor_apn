@@ -48,18 +48,6 @@
     <apn
         mcc="274"
         mnc="02"
-        carrier="Vodafone Internet"
-        apn="gprs.is"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="274"
-        mnc="02"
         carrier="Vodafone MMS"
         apn="mms.gprs.is"
         mmsc="http://mmsc.vodafone.is"
@@ -84,27 +72,5 @@
         proxy=""
         type="mms"
         user=""
-    />
-    <apn
-        mcc="274"
-        mnc="11"
-        carrier="Net Nova"
-        apn="net.nova.is"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="274"
-        mnc="12"
-        carrier="Tal"
-        apn="internet.tal.is"
-        mmsc="http://mms.tal.is/servlets/mms"
-        mmsport="8080"
-        mmsproxy="213.167.138.210"
-        type="default,supl,mms"
     />
 </apns>

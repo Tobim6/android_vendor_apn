@@ -8,39 +8,6 @@
     <apn
         mcc="510"
         mnc="01"
-        carrier="Indosat 3.5G"
-        apn="indosat3g"
-        authtype="1"
-        password="indosat"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="indosat"
-    />
-    <apn
-        mcc="510"
-        mnc="01"
-        carrier="Indosat 3G"
-        apn="indosatgprs"
-        authtype="1"
-        password="indosat"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="indosat"
-    />
-    <apn
-        mcc="510"
-        mnc="01"
-        carrier="Indosat GPRS"
-        apn="indosatgprs"
-        password="indosat"
-        type="default,supl"
-        user="indosat"
-    />
-    <apn
-        mcc="510"
-        mnc="01"
         carrier="Indosat MMS"
         apn="indosatmms"
         authtype="1"
@@ -144,43 +111,6 @@
     />
     <apn
         mcc="510"
-        mnc="09"
-        carrier="Smartfren MMS"
-        apn="smartfren"
-        authtype="3"
-        mmsc="http://10.17.93.103:8080"
-        mmsport="8080"
-        mmsproxy="10.17.27.250"
-        password="smartfren"
-        protocol="IPV4V6"
-        type="mms"
-        user="smartfren"
-    />
-    <apn
-        mcc="510"
-        mnc="09"
-        carrier="Smartfren4G"
-        apn="Smartfren4G"
-        authtype="3"
-        password="smartfren"
-        protocol="IPV4V6"
-        type="default,supl"
-        user="smartfren"
-    />
-    <apn
-        mcc="510"
-        mnc="10"
-        carrier="TSEL BROADBAND"
-        apn="internet"
-        authtype="1"
-        password="wap123"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="wap"
-    />
-    <apn
-        mcc="510"
         mnc="10"
         carrier="TSEL MMS"
         apn="mms"
@@ -191,25 +121,6 @@
         password="wap123"
         type="mms"
         user="wap"
-    />
-    <apn
-        mcc="510"
-        mnc="10"
-        carrier="TSEL TIMEBASED"
-        apn="flash"
-        authtype="1"
-        password="wap123"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="wap"
-    />
-    <apn
-        mcc="510"
-        mnc="10"
-        carrier="Telkomsel"
-        apn="internet"
-        type="default,supl"
     />
     <apn
         mcc="510"
@@ -283,15 +194,6 @@
     <apn
         mcc="510"
         mnc="21"
-        carrier="IM3 Internet"
-        apn="www.indosat-m3.net"
-        password="im3"
-        type="default,supl"
-        user="gprs"
-    />
-    <apn
-        mcc="510"
-        mnc="21"
         carrier="IM3 MMS"
         apn="indosatmms"
         mmsc="http://mmsc.indosat.com"
@@ -307,31 +209,6 @@
         carrier="Smartfren IMS"
         apn="IMS"
         type="ims"
-    />
-    <apn
-        mcc="510"
-        mnc="28"
-        carrier="Smartfren MMS"
-        apn="smartfren"
-        authtype="3"
-        mmsc="http://10.17.93.103:8080"
-        mmsport="8080"
-        mmsproxy="10.17.27.250"
-        password="smartfren"
-        protocol="IPV4V6"
-        type="mms"
-        user="smartfren"
-    />
-    <apn
-        mcc="510"
-        mnc="28"
-        carrier="Smartfren4G"
-        apn="Smartfren4G"
-        authtype="3"
-        password="smartfren"
-        protocol="IPV4V6"
-        type="default,supl"
-        user="smartfren"
     />
     <apn
         mcc="510"

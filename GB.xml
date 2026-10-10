@@ -14,7 +14,7 @@
         port="9201"
         proxy="193.113.200.195"
         server="http://wap.tesco-mobile.com/"
-        type="default,supl,mms"
+        type="mms"
         user="tescowap"
     />
     <apn
@@ -30,79 +30,6 @@
         proxy=""
         type="default,supl,mms"
         user=""
-    />
-    <apn
-        mcc="234"
-        mnc="01"
-        carrier="Vectone Mobile"
-        apn="webuk.mundio.com"
-        type="default,supl"
-    />
-    <apn
-        mcc="234"
-        mnc="02"
-        carrier="O2 Internet(post)"
-        apn="mobile.o2.co.uk"
-        password="password"
-        type="default,supl"
-        user="O2web"
-    />
-    <apn
-        mcc="234"
-        mnc="02"
-        carrier="O2 Internet(pre)"
-        apn="payandgo.o2.co.uk"
-        password="password"
-        type="default,supl"
-        user="payandgo"
-    />
-    <apn
-        mcc="234"
-        mnc="02"
-        carrier="O2 MMS(post)"
-        apn="wap.o2.co.uk"
-        mmsc="http://mmsc.mms.o2.co.uk:8002"
-        mmsport="8080"
-        mmsproxy="193.113.200.195"
-        password="password"
-        port=""
-        proxy=""
-        type="mms"
-        user="o2wap"
-    />
-    <apn
-        mcc="234"
-        mnc="02"
-        carrier="O2 MMS(pre)"
-        apn="payandgo.o2.co.uk"
-        mmsc="http://mmsc.mms.o2.co.uk:8002"
-        mmsport="8080"
-        mmsproxy="193.113.200.195"
-        password="password"
-        type="mms"
-        user="payandgo"
-    />
-    <apn
-        mcc="234"
-        mnc="02"
-        carrier="O2 WAP(post)"
-        apn="wap.o2.co.uk"
-        password="password"
-        port="8080"
-        proxy="193.113.200.195"
-        type="default,supl"
-        user="payandgo"
-    />
-    <apn
-        mcc="234"
-        mnc="02"
-        carrier="O2 WAP(pre)"
-        apn="payandgo.o2.co.uk"
-        password="password"
-        port="8080"
-        proxy="193.113.200.195"
-        type="default,supl"
-        user="payandgo"
     />
     <apn
         mcc="234"
@@ -163,84 +90,6 @@
     <apn
         mcc="234"
         mnc="10"
-        carrier="O2 Contract"
-        apn="wap.o2.co.uk"
-        mmsc="http://mmsc.mms.o2.co.uk:8002/"
-        mmsport="8080"
-        mmsproxy="193.113.200.195"
-        password="password"
-        port="8080"
-        proxy="193.113.200.195"
-        type="default,hipri,supl,mms"
-        user="o2wap"
-    />
-    <apn
-        mcc="234"
-        mnc="10"
-        carrier="O2 PAYG"
-        apn="payandgo.o2.co.uk"
-        mmsc="http://mmsc.mms.o2.co.uk:8002/"
-        mmsport="8080"
-        mmsproxy="193.113.200.195"
-        password="password"
-        port="8080"
-        proxy="193.113.200.195"
-        type="default,hipri,supl,mms"
-        user="payandgo"
-    />
-    <apn
-        mcc="234"
-        mnc="10"
-        carrier="O2 UK"
-        apn="mobile.o2.co.uk"
-        authtype="1"
-        mmsc="http://mmsc.mms.o2.co.uk:8002"
-        mmsport="8080"
-        mmsproxy="193.113.200.195"
-        password="password"
-        type="default,supl,mms"
-        user="o2web"
-    />
-    <apn
-        mcc="234"
-        mnc="10"
-        carrier="O2 WEB"
-        apn="mobile.o2.co.uk"
-        mmsc=""
-        password="O2web"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="O2web"
-    />
-    <apn
-        mcc="234"
-        mnc="10"
-        carrier="TelecomDefault"
-        apn="wap.telecom.co.nz"
-        authtype="3"
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="234"
-        mnc="10"
-        carrier="TelecomMMS"
-        apn="wap.telecom.co.nz"
-        authtype="3"
-        mmsc="http://lsmmsc.xtra.co.nz"
-        mmsport="8080"
-        mmsproxy="210.55.11.73"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="234"
-        mnc="10"
         carrier="Tesco Mobile"
         apn="prepay.tesco-mobile.com"
         authtype="1"
@@ -285,29 +134,6 @@
         roaming_protocol="IP"
         type="default,hipri,supl,mms,ims"
         user="gg"
-    />
-    <apn
-        mcc="234"
-        mnc="10"
-        carrier="o2 MMS"
-        apn="payandgo.o2.co.uk"
-        mmsc="http://mmsc.mms.o2.co.uk:8002"
-        mmsport="8080"
-        mmsproxy="193.113.200.195"
-        password="password"
-        port=""
-        proxy=""
-        type="mms"
-        user="payandgo"
-    />
-    <apn
-        mcc="234"
-        mnc="10"
-        carrier="o2 Mobile Web"
-        apn="mobile.o2.co.uk"
-        password="password"
-        type="default,supl"
-        user="mobileweb"
     />
     <apn
         mcc="234"
@@ -408,34 +234,6 @@
     <apn
         mcc="234"
         mnc="15"
-        carrier="Contract WAP"
-        apn="wap.vodafone.co.uk"
-        authtype="1"
-        mmsc=""
-        password="wap"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="wap"
-    />
-    <apn
-        mcc="234"
-        mnc="15"
-        carrier="Contract WAP MMS"
-        apn="wap.vodafone.co.uk"
-        authtype="1"
-        mmsc="http://mms.vodafone.co.uk/servlets/mms"
-        mmsport="8799"
-        mmsproxy="212.183.137.12"
-        password="wap"
-        port=""
-        proxy=""
-        type="mms"
-        user="wap"
-    />
-    <apn
-        mcc="234"
-        mnc="15"
         carrier="Lebara UK IMS"
         apn="ims"
         bearer_bitmask="14|18|20"
@@ -468,13 +266,6 @@
         mnc="15"
         carrier="OVIVO"
         apn="ovivomobile.com"
-        type="default,supl"
-    />
-    <apn
-        mcc="234"
-        mnc="15"
-        carrier="OVIVO"
-        apn="ovivomobile.com"
         mmsc=""
         mvno_match_data="Ovivo"
         mvno_type="spn"
@@ -483,92 +274,6 @@
         proxy=""
         type="default,supl,dun,fota"
         user=""
-    />
-    <apn
-        mcc="234"
-        mnc="15"
-        carrier="OVIVO MMS"
-        apn="gprsconnect.com"
-        mmsc="http://mms.gprsconnect.com/servlets/mms"
-        mmsport="8799"
-        mmsproxy="212.183.137.12"
-        type="mms"
-    />
-    <apn
-        mcc="234"
-        mnc="15"
-        carrier="Sainsbury's Internet"
-        apn="payg.mobilebysainsburys.co.uk"
-        mmsc=""
-        mvno_match_data="Sainsbury's"
-        mvno_type="spn"
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="234"
-        mnc="15"
-        carrier="Sainsbury's MMS"
-        apn="Sainsburys MMS"
-        mmsc="http://mms.mobilebysainsburys.co.uk/servlets/mms"
-        mmsport="8799"
-        mmsproxy="212.183.137.12"
-        mvno_match_data="Sainsbury's"
-        mvno_type="spn"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="234"
-        mnc="15"
-        carrier="Sainsburys"
-        apn="payg.mobilebysainsburys.co.uk"
-        authtype="1"
-        mmsc="http://mms.mobilesainsburys.co.uk/servltes/mms"
-        mmsport="8799"
-        mmsproxy="212.183.137.12"
-        password=""
-        port=""
-        proxy=""
-        type="default,supl,mms"
-        user=""
-    />
-    <apn
-        mcc="234"
-        mnc="15"
-        carrier="TalkTalk"
-        apn="mobile.talktalk.co.uk"
-        authtype="1"
-        mmsc="http://mms.talktalk.co.uk/servlets/mms"
-        mmsport="8799"
-        mmsproxy="212.183.137.12"
-        port="8799"
-        type="default"
-    />
-    <apn
-        mcc="234"
-        mnc="15"
-        carrier="Talkmobile"
-        apn="payg.talkmobile.co.uk"
-        type="default,supl"
-    />
-    <apn
-        mcc="234"
-        mnc="15"
-        carrier="Talkmobile"
-        apn="talkmobile.co.uk"
-        mmsc="http://mms.talkmobile.co.uk/servlets/mms"
-        mmsport="8799"
-        mmsproxy="212.183.137.12"
-        password="wap"
-        type="default,supl,mms"
-        user="wap"
     />
     <apn
         mcc="234"
@@ -584,18 +289,6 @@
         port=""
         proxy=""
         type="default,supl,mms"
-        user="wap"
-    />
-    <apn
-        mcc="234"
-        mnc="15"
-        carrier="Talkmobile MMS"
-        apn="payg.talkmobile.co.uk"
-        mmsc="http://mms.talkmobile.co.uk/servlets/mms"
-        mmsport="8799"
-        mmsproxy="212.183.137.12"
-        password="password"
-        type="mms"
         user="wap"
     />
     <apn
@@ -630,218 +323,6 @@
     />
     <apn
         mcc="234"
-        mnc="15"
-        carrier="Vodafone Internet(Post)"
-        apn="internet"
-        mmsc=""
-        password="web"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="web"
-    />
-    <apn
-        mcc="234"
-        mnc="15"
-        carrier="Vodafone Internet(Pre)"
-        apn="pp.vodafone.co.uk"
-        mmsc=""
-        password="web"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="web"
-    />
-    <apn
-        mcc="234"
-        mnc="15"
-        carrier="Vodafone MMS(Post)"
-        apn="wap.vodafone.co.uk"
-        mmsc="http://mms.vodafone.co.uk/servlets/mms"
-        mmsport="8799"
-        mmsproxy="212.183.137.12"
-        password="wap"
-        port=""
-        proxy=""
-        type="mms"
-        user="wap"
-    />
-    <apn
-        mcc="234"
-        mnc="15"
-        carrier="Vodafone MMS(Pre)"
-        apn="pp.vodafone.co.uk"
-        mmsc="http://mms.vodafone.co.uk/servlets/mms"
-        mmsport="8799"
-        mmsproxy="212.183.137.12"
-        password="wap"
-        port=""
-        proxy=""
-        type="mms"
-        user="wap"
-    />
-    <apn
-        mcc="234"
-        mnc="15"
-        carrier="Vodafone Post-pay ISP"
-        apn="internet"
-        password="web"
-        type="default,supl"
-        user="web"
-    />
-    <apn
-        mcc="234"
-        mnc="15"
-        carrier="Vodafone Pre Pay"
-        apn="pp.vodafone.co.uk"
-        mmsc=""
-        password="wap"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="wap"
-    />
-    <apn
-        mcc="234"
-        mnc="15"
-        carrier="Vodafone Pre Pay MMS"
-        apn="pp.vodafone.co.uk"
-        mmsc="http://mms.vodafone.co.uk/servlets/mms"
-        mmsport="8799"
-        mmsproxy="212.183.137.12"
-        password="wap"
-        port=""
-        proxy=""
-        type="mms"
-        user="wap"
-    />
-    <apn
-        mcc="234"
-        mnc="15"
-        carrier="Vodafone Prepay"
-        apn="pp.vodafone.co.uk"
-        mmsc="http://mms.vodafone.co.uk/servlets/mms"
-        mmsport="8799"
-        mmsproxy="212.183.137.12"
-        password="wap"
-        type="default,supl,mms"
-        user="wap"
-    />
-    <apn
-        mcc="234"
-        mnc="15"
-        carrier="Vodafone UK Contract Internet"
-        apn="Internet"
-        mmsc="http://mms.vodafone.co.uk/servlets/mms"
-        mmsport="8799"
-        mmsproxy="212.183.137.012"
-        password="web"
-        server="*"
-        type="default,supl,mms"
-        user="web"
-    />
-    <apn
-        mcc="234"
-        mnc="15"
-        carrier="Vodafone UK Contract WAP"
-        apn="wap.vodafone.co.uk"
-        mmsc="http://mms.vodafone.co.uk/servlets/mms"
-        mmsport="8799"
-        mmsproxy="212.183.137.012"
-        password="wap"
-        server="*"
-        type="default,supl,mms"
-        user="wap"
-    />
-    <apn
-        mcc="234"
-        mnc="15"
-        carrier="Vodafone WAP(Post)"
-        apn="wap.vodafone.co.uk"
-        mmsc=""
-        password="wap"
-        port="8799"
-        proxy="212.183.137.12"
-        type="default,supl"
-        user="wap"
-    />
-    <apn
-        mcc="234"
-        mnc="15"
-        carrier="Vodafone WAP(Pre)"
-        apn="pp.vodafone.co.uk"
-        mmsc=""
-        password="wap"
-        port="8799"
-        proxy="212.183.137.12"
-        type="default,supl"
-        user="wap"
-    />
-    <apn
-        mcc="234"
-        mnc="20"
-        carrier="3 Internet"
-        apn="three.co.uk"
-        type="default,supl"
-    />
-    <apn
-        mcc="234"
-        mnc="20"
-        carrier="3 MMS"
-        apn="three.co.uk"
-        mmsc="http://mms.um.three.co.uk:10021/mmsc"
-        mmsport="8799"
-        mmsproxy="217.171.129.2"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="234"
-        mnc="20"
-        carrier="3 Modem"
-        apn="3internet"
-        type="default,supl"
-    />
-    <apn
-        mcc="234"
-        mnc="20"
-        carrier="3 UK"
-        apn="three.co.uk"
-        mmsc="http://mms.um.three.co.uk:10021/mmsc"
-        mmsport="8799"
-        mmsproxy="217.171.129.2"
-        password=""
-        port=""
-        proxy=""
-        type="default,supl,mms"
-        user=""
-    />
-    <apn
-        mcc="234"
-        mnc="20"
-        carrier="FreedomPop"
-        apn="three.co.uk"
-        type="default,supl"
-    />
-    <apn
-        mcc="234"
-        mnc="20"
-        carrier="iD Mobile (UK)"
-        apn="id"
-        mmsc="http://mms.um.idmobile.co.uk:10021/mmsc"
-        mmsport="8799"
-        mmsproxy="mms.idmobile.co.uk"
-        password=""
-        port=""
-        proxy=""
-        type="default,mms"
-        user=""
-    />
-    <apn
-        mcc="234"
         mnc="230"
         carrier="BT Business"
         apn="btmobile.bt.com"
@@ -852,13 +333,6 @@
         password="bt"
         type="default,supl,mms"
         user="bt"
-    />
-    <apn
-        mcc="234"
-        mnc="25"
-        carrier="Truphone UK"
-        apn="truphone.com"
-        type="default,supl"
     />
     <apn
         mcc="234"
@@ -1149,7 +623,7 @@
         port=""
         protocol="IPV4V6"
         proxy=""
-        type="default,supl,dun"
+        type="dun"
         user="eesecure"
     />
     <apn
@@ -1166,14 +640,6 @@
         proxy=""
         type="mms"
         user="eesecure"
-    />
-    <apn
-        mcc="234"
-        mnc="31"
-        carrier="Virgin UK"
-        apn="goto.virginmobile.uk"
-        type="default,supl"
-        user="user"
     />
     <apn
         mcc="234"
@@ -1198,7 +664,7 @@
         port=""
         protocol="IPV4V6"
         proxy=""
-        type="default,supl,dun"
+        type="dun"
         user="eesecure"
     />
     <apn
@@ -1215,14 +681,6 @@
         proxy=""
         type="mms"
         user="eesecure"
-    />
-    <apn
-        mcc="234"
-        mnc="32"
-        carrier="Virgin UK"
-        apn="goto.virginmobile.uk"
-        type="default,supl"
-        user="user"
     />
     <apn
         mcc="234"
@@ -1297,21 +755,6 @@
         proxy=""
         type="mms"
         user="eesecure"
-    />
-    <apn
-        mcc="234"
-        mnc="33"
-        carrier="LIFE"
-        apn="tslpaygnet"
-        authtype="1"
-        mmsc=""
-        mvno_match_data="LIFE"
-        mvno_type="spn"
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
     />
     <apn
         mcc="234"
@@ -1457,7 +900,7 @@
         authtype="1"
         password="secure"
         protocol="IPV4V6"
-        type="default,supl,dun"
+        type="dun"
         user="eesecure"
     />
     <apn
@@ -1476,13 +919,6 @@
     <apn
         mcc="234"
         mnc="34"
-        carrier="Orange Internet"
-        apn="orangeinternet"
-        type="default,supl"
-    />
-    <apn
-        mcc="234"
-        mnc="34"
         carrier="Orange MMS"
         apn="orangemms"
         mmsc="http://mms.orange.co.uk/"
@@ -1490,28 +926,6 @@
         mmsproxy="192.168.224.10"
         password="Multimedia"
         type="mms"
-        user="Orange"
-    />
-    <apn
-        mcc="234"
-        mnc="34"
-        carrier="Orange WAP"
-        apn="orangewap"
-        password="Multimedia"
-        port="8080"
-        proxy="192.168.71.35"
-        type="default,supl"
-        user="Orange"
-    />
-    <apn
-        mcc="234"
-        mnc="34"
-        carrier="Orange WAP"
-        apn="paygwap"
-        password="Multimedia"
-        port="8080"
-        proxy="192.168.71.35"
-        type="default,supl"
         user="Orange"
     />
     <apn
@@ -1638,42 +1052,6 @@
     <apn
         mcc="234"
         mnc="58"
-        carrier="Manx Internet(Post)"
-        apn="3gpronto"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="234"
-        mnc="58"
-        carrier="Manx Internet(Post)"
-        apn="web.manxpronto.net"
-        mmsc=""
-        password="gprs"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="gprs"
-    />
-    <apn
-        mcc="234"
-        mnc="58"
-        carrier="Manx Internet(Pre)"
-        apn="web.prontogo.net"
-        mmsc=""
-        password="webgo"
-        port="8080"
-        proxy="195.10.99.51"
-        type="default,supl"
-        user="webgo"
-    />
-    <apn
-        mcc="234"
-        mnc="58"
         carrier="Manx MMS(Post)"
         apn="mms.manxpronto.net"
         mmsc="http://mms.manxpronto.net:8002"
@@ -1707,7 +1085,7 @@
         mmsc="http://mms.manxpronto.net:8002"
         port="8080"
         proxy="195.010.099.046"
-        type="default,supl,mms"
+        type="mms"
     />
     <apn
         mcc="234"
@@ -1724,15 +1102,6 @@
     <apn
         mcc="234"
         mnc="58"
-        carrier="Manx Telecom Contract WEB"
-        apn="web.manxpronto.net"
-        password="gprs"
-        type="default,supl"
-        user="gprs"
-    />
-    <apn
-        mcc="234"
-        mnc="58"
         carrier="Manx Telecom Prepay MMS"
         apn="mms.prontogo.net"
         mmsc="http://mms.manxpronto.net:8002"
@@ -1744,25 +1113,13 @@
     />
     <apn
         mcc="234"
-        mnc="58"
-        carrier="Manx WAP(Pre)"
-        apn="wap.prontogo.net"
-        mmsc=""
-        password="wapgo"
-        port="8080"
-        proxy="195.10.99.41"
-        type="default,supl"
-        user="wapgo"
-    />
-    <apn
-        mcc="234"
         mnc="86"
         carrier="EE Internet"
         apn="everywhere"
         authtype="1"
         password="secure"
         protocol="IPV4V6"
-        type="default,supl,dun"
+        type="dun"
         user="eesecure"
     />
     <apn

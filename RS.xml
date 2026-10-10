@@ -55,29 +55,6 @@
     <apn
         mcc="220"
         mnc="03"
-        carrier="MTS RS"
-        apn="gprswap"
-        mmsc=""
-        password="064"
-        port="8080"
-        proxy="172.17.88.198"
-        type="default,supl"
-        user="mts"
-    />
-    <apn
-        mcc="220"
-        mnc="03"
-        carrier="MTS RS INTERNET"
-        apn="gprsinternet"
-        password="064"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="mts"
-    />
-    <apn
-        mcc="220"
-        mnc="03"
         carrier="MTS RS MMS"
         apn="mms"
         mmsc="http://mms.mts064.telekom.rs/mms/wapenc"
@@ -88,19 +65,6 @@
         proxy=""
         type="mms"
         user="mts"
-    />
-    <apn
-        mcc="220"
-        mnc="04"
-        carrier="T-Mobile Internet"
-        apn="tmcg-wnw"
-        authtype="1"
-        mmsc=""
-        password="38267"
-        port="8080"
-        proxy="010.000.005.019"
-        type="default,supl"
-        user="38267"
     />
     <apn
         mcc="220"
@@ -116,47 +80,5 @@
         proxy=""
         type="mms"
         user="38267"
-    />
-    <apn
-        mcc="220"
-        mnc="05"
-        carrier="Vip GPRS"
-        apn="vipmobile"
-        authtype="1"
-        mmsc=""
-        password="vipmobile"
-        port="8080"
-        proxy="212.15.182.82"
-        type="default,supl"
-        user="vipmobile"
-    />
-    <apn
-        mcc="220"
-        mnc="05"
-        carrier="Vip MMS"
-        apn="vipmobile.mms"
-        mmsc="http://mmsc.vipmobile.rs"
-        mmsport="8080"
-        mmsproxy="212.15.182.82"
-        password="vipmobile"
-        port=""
-        proxy=""
-        type="mms"
-        user="vipmobile"
-    />
-    <apn
-        mcc="220"
-        mnc="05"
-        carrier="Vip MMS"
-        apn="vipmobile.mms"
-        authtype="1"
-        mmsc="http://mmsc.vipmobile.rs"
-        mmsport="8080"
-        mmsproxy="212.15.182.82"
-        password="vipmobile"
-        port=""
-        proxy=""
-        type="mms"
-        user="vipmobile"
     />
 </apns>

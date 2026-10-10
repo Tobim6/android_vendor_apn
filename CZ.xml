@@ -8,38 +8,10 @@
     <apn
         mcc="230"
         mnc="01"
-        carrier="T-Mobile CZ"
-        apn="internet.t-mobile.cz"
-        mmsc="http://mms"
-        mmsport="80"
-        mmsproxy="010.000.000.010"
-        password="wap"
-        server="*"
-        type="default,supl"
-        user="wap"
-    />
-    <apn
-        mcc="230"
-        mnc="01"
         carrier="T-Mobile CZ IMS"
         apn="IMS"
         protocol="IPV4V6"
         type="ims"
-    />
-    <apn
-        mcc="230"
-        mnc="01"
-        carrier="T-Mobile MMS"
-        apn="mms.t-mobile.cz"
-        authtype="1"
-        mmsc="http://mms"
-        mmsport="80"
-        mmsproxy="010.000.000.010"
-        password="mms"
-        port=""
-        proxy=""
-        type="mms"
-        user="mms"
     />
     <apn
         mcc="230"

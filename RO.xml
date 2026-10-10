@@ -8,30 +8,6 @@
     <apn
         mcc="226"
         mnc="01"
-        carrier="Vodafone Internet"
-        apn="internet.vodafone.ro"
-        mmsc=""
-        password="vodafone"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="internet.vodafone.ro"
-    />
-    <apn
-        mcc="226"
-        mnc="01"
-        carrier="Vodafone RO"
-        apn="internet.vodafone.ro"
-        mmsc=""
-        password="vodafone"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="internet.vodafone.ro"
-    />
-    <apn
-        mcc="226"
-        mnc="01"
         carrier="Vodafone RO MMS"
         apn="mms.vodafone.ro"
         mmsc="http://multimedia/servlets/mms"
@@ -56,37 +32,6 @@
         proxy=""
         type="mms"
         user="mms"
-    />
-    <apn
-        mcc="226"
-        mnc="01"
-        carrier="Vodafone RO live!"
-        apn="live.vodafone.com"
-        mmsc=""
-        password="vodafone"
-        port="8080"
-        proxy="193.230.161.231"
-        type="default,supl"
-        user="live"
-    />
-    <apn
-        mcc="226"
-        mnc="01"
-        carrier="Vodafone RO live! PRE"
-        apn="live.pre.vodafone.com"
-        mmsc=""
-        password="vodafone"
-        port="8080"
-        proxy="193.230.161.231"
-        type="default,supl"
-        user="live"
-    />
-    <apn
-        mcc="226"
-        mnc="03"
-        carrier="Telekom Romania Broadband"
-        apn="broadband"
-        type="default,supl"
     />
     <apn
         mcc="226"

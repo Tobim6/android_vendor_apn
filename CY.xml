@@ -18,13 +18,6 @@
     <apn
         mcc="280"
         mnc="10"
-        carrier="MTN Internet"
-        apn="internet"
-        type="default,supl"
-    />
-    <apn
-        mcc="280"
-        mnc="10"
         carrier="MTN MMS"
         apn="mms"
         mmsc="http://mms.mtn.com.cy/mmsc"

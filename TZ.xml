@@ -37,11 +37,4 @@
         proxy="10.154.0.8"
         type="default,supl"
     />
-    <apn
-        mcc="640"
-        mnc="05"
-        carrier="Airtel Tanzania"
-        apn="internet"
-        type="default,supl"
-    />
 </apns>

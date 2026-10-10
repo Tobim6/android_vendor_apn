@@ -12,21 +12,8 @@
         apn="internet.ideasalo.ni"
         authtype="1"
         password="internet"
-        type="default,supl,dun"
+        type="dun"
         user="internet"
-    />
-    <apn
-        mcc="710"
-        mnc="21"
-        carrier="Enitel MMS"
-        apn="mms.ideasalo.ni"
-        authtype="1"
-        mmsc="http://10.6.32.27/servlets/mms"
-        mmsport="8080"
-        mmsproxy="10.6.32.2"
-        password="mms"
-        type="mms"
-        user="mms"
     />
     <apn
         mcc="710"
@@ -51,16 +38,6 @@
         port=""
         proxy=""
         type="mms"
-        user="movistarni"
-    />
-    <apn
-        mcc="710"
-        mnc="300"
-        carrier="Movistar INTERNET"
-        apn="internet.movistar.ni"
-        authtype="1"
-        password="movistarni"
-        type="default,supl"
         user="movistarni"
     />
     <apn
@@ -108,20 +85,7 @@
         apn="internet.ideasalo.ni"
         authtype="1"
         password="internet"
-        type="default,supl,dun"
+        type="dun"
         user="internet"
-    />
-    <apn
-        mcc="710"
-        mnc="730"
-        carrier="Enitel MMS"
-        apn="mms.ideasalo.ni"
-        authtype="1"
-        mmsc="http://10.6.32.27/servlets/mms"
-        mmsport="8080"
-        mmsproxy="10.6.32.2"
-        password="mms"
-        type="mms"
-        user="mms"
     />
 </apns>

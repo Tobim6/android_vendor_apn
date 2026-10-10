@@ -66,7 +66,7 @@
         mmsproxy="109.237.176.193"
         password="telekom"
         protocol="IPV4V6"
-        type="mms,supl"
+        type="supl"
         user="telekom"
         user_visible="false"
     />
@@ -82,7 +82,7 @@
         mmsproxy="109.237.176.193"
         password="telekom"
         protocol="IPV4V6"
-        type="mms,default,supl,ia"
+        type="default,supl,ia"
         user="telekom"
     />
     <apn
@@ -146,29 +146,6 @@
         mmsport="80"
         mmsproxy="139.7.29.17"
         type="mms"
-    />
-    <apn
-        mcc="262"
-        mnc="03"
-        carrier="MEDIONmobile"
-        apn="internet.eplus.de"
-        authtype="1"
-        password="internet"
-        type="default,supl"
-        user="eplus"
-    />
-    <apn
-        mcc="262"
-        mnc="03"
-        carrier="MEDIONmobile MMS"
-        apn="mms.eplus.de"
-        authtype="1"
-        mmsc="http://mms/eplus/"
-        mmsport="5080"
-        mmsproxy="212.23.97.153"
-        password="eplus"
-        type="mms"
-        user="mms"
     />
     <apn
         mcc="262"
@@ -327,16 +304,6 @@
     />
     <apn
         mcc="262"
-        mnc="07"
-        carrier="netzclub"
-        apn="pinternet.interkom.de"
-        mmsc="http://10.81.0.7:8002"
-        mmsport="8080"
-        mmsproxy="82.113.100.6"
-        type="default,supl,mms"
-    />
-    <apn
-        mcc="262"
         mnc="08"
         carrier="O2 DE IMS"
         apn="ims"
@@ -407,7 +374,7 @@
         mnc="42"
         carrier="Truphone"
         apn="truphone.com"
-        type="default,dun"
+        type="dun"
     />
     <apn
         mcc="262"

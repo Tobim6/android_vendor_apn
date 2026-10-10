@@ -10,7 +10,7 @@
         mnc="01"
         carrier="Vodacom CD"
         apn="vodanet"
-        type="default,supl"
+        type="supl"
         user="vodalive"
     />
     <apn
@@ -22,7 +22,7 @@
         password=""
         port=""
         proxy=""
-        type="default,supl"
+        type="supl"
         user="vodalive"
     />
 </apns>

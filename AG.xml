@@ -7,32 +7,6 @@
 <apns version="8">
     <apn
         mcc="344"
-        mnc="03"
-        carrier="Imobile"
-        apn="net.apuapcs.ag"
-        mmsc=""
-        password=""
-        port="9090"
-        proxy="208.83.80.131"
-        server="http://208.083.080.131:40007"
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="344"
-        mnc="03"
-        carrier="Imobile"
-        apn="ppnet.apuapcs.ag"
-        mmsc=""
-        password=""
-        port="9090"
-        proxy="208.83.80.131"
-        server="http://208.083.080.131:40007"
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="344"
         mnc="920"
         carrier="LIME"
         apn="internet"

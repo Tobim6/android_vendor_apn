@@ -8,25 +8,6 @@
     <apn
         mcc="748"
         mnc="01"
-        carrier="Ancel"
-        apn="ancel"
-        type="default,supl"
-    />
-    <apn
-        mcc="748"
-        mnc="01"
-        carrier="Ancel"
-        apn="ancel"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="748"
-        mnc="01"
         carrier="Ancel MMS"
         apn="mms"
         mmsc="http://mmsc.mms.ancelutil.com.uy"
@@ -59,7 +40,7 @@
         port="3128"
         proxy="200.40.246.2"
         server="www.dale.com.uy"
-        type="default,supl,mms"
+        type="mms"
     />
     <apn
         mcc="748"
@@ -73,37 +54,7 @@
         port="3128"
         proxy="200.40.246.2"
         server="www.dale.com.uy"
-        type="default,supl,mms"
-        user=""
-    />
-    <apn
-        mcc="748"
-        mnc="01"
-        carrier="BAM Pepaga Antel"
-        apn="prepago.ancel"
-        password="bam"
-        type="default,supl"
-        user="bam"
-    />
-    <apn
-        mcc="748"
-        mnc="01"
-        carrier="BAM Pepaga Antel"
-        apn="prepago.ancel"
-        mmsc=""
-        password="bam"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="bam"
-    />
-    <apn
-        mcc="748"
-        mnc="01"
-        carrier="gprsANCEL"
-        apn="gprs.ancel"
-        password=""
-        type="default,supl"
+        type="mms"
         user=""
     />
     <apn
@@ -163,47 +114,5 @@
         password="mmsuy"
         type="mms"
         user="mmsuy"
-    />
-    <apn
-        mcc="748"
-        mnc="10"
-        carrier="Claro Internet"
-        apn="igprs.claro.com.uy"
-        password="ctigprs999"
-        type="default,supl"
-        user="ctigprs"
-    />
-    <apn
-        mcc="748"
-        mnc="10"
-        carrier="Claro MMS"
-        apn="mms.ctimovil.com.uy"
-        mmsc="http://mms.ctimovil.com.uy"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="748"
-        mnc="10"
-        carrier="Claro UY"
-        apn="gprs.claro.com.uy"
-        password="ctigpr999"
-        type="default,supl"
-        user="ctigpr"
-    />
-    <apn
-        mcc="748"
-        mnc="10"
-        carrier="Claro UY MMS"
-        apn="mms.ctimovil.com.uy"
-        mmsc="http://mms.ctimovil.com.uy"
-        mmsport="9201"
-        mmsproxy="170.051.255.240"
-        password="ctimms999"
-        type="mms"
-        user="ctimms"
     />
 </apns>

@@ -17,15 +17,6 @@
     />
     <apn
         mcc="276"
-        mnc="01"
-        carrier="One Internet"
-        apn="internet.one"
-        protocol="IP"
-        roaming_protocol="IP"
-        type="default"
-    />
-    <apn
-        mcc="276"
         mnc="02"
         carrier="Vodafone AL"
         apn="Twa"

@@ -27,13 +27,6 @@
     <apn
         mcc="631"
         mnc="04"
-        carrier="Movicel Angola"
-        apn="internet.movicel.co.ao"
-        type="default,supl"
-    />
-    <apn
-        mcc="631"
-        mnc="04"
         carrier="Movicel Angola MMS"
         apn="mms.movicel.co.ao"
         mmsc="http://10.33.14.180:8080"

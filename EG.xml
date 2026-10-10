@@ -8,14 +8,6 @@
     <apn
         mcc="602"
         mnc="01"
-        carrier="Mobinil"
-        apn="mobinilweb"
-        authtype="2"
-        type="default,supl"
-    />
-    <apn
-        mcc="602"
-        mnc="01"
         carrier="mobinilmms"
         apn="mobinilmms"
         authtype="2"
@@ -99,7 +91,7 @@
         mmsc="http://10.71.131.7:38090"
         mmsport="8080"
         mmsproxy="10.71.130.29"
-        type="*"
+        type="default,mms,supl,hipri,dun,fota,cbs"
     />
     <apn
         mcc="602"
@@ -117,13 +109,6 @@
         carrier="WE ims"
         apn="ims"
         type="ims"
-    />
-    <apn
-        mcc="602"
-        mnc="04"
-        carrier="WE internet"
-        apn="internet.te.eg"
-        type="default"
     />
     <apn
         mcc="602"

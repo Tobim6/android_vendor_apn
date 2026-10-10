@@ -162,19 +162,7 @@
         mnc="07"
         carrier="Smarts RU internet"
         apn="internet.smarts.ru"
-        type="default,supl"
-    />
-    <apn
-        mcc="250"
-        mnc="07"
-        carrier="Smarts RU mms"
-        apn="mms.smarts.ru"
-        mmsc="http://mmsc:8002"
-        mmsport="8080"
-        mmsproxy="172.24.121.5"
-        password="nok"
-        type="mms"
-        user="n@k"
+        type="supl"
     />
     <apn
         mcc="250"
@@ -185,22 +173,8 @@
         password="any"
         port=""
         proxy=""
-        type="default,supl"
+        type="supl"
         user="any"
-    />
-    <apn
-        mcc="250"
-        mnc="07"
-        carrier="mms"
-        apn="mms.smarts.ru"
-        mmsc="http://172.24.120.135/mms/wapenc"
-        mmsport="8080"
-        mmsproxy="172.24.128.5"
-        password="wap"
-        port=""
-        proxy=""
-        type="mms"
-        user="wap"
     />
     <apn
         mcc="250"
@@ -316,19 +290,6 @@
         port=""
         proxy=""
         type="mms"
-        user="mts"
-    />
-    <apn
-        mcc="250"
-        mnc="13"
-        carrier="МТС-интернет"
-        apn="internet.mts.ru"
-        authtype="1"
-        mmsc=""
-        password="mts"
-        port=""
-        proxy=""
-        type="default,supl"
         user="mts"
     />
     <apn
@@ -513,32 +474,6 @@
         mnc="45"
         carrier="GPB Mobile"
         apn="gpb"
-        authtype="1"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="250"
-        mnc="50"
-        carrier="SberMobile"
-        apn="internet.sberbank-tele.com"
-        authtype="1"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="250"
-        mnc="62"
-        carrier="Т-Мобайл"
-        apn="tt"
         authtype="1"
         mmsc=""
         password=""

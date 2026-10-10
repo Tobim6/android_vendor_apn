@@ -106,11 +106,4 @@
         type="mms"
         user="mms"
     />
-    <apn
-        mcc="452"
-        mnc="09"
-        carrier="Wintel Internet"
-        apn="m9-wintel"
-        type="default,supl"
-    />
 </apns>

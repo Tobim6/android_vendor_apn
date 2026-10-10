@@ -10,7 +10,7 @@
         mnc="04"
         carrier="Orange Internet"
         apn="orange.ne"
-        type="default,supl"
+        type="supl"
     />
     <apn
         mcc="614"

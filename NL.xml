@@ -56,7 +56,7 @@
         profile_id="4"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="cbs,mms"
+        type="cbs"
     />
     <apn
         mcc="204"
@@ -88,7 +88,7 @@
         profile_id="2"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="ims,ia"
+        type="ia"
     />
     <apn
         mcc="204"
@@ -104,7 +104,7 @@
         profile_id="0"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,dun"
+        type="dun"
     />
     <apn
         mcc="204"
@@ -120,7 +120,7 @@
         profile_id="4"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="cbs,mms"
+        type="cbs"
     />
     <apn
         mcc="204"
@@ -150,7 +150,7 @@
         profile_id="2"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="ims,ia"
+        type="ia"
     />
     <apn
         mcc="204"
@@ -165,28 +165,7 @@
         profile_id="0"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,dun"
-    />
-    <apn
-        mcc="204"
-        mnc="04"
-        carrier="Multimedia Pelephone"
-        apn="mms.pelephone.net.il"
-        mmsc="http://mmsu.pelephone.net.il/"
-        mmsport="9093"
-        mmsproxy="10.170.252.104"
-        password="pcl"
-        type="mms"
-        user="pcl@3g"
-    />
-    <apn
-        mcc="204"
-        mnc="04"
-        carrier="Sphone Pelephone"
-        apn="sphone.pelephone.net.il"
-        password="pcl"
-        type="default,supl"
-        user="pcl@3g"
+        type="dun"
     />
     <apn
         mcc="204"
@@ -195,7 +174,7 @@
         apn="truphone.com"
         mvno_match_data="204043914"
         mvno_type="imsi"
-        type="default,dun"
+        type="dun"
     />
     <apn
         mcc="204"
@@ -204,66 +183,7 @@
         apn="truphone.com"
         mvno_match_data="20404794"
         mvno_type="imsi"
-        type="default,dun"
-    />
-    <apn
-        mcc="204"
-        mnc="04"
-        carrier="Vodafone Live"
-        apn="live.vodafone.com"
-        authtype="1"
-        mmsc=""
-        mmsport=""
-        mmsproxy=""
-        password=""
-        port=""
-        proxy=""
-        roaming_protocol="IP"
-        type="default"
-        user=""
-    />
-    <apn
-        mcc="204"
-        mnc="04"
-        carrier="Vodafone MMS Business"
-        apn="office.vodafone.nl"
-        mmsc="http://mmsc.mms.vodafone.nl"
-        mmsport="8799"
-        mmsproxy="192.168.251.150"
-        password="vodafone"
-        type="mms"
-        user="vodafone"
-    />
-    <apn
-        mcc="204"
-        mnc="04"
-        carrier="Ziggo Mobiel"
-        apn="ziggo.dataxs.mobi"
-        authtype="1"
-        type="default,supl"
-    />
-    <apn
-        mcc="204"
-        mnc="04"
-        carrier="hollandsnieuwe (type 1)"
-        apn="data.dataxs.mobi"
-        authtype="1"
-        mmsc=""
-        password="hollandsnieuwe"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="hollandsnieuwe"
-    />
-    <apn
-        mcc="204"
-        mnc="04"
-        carrier="hollandsnieuwe (type 2)"
-        apn="live.vodafone.com"
-        authtype="1"
-        password="vodafone"
-        type="default,supl"
-        user="vodafone"
+        type="dun"
     />
     <apn
         mcc="204"
@@ -274,7 +194,7 @@
         password="vnet.mobi"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,supl,dun"
+        type="dun"
         user="ctnet@mycdma.cn"
     />
     <apn
@@ -289,7 +209,7 @@
         password="vnet.mobi"
         port="80"
         proxy="10.0.0.200"
-        type="default,supl,dun,mms"
+        type="dun"
         user="ctwap@mycdma.cn"
     />
     <apn
@@ -303,7 +223,7 @@
         password=""
         port=""
         proxy=""
-        type="*"
+        type="default,mms,supl,hipri,dun,fota,cbs"
         user=""
     />
     <apn
@@ -317,7 +237,7 @@
         password=""
         port=""
         proxy=""
-        type="*"
+        type="default,mms,supl,hipri,dun,fota,cbs"
         user=""
     />
     <apn
@@ -350,7 +270,7 @@
         password=""
         port=""
         proxy=""
-        type="*"
+        type="default,mms,supl,hipri,dun,fota,cbs"
         user=""
     />
     <apn
@@ -460,7 +380,7 @@
         password=""
         port=""
         proxy=""
-        type="default,supl,mms"
+        type="mms"
         user=""
     />
     <apn
@@ -475,7 +395,7 @@
         password=""
         port=""
         proxy=""
-        type="default,supl,mms"
+        type="mms"
         user=""
     />
     <apn
@@ -520,21 +440,6 @@
         apn="internet"
         authtype="1"
         mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="204"
-        mnc="20"
-        carrier="Orange NL"
-        apn="internet"
-        authtype="3"
-        mmsc="http://mms.orange.nl:8002"
-        mmsport="5080"
-        mmsproxy="10.250.255.183"
         password=""
         port=""
         proxy=""

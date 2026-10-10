@@ -17,20 +17,4 @@
         proxy=""
         type="mms"
     />
-    <apn
-        mcc="421"
-        mnc="02"
-        carrier="MTN NET"
-        apn="fast-internet"
-        type="default,supl"
-    />
-    <apn
-        mcc="421"
-        mnc="02"
-        carrier="MTN WAP"
-        apn="fast-wap"
-        port="8080"
-        proxy="192.168.96.100"
-        type="default,supl"
-    />
 </apns>

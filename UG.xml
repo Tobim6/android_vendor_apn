@@ -10,7 +10,7 @@
         mnc="01"
         carrier="Airtel UG"
         apn="web.ug.zain.com"
-        type="default,supl"
+        type="supl"
     />
     <apn
         mcc="641"
@@ -22,21 +22,14 @@
         mmsproxy="10.120.0.138"
         port="8080"
         proxy="10.120.0.138"
-        type="*"
-    />
-    <apn
-        mcc="641"
-        mnc="10"
-        carrier="MTN UG"
-        apn="yellopix.mtn.co.ug"
-        type="default,supl"
+        type="mms,ims,dun,fota,cbs"
     />
     <apn
         mcc="641"
         mnc="11"
         carrier="Uganda Telecom"
         apn="utweb"
-        type="default,supl"
+        type="supl"
     />
     <apn
         mcc="641"
@@ -45,14 +38,14 @@
         apn="orange.ug"
         port="9201"
         proxy="10.201.20.4"
-        type="default,supl"
+        type="supl"
     />
     <apn
         mcc="641"
         mnc="14"
         carrier="Orange Internet UG"
         apn="orange.ug"
-        type="default,supl"
+        type="supl"
     />
     <apn
         mcc="641"
@@ -83,7 +76,7 @@
         password=""
         port=""
         proxy=""
-        type="default,supl"
+        type="supl"
         user=""
     />
     <apn
@@ -91,6 +84,6 @@
         mnc="22"
         carrier="Waridtel UG"
         apn="web.waridtel.co.ug"
-        type="default,supl"
+        type="supl"
     />
 </apns>

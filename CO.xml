@@ -8,21 +8,6 @@
     <apn
         mcc="732"
         mnc="101"
-        carrier="MMS COMCEL 3GSM"
-        apn="mms.comcel.com.co "
-        authtype="1"
-        mmsc="http://mms.movistar.com.co"
-        mmsport="8799"
-        mmsproxy="198.228.90.228"
-        password="COMCELMMS"
-        port=""
-        proxy=""
-        type="mms"
-        user="COMCELMMS"
-    />
-    <apn
-        mcc="732"
-        mnc="101"
         carrier="Web Comcel 3GSM"
         apn="internet.comcel.com.co"
         authtype="1"
@@ -70,17 +55,8 @@
         carrier="TIGO WEB"
         apn="web.colombiamovil.com.co"
         password=""
-        type="default,supl,dun"
+        type="dun"
         user=""
-    />
-    <apn
-        mcc="732"
-        mnc="111"
-        carrier="OLA"
-        apn="internet"
-        password="internet"
-        type="default,supl"
-        user="internet"
     />
     <apn
         mcc="732"
@@ -111,7 +87,7 @@
         carrier="TIGO WEB"
         apn="web.colombiamovil.com.co"
         password=""
-        type="default,supl,dun"
+        type="dun"
         user=""
     />
     <apn

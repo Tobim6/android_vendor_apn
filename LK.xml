@@ -8,28 +8,12 @@
     <apn
         mcc="413"
         mnc="01"
-        carrier="Mobitel"
-        apn="mobitel3g"
-        type="default,supl"
-    />
-    <apn
-        mcc="413"
-        mnc="01"
         carrier="Mobitel MMS"
         apn="wapmms"
         mmsc="http://192.168.50.165"
         mmsport="8080"
         mmsproxy="192.168.50.163"
         type="mms"
-    />
-    <apn
-        mcc="413"
-        mnc="01"
-        carrier="Mobitel WAP"
-        apn="mobitel3g"
-        port="8080"
-        proxy="192.168.050.163"
-        type="default,supl"
     />
     <apn
         mcc="413"
@@ -123,53 +107,6 @@
         apn="wap"
         port="9401"
         proxy="192.168.104.4"
-        type="default,supl"
-    />
-    <apn
-        mcc="413"
-        mnc="05"
-        carrier="Airtel"
-        apn="default"
-        type="default,supl"
-    />
-    <apn
-        mcc="413"
-        mnc="05"
-        carrier="Airtel MMS"
-        apn="airtellive"
-        mmsc="http://mms.airtel.lk"
-        mmsport="8080"
-        mmsproxy="10.200.184.86"
-        type="mms"
-    />
-    <apn
-        mcc="413"
-        mnc="05"
-        carrier="Airtel Postpaid"
-        apn="airteldata"
-        type="default,supl"
-    />
-    <apn
-        mcc="413"
-        mnc="05"
-        carrier="Airtel Prepaid"
-        apn="airtellive"
-        type="default,supl"
-    />
-    <apn
-        mcc="413"
-        mnc="08"
-        carrier="Hutch WAP"
-        apn="hutch3g"
-        port="8080"
-        proxy="10.220.135.249"
-        type="default,supl"
-    />
-    <apn
-        mcc="413"
-        mnc="08"
-        carrier="Hutch3G"
-        apn="hutch3g"
         type="default,supl"
     />
 </apns>

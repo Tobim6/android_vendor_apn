@@ -11,7 +11,7 @@
         carrier="MTN"
         apn="etc.com"
         password="etc"
-        type="*"
+        type="dun,fota,cbs"
         user="etc"
     />
 </apns>

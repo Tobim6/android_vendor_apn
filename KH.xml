@@ -38,13 +38,6 @@
     <apn
         mcc="456"
         mnc="02"
-        carrier="Smart"
-        apn="smart"
-        type="default,supl"
-    />
-    <apn
-        mcc="456"
-        mnc="02"
         carrier="Smart MMS"
         apn="mms"
         mmsc="http://mmsc"
@@ -68,13 +61,6 @@
         mmsport="8080"
         mmsproxy="172.16.96.66"
         type="mms"
-    />
-    <apn
-        mcc="456"
-        mnc="05"
-        carrier="Star-Cell"
-        apn="internet"
-        type="default,supl"
     />
     <apn
         mcc="456"
@@ -150,6 +136,6 @@
         mmsc="http://172.16.205.10:38090"
         mmsport="8080"
         mmsproxy="172.16.203.85"
-        type="default,mms"
+        type="mms"
     />
 </apns>

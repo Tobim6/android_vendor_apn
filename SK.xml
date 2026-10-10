@@ -67,36 +67,9 @@
     <apn
         mcc="231"
         mnc="02"
-        carrier="T-Mobile MMS"
-        apn="mms"
-        authtype="1"
-        mmsc="http://mms"
-        mmsport="8080"
-        mmsproxy="192.168.001.001"
-        password="mms"
-        port=""
-        proxy=""
-        type="mms"
-        user="mms"
-    />
-    <apn
-        mcc="231"
-        mnc="02"
         carrier="Telekom SK"
         apn="internet"
         type="default,supl"
-    />
-    <apn
-        mcc="231"
-        mnc="02"
-        carrier="Telekom SK MMS"
-        apn="mms"
-        mmsc="http://mms"
-        mmsport="8080"
-        mmsproxy="192.168.1.1"
-        password="mms"
-        type="mms"
-        user="mms"
     />
     <apn
         mcc="231"
@@ -107,7 +80,7 @@
         mvno_match_data="4KA SK"
         mvno_type="spn"
         password=""
-        type="default,ia,supl"
+        type="ia"
         user=""
     />
     <apn
@@ -154,18 +127,6 @@
         password="mms"
         type="mms"
         user="mms"
-    />
-    <apn
-        mcc="231"
-        mnc="05"
-        carrier="Orange Internet"
-        apn="internet"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
     />
     <apn
         mcc="231"

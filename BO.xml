@@ -55,7 +55,7 @@
         carrier="ENTEL 4G"
         apn="4g.entel"
         password=""
-        type="default,supl"
+        type="supl"
         user=""
     />
     <apn
@@ -80,7 +80,7 @@
         password=""
         port=""
         proxy=""
-        type="default,supl,dun"
+        type="dun"
         user=""
     />
     <apn

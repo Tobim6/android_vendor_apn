@@ -17,7 +17,7 @@
         password="tim"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,ia,supl,mms,xcap"
+        type="ia"
         user="tim"
     />
     <apn
@@ -42,7 +42,7 @@
         password="tim"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,ia,supl,mms,xcap"
+        type="ia"
         user="tim"
     />
     <apn
@@ -67,7 +67,7 @@
         password="tim"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,ia,supl,mms,xcap"
+        type="ia"
         user="tim"
     />
     <apn
@@ -98,7 +98,7 @@
         carrier="Java Session"
         apn="java.claro.com.br"
         password="claro"
-        type="default,ia,supl"
+        type="ia"
         user="claro"
     />
     <apn
@@ -120,18 +120,6 @@
         roaming_protocol="IPV4V6"
         type="ims"
         user_visible="false"
-    />
-    <apn
-        mcc="724"
-        mnc="06"
-        carrier="Vivo Internet"
-        apn="zap.vivo.com.br"
-        authtype="1"
-        password="vivo"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default"
-        user="vivo"
     />
     <apn
         mcc="724"
@@ -192,18 +180,6 @@
     <apn
         mcc="724"
         mnc="10"
-        carrier="Vivo Internet"
-        apn="zap.vivo.com.br"
-        authtype="1"
-        password="vivo"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default"
-        user="vivo"
-    />
-    <apn
-        mcc="724"
-        mnc="10"
         carrier="Vivo MMS"
         apn="mms.vivo.com.br"
         authtype="1"
@@ -239,18 +215,6 @@
     <apn
         mcc="724"
         mnc="11"
-        carrier="Vivo Internet"
-        apn="zap.vivo.com.br"
-        authtype="1"
-        password="vivo"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default"
-        user="vivo"
-    />
-    <apn
-        mcc="724"
-        mnc="11"
         carrier="Vivo MMS"
         apn="mms.vivo.com.br"
         authtype="1"
@@ -270,7 +234,7 @@
         apn="sercomtel.com.br"
         authtype="1"
         password="sercomtel"
-        type="default,ia,supl"
+        type="supl,ia"
         user="sercomtel"
     />
     <apn
@@ -294,7 +258,7 @@
         password="oi"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,ia,supl"
+        type="ia"
         user="oi"
     />
     <apn
@@ -341,18 +305,6 @@
     <apn
         mcc="724"
         mnc="23"
-        carrier="Vivo Internet"
-        apn="zap.vivo.com.br"
-        authtype="1"
-        password="vivo"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default"
-        user="vivo"
-    />
-    <apn
-        mcc="724"
-        mnc="23"
         carrier="Vivo MMS"
         apn="mms.vivo.com.br"
         authtype="1"
@@ -373,7 +325,7 @@
         password="oi"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,ia,supl"
+        type="ia"
         user="oi"
     />
     <apn
@@ -392,22 +344,13 @@
     />
     <apn
         mcc="724"
-        mnc="29"
-        carrier="Unifique"
-        apn="unifique.br"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,ims,supl,xcap"
-    />
-    <apn
-        mcc="724"
         mnc="31"
         carrier="Oi Internet"
         apn="gprs.oi.com.br"
         password="oi"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,ia,supl"
+        type="ia"
         user="oi"
     />
     <apn
@@ -427,34 +370,10 @@
     <apn
         mcc="724"
         mnc="32"
-        carrier="Algar MMS"
-        apn="algar.br"
-        mmsc="http://mms.ctbccelular.com.br/was"
-        mmsport="8080"
-        mmsproxy="172.29.7.70"
-        password="1212"
-        type="mms"
-        user="algar"
-    />
-    <apn
-        mcc="724"
-        mnc="32"
         carrier="Algar Telecom Internet"
         apn="algar.br"
         password="1212"
-        type="default,ia"
-        user="algar"
-    />
-    <apn
-        mcc="724"
-        mnc="33"
-        carrier="Algar MMS"
-        apn="algar.br"
-        mmsc="http://mms.ctbccelular.com.br/was"
-        mmsport="8080"
-        mmsproxy="172.29.7.70"
-        password="1212"
-        type="mms"
+        type="ia"
         user="algar"
     />
     <apn
@@ -463,19 +382,7 @@
         carrier="Algar Telecom Internet"
         apn="algar.br"
         password="1212"
-        type="default,ia"
-        user="algar"
-    />
-    <apn
-        mcc="724"
-        mnc="34"
-        carrier="Algar MMS"
-        apn="algar.br"
-        mmsc="http://mms.ctbccelular.com.br/was"
-        mmsport="8080"
-        mmsproxy="172.29.7.70"
-        password="1212"
-        type="mms"
+        type="ia"
         user="algar"
     />
     <apn
@@ -484,7 +391,7 @@
         carrier="Algar Telecom Internet"
         apn="algar.br"
         password="1212"
-        type="default,ia"
+        type="ia"
         user="algar"
     />
     <apn
@@ -541,7 +448,7 @@
         password="tim"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,ia,supl,mms,xcap"
+        type="mms,xcap,ia"
         user="tim"
     />
     <apn

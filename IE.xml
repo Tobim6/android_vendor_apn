@@ -160,74 +160,6 @@
     />
     <apn
         mcc="272"
-        mnc="03"
-        carrier="Eircom/Meteor"
-        apn="wap.mymeteor.ie"
-        mmsc="mms.mymeteor.ie"
-        mmsport="8799"
-        mmsproxy="10.85.85.85"
-        password="meteor"
-        port="8799"
-        proxy="10.85.85.85"
-        server="http://wap.mymeteor.ie"
-        type="default,supl"
-        user="my"
-    />
-    <apn
-        mcc="272"
-        mnc="03"
-        carrier="Eircom/Meteor MMS"
-        apn="wap.mymeteor.ie"
-        mmsc="http://mms.mymeteor.ie"
-        mmsport="8799"
-        mmsproxy="10.85.85.85"
-        password="meteor"
-        port="8799"
-        proxy="10.85.85.85"
-        server="http://wap.mymeteor.ie"
-        type="mms"
-        user="my"
-    />
-    <apn
-        mcc="272"
-        mnc="03"
-        carrier="Meteor Internet"
-        apn="data.mymeteor.ie"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="272"
-        mnc="03"
-        carrier="Meteor MMS"
-        apn="mms.mymeteor.ie"
-        mmsc="http://mms.mymeteor.ie"
-        mmsport="8799"
-        mmsproxy="10.85.85.85"
-        password="meteor"
-        port=""
-        proxy=""
-        type="mms"
-        user="my"
-    />
-    <apn
-        mcc="272"
-        mnc="03"
-        carrier="Meteor WAP"
-        apn="wap.mymeteor.ie"
-        mmsc=""
-        password="wap"
-        port="8799"
-        proxy="10.85.85.85"
-        type="default,supl"
-        user="my"
-    />
-    <apn
-        mcc="272"
         mnc="05"
         carrier="3 IE MMS"
         apn="3ireland.ie"
@@ -331,7 +263,7 @@
         password=""
         port=""
         proxy=""
-        type="default,supl,mms"
+        type="mms"
         user=""
     />
 </apns>

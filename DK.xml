@@ -397,67 +397,6 @@
     />
     <apn
         mcc="238"
-        mnc="06"
-        carrier="3"
-        apn="data.tre.dk"
-        authtype="3"
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="238"
-        mnc="06"
-        carrier="3 DK"
-        apn="data.tre.dk"
-        mmsc="http://mms.3.dk"
-        mmsport="8799"
-        mmsproxy="mmsproxy.3.dk"
-        type="default,supl,mms"
-    />
-    <apn
-        mcc="238"
-        mnc="06"
-        carrier="3MMS"
-        apn="data.tre.dk"
-        authtype="3"
-        mmsc="http://mms"
-        mmsport="8799"
-        mmsproxy="172.016.001.025"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="238"
-        mnc="06"
-        carrier="Oister"
-        apn="data.dk"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="238"
-        mnc="06"
-        carrier="Oister MMS"
-        apn="data.dk"
-        mmsc="http://mms.oister.dk"
-        mmsport="8799"
-        mmsproxy="mmsproxy.oister.dk"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="238"
         mnc="10"
         carrier="M1 Internet GPRS"
         apn="internet"
@@ -534,15 +473,6 @@
         mnc="20"
         carrier="Call me Internet"
         apn="websp"
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="238"
-        mnc="20"
-        carrier="Call me Internet"
-        apn="websp"
         authtype="2"
         mvno_match_data="Call me"
         mvno_type="spn"
@@ -560,83 +490,6 @@
         mvno_match_data="Call me"
         mvno_type="spn"
         type="mms"
-    />
-    <apn
-        mcc="238"
-        mnc="20"
-        carrier="CallMe MMS"
-        apn="mmssp"
-        mmsc="http://mms.telia.dk"
-        mmsport="80"
-        mmsproxy="193.209.134.131"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="238"
-        mnc="20"
-        carrier="DLG Tele"
-        apn="websp"
-        authtype="3"
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="238"
-        mnc="20"
-        carrier="DLG Tele MMS"
-        apn="mmssp"
-        authtype="3"
-        mmsc="http://mms.telia.dk"
-        mmsport="8080"
-        mmsproxy="193.209.134.131"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="238"
-        mnc="20"
-        carrier="Siminn Internet"
-        apn="websp"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="238"
-        mnc="20"
-        carrier="Siminn MMS"
-        apn="mmssp"
-        mmsc="http://mms.telia.dk"
-        mmsport="8080"
-        mmsproxy="193.209.134.131"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="238"
-        mnc="20"
-        carrier="Siminn WAP"
-        apn="websp"
-        mmsc=""
-        password=""
-        port="8080"
-        proxy="62.44.158.29"
-        type="default,supl"
-        user=""
     />
     <apn
         mcc="238"
@@ -661,41 +514,6 @@
     />
     <apn
         mcc="238"
-        mnc="20"
-        carrier="Waoo Mobil"
-        apn="websp"
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="238"
-        mnc="20"
-        carrier="Waoo Mobil MMS"
-        apn="mmssp"
-        mmsc="http://mms.telia.dk"
-        mmsport="8080"
-        mmsproxy="193.209.134.131"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="238"
-        mnc="30"
-        carrier="Siminn Internet"
-        apn="websp"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="238"
         mnc="30"
         carrier="Siminn MMS"
         apn="mmssp"
@@ -711,18 +529,6 @@
     <apn
         mcc="238"
         mnc="30"
-        carrier="Siminn WAP"
-        apn="websp"
-        mmsc=""
-        password=""
-        port="8080"
-        proxy="62.44.158.29"
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="238"
-        mnc="30"
         carrier="Telia MMS"
         apn="www.mms.mtelia.dk"
         mmsc="http://mms.telia.dk"
@@ -732,15 +538,6 @@
         port=""
         proxy=""
         type="mms"
-        user=""
-    />
-    <apn
-        mcc="238"
-        mnc="30"
-        carrier="Telia SuifPort"
-        apn="www.internet.mtelia.dk"
-        password=""
-        type="default,supl"
         user=""
     />
     <apn

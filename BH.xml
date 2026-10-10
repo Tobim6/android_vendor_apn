@@ -8,13 +8,6 @@
     <apn
         mcc="426"
         mnc="01"
-        carrier="Batelco Internet"
-        apn="internet.batelco.com"
-        type="default,supl"
-    />
-    <apn
-        mcc="426"
-        mnc="01"
         carrier="Batelco MMS"
         apn="mms.batelco.com"
         authtype="0"
@@ -24,18 +17,6 @@
         password="mms"
         type="mms"
         user="mms"
-    />
-    <apn
-        mcc="426"
-        mnc="01"
-        carrier="Batelco WAP"
-        apn="wap.batelco.com"
-        authtype="0"
-        password="wap"
-        port="80"
-        proxy="192.168.1.2"
-        type="default,supl"
-        user="wap"
     />
     <apn
         mcc="426"
@@ -92,55 +73,5 @@
         proxy="172.18.85.33"
         type="default,supl"
         user="wap"
-    />
-    <apn
-        mcc="426"
-        mnc="04"
-        carrier="VIVA GPRS"
-        apn="viva.bh"
-        type="default,supl"
-    />
-    <apn
-        mcc="426"
-        mnc="04"
-        carrier="VIVA MMS"
-        apn="vivawap.bh"
-        mmsc="http://mms.viva.com.bh:38090 "
-        mmsport="8080"
-        mmsproxy="172.18.142.36"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="426"
-        mnc="04"
-        carrier="VIVA WAP"
-        apn="vivawap.bh"
-        mmsc=""
-        password=""
-        port="8080"
-        proxy="172.18.142.36"
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="426"
-        mnc="04"
-        carrier="Viva BH"
-        apn="viva.bh"
-        type="default,supl"
-    />
-    <apn
-        mcc="426"
-        mnc="04"
-        carrier="Viva BH MMS"
-        apn="vivawap.bh"
-        mmsc="http://mms.viva.com.bh:38090"
-        mmsport="8080"
-        mmsproxy="172.18.142.36"
-        type="mms"
     />
 </apns>

@@ -56,48 +56,13 @@
     />
     <apn
         mcc="370"
-        mnc="02"
-        carrier="Ideas CLARO"
-        apn="internet.ideasclaro.com.do"
-        authtype="3"
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="370"
-        mnc="02"
-        carrier="MMS CLARO"
-        apn="internet.ideasclaro.com.do"
-        authtype="3"
-        mmsc="http://mms.ideasclaro.com.do/mms/wapenc"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="370"
         mnc="04"
         carrier="Trilogy Dominicana"
         apn="edge.viva.net.do"
         mmsport="9401"
         mmsproxy="192.168.16.10"
         password="viva"
-        type="default,supl,mms"
-        user="viva"
-    />
-    <apn
-        mcc="370"
-        mnc="04"
-        carrier="Viva Edge"
-        apn="edge.viva.net.do"
-        mmsc="http://wap.viva.net.do/WapDeck/"
-        password="viva"
-        port="9401"
-        proxy="192.168.016.010"
-        type="default,supl"
+        type="mms"
         user="viva"
     />
     <apn

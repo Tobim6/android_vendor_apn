@@ -13,7 +13,7 @@
         mmsc="http://192.168.210.103/operator/wap"
         port="8080"
         proxy="192.168.210.104"
-        type="default,mms"
+        type="mms"
     />
     <apn
         mcc="374"
@@ -31,7 +31,7 @@
         carrier="BMobile Postpaid"
         apn="internet"
         port="8080"
-        type="default,supl"
+        type="supl"
     />
     <apn
         mcc="374"
@@ -39,7 +39,7 @@
         carrier="BMobile Prepaid"
         apn="bconnected"
         port="8080"
-        type="default,supl"
+        type="supl"
     />
     <apn
         mcc="374"
@@ -50,7 +50,7 @@
         port="8080"
         proxy="192.168.210.104"
         server="http://192.168.210.103/operator/wap"
-        type="default,supl"
+        type="supl"
         user=""
     />
     <apn
@@ -72,7 +72,7 @@
         apn="bconnected"
         password=""
         server="http://www.google.com"
-        type="default,supl"
+        type="supl"
         user=""
     />
     <apn
@@ -84,7 +84,7 @@
         port="8080"
         proxy="192.168.210.104"
         server="http://192.168.210.103/operator/wap"
-        type="default,supl"
+        type="supl"
         user=""
     />
     <apn
@@ -106,7 +106,7 @@
         apn="bconnected"
         password=""
         server="http://www.google.com"
-        type="default,supl"
+        type="supl"
         user=""
     />
     <apn
@@ -390,7 +390,7 @@
         port="8080"
         proxy="192.168.210.104"
         server="http://192.168.210.103/operator/wap"
-        type="default,supl"
+        type="supl"
         user=""
     />
     <apn
@@ -412,22 +412,8 @@
         apn="bconnected"
         password=""
         server="http://www.google.com"
-        type="default,supl"
+        type="supl"
         user=""
-    />
-    <apn
-        mcc="374"
-        mnc="13"
-        carrier="Digicel MMS"
-        apn="wap"
-        mmsc="http://mmc.digiceltt.com/servlets/mms"
-        mmsport="8080"
-        mmsproxy="172.20.6.12"
-        password="wap"
-        port=""
-        proxy=""
-        type="mms"
-        user="wap"
     />
     <apn
         mcc="374"
@@ -439,29 +425,6 @@
     <apn
         mcc="374"
         mnc="13"
-        carrier="Digicel Web"
-        apn="web"
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="374"
-        mnc="130"
-        carrier="Digicel MMS"
-        apn="wap"
-        mmsc="http://mmc.digiceltt.com/servlets/mms"
-        mmsport="8080"
-        mmsproxy="172.20.6.12"
-        password="wap"
-        port=""
-        proxy=""
-        type="mms"
-        user="wap"
-    />
-    <apn
-        mcc="374"
-        mnc="130"
         carrier="Digicel Web"
         apn="web"
         password=""

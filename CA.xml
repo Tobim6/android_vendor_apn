@@ -718,7 +718,7 @@
         carrier_id="2252"
         mtu="1500"
         skip_464xlat="1"
-        type="default,dun,supl,fota,hipri,ia"
+        type="dun,fota,ia"
     />
     <apn
         mcc="302"
@@ -731,17 +731,6 @@
         roaming_protocol="IPV4V6"
         skip_464xlat="1"
         type="ims"
-    />
-    <apn
-        mcc="302"
-        mnc="270"
-        carrier="Eastlink MMS"
-        apn="mms.mobi.eastlink.ca"
-        carrier_id="2252"
-        mmsc="http://mmss.mobi.eastlink.ca"
-        mmsport="8080"
-        mmsproxy="10.232.12.49"
-        type="mms"
     />
     <apn
         mcc="302"
@@ -766,19 +755,6 @@
         roaming_protocol="IPV4V6"
         type="ims"
         user_visible="false"
-    />
-    <apn
-        mcc="302"
-        mnc="320"
-        carrier="Chatr Internet"
-        apn="chatrweb.apn"
-        carrier_id="2055"
-        mmsc="http://mms.chatrwireless.com"
-        mmsport="80"
-        mmsproxy="mmsproxy.chatrwireless.com"
-        protocol="IPV6"
-        roaming_protocol="IPV4V6"
-        type="default,mms,supl"
     />
     <apn
         mcc="302"
@@ -850,7 +826,7 @@
         mmsport="80"
         mmsproxy="mmsproxy.fido.ca"
         protocol="IPV6"
-        type="default,mms,supl,hipri,fota,ia"
+        type="fota,ia"
         user_editable="false"
     />
     <apn
@@ -866,7 +842,7 @@
         mvno_match_data="DD"
         mvno_type="gid"
         protocol="IPV6"
-        type="default,mms,supl,hipri,fota,ia"
+        type="fota,ia"
         user_editable="false"
     />
     <apn
@@ -904,7 +880,7 @@
         mmsport="80"
         mmsproxy="mmsproxy.fido.ca"
         protocol="IPV4V6"
-        type="mms,xcap"
+        type="xcap"
         user_visible="false"
     />
     <apn
@@ -932,7 +908,7 @@
         mvno_match_data="DD"
         mvno_type="gid"
         protocol="IPV4V6"
-        type="mms,xcap"
+        type="xcap"
         user_visible="false"
     />
     <apn
@@ -996,7 +972,7 @@
         mvno_type="spn"
         protocol="IPV4V6"
         roaming_protocol="IP"
-        type="default,mms,supl,fota,hipri"
+        type="fota"
     />
     <apn
         mcc="302"
@@ -1134,7 +1110,7 @@
         mmsproxy="mmsproxy.mobile.bm"
         mvno_match_data="55"
         mvno_type="gid"
-        type="default,mms,supl"
+        type="supl"
         user_editable="false"
     />
     <apn
@@ -1179,138 +1155,6 @@
     />
     <apn
         mcc="302"
-        mnc="500"
-        carrier="Videotron"
-        apn="media.ng"
-        bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20"
-        carrier_id="2008"
-        mmsc="http://media.videotron.com"
-        type="default,mms,supl"
-        user_editable="false"
-    />
-    <apn
-        mcc="302"
-        mnc="500"
-        carrier="Videotron IMS"
-        apn="ims"
-        carrier_id="2008"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-        user_editable="false"
-        user_visible="false"
-    />
-    <apn
-        mcc="302"
-        mnc="500"
-        carrier="Videotron MMS and XCAP over iWLAN"
-        apn="xcap"
-        bearer_bitmask="18"
-        carrier_id="2008"
-        mmsc="http://media.videotron.com"
-        type="mms,xcap"
-        user_visible="false"
-    />
-    <apn
-        mcc="302"
-        mnc="500"
-        carrier="Videotron XCAP"
-        apn="xcap"
-        bearer_bitmask="1|2|3|9|10|11|13|14|15|20"
-        carrier_id="2008"
-        type="xcap"
-        user_visible="false"
-    />
-    <apn
-        mcc="302"
-        mnc="510"
-        carrier="Videotron"
-        apn="media.ng"
-        bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20"
-        carrier_id="2008"
-        mmsc="http://media.videotron.com"
-        type="default,mms,supl"
-        user_editable="false"
-    />
-    <apn
-        mcc="302"
-        mnc="510"
-        carrier="Videotron IMS"
-        apn="ims"
-        carrier_id="2008"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-        user_editable="false"
-        user_visible="false"
-    />
-    <apn
-        mcc="302"
-        mnc="510"
-        carrier="Videotron MMS and XCAP over iWLAN"
-        apn="xcap"
-        bearer_bitmask="18"
-        carrier_id="2008"
-        mmsc="http://media.videotron.com"
-        type="mms,xcap"
-        user_visible="false"
-    />
-    <apn
-        mcc="302"
-        mnc="510"
-        carrier="Videotron XCAP"
-        apn="xcap"
-        bearer_bitmask="1|2|3|9|10|11|13|14|15|20"
-        carrier_id="2008"
-        type="xcap"
-        user_visible="false"
-    />
-    <apn
-        mcc="302"
-        mnc="520"
-        carrier="Videotron"
-        apn="media.ng"
-        bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20"
-        carrier_id="2008"
-        mmsc="http://media.videotron.com"
-        type="default,mms,supl"
-        user_editable="false"
-    />
-    <apn
-        mcc="302"
-        mnc="520"
-        carrier="Videotron IMS"
-        apn="ims"
-        carrier_id="2008"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-        user_editable="false"
-        user_visible="false"
-    />
-    <apn
-        mcc="302"
-        mnc="520"
-        carrier="Videotron MMS and XCAP over iWLAN"
-        apn="xcap"
-        bearer_bitmask="18"
-        carrier_id="2008"
-        mmsc="http://media.videotron.com"
-        type="mms,xcap"
-        user_visible="false"
-    />
-    <apn
-        mcc="302"
-        mnc="520"
-        carrier="Videotron XCAP"
-        apn="xcap"
-        bearer_bitmask="1|2|3|9|10|11|13|14|15|20"
-        carrier_id="2008"
-        type="xcap"
-        user_visible="false"
-    />
-    <apn
-        mcc="302"
         mnc="610"
         carrier="Bell Mobility"
         apn="pda.bell.ca"
@@ -1318,32 +1162,8 @@
         carrier_id="576"
         mmsc="http://mms.bell.ca/mms/wapenc"
         protocol="IPV6"
-        type="default,mms,supl,dun,hipri,xcap"
+        type="dun"
         user_editable="false"
-    />
-    <apn
-        mcc="302"
-        mnc="610"
-        carrier="Bell Mobility Apps"
-        apn="apps.bell.ca"
-        bearer_bitmask="18"
-        carrier_id="576"
-        mmsc="http://mms.bell.ca/mms/wapenc"
-        protocol="IPV4V6"
-        type="mms,xcap"
-        user_visible="false"
-    />
-    <apn
-        mcc="302"
-        mnc="610"
-        carrier="Bell Mobility IMS"
-        apn="ims"
-        bearer_bitmask="14|18|20"
-        carrier_id="576"
-        protocol="IPV6"
-        roaming_protocol="IPV6"
-        type="ims"
-        user_visible="false"
     />
     <apn
         mcc="302"
@@ -1367,7 +1187,7 @@
         mvno_match_data="42"
         mvno_type="gid"
         protocol="IPV4V6"
-        type="ia,default,dun,supl,mms,hipri,xcap"
+        type="xcap,ia,dun"
         user_editable="false"
     />
     <apn
@@ -1381,7 +1201,7 @@
         mvno_match_data="42"
         mvno_type="gid"
         protocol="IPV4V6"
-        type="mms,xcap"
+        type="xcap"
         user_visible="false"
     />
     <apn
@@ -1422,22 +1242,8 @@
         mvno_match_data="40"
         mvno_type="gid"
         protocol="IPV4V6"
-        type="default,mms,supl,dun,hipri,xcap,ia"
+        type="dun,ia"
         user_editable="false"
-    />
-    <apn
-        mcc="302"
-        mnc="610"
-        carrier="PC Mobile Apps"
-        apn="apps.bell.ca"
-        bearer_bitmask="18"
-        carrier_id="10005"
-        mmsc="http://mms.bell.ca/mms/wapenc"
-        mvno_match_data="40"
-        mvno_type="gid"
-        protocol="IPV4V6"
-        type="mms,xcap"
-        user_visible="false"
     />
     <apn
         mcc="302"
@@ -1490,21 +1296,7 @@
         mvno_match_data="3E"
         mvno_type="gid"
         protocol="IPV6"
-        type="default,mms,supl,dun,hipri,xcap"
-        user_editable="false"
-    />
-    <apn
-        mcc="302"
-        mnc="610"
-        carrier="Virgin Mobile Apps"
-        apn="apps.bell.ca"
-        bearer_bitmask="18"
-        carrier_id="2021"
-        mmsc="http://mms.bell.ca/mms/wapenc"
-        mvno_match_data="3E"
-        mvno_type="gid"
-        protocol="IPV4V6"
-        type="mms,xcap"
+        type="dun"
         user_editable="false"
     />
     <apn
@@ -1715,21 +1507,7 @@
         mvno_match_data="3E"
         mvno_type="gid"
         protocol="IPV6"
-        type="default,mms,supl,dun,hipri,xcap"
-        user_editable="false"
-    />
-    <apn
-        mcc="302"
-        mnc="630"
-        carrier="Virgin Mobile Apps"
-        apn="apps.bell.ca"
-        bearer_bitmask="18"
-        carrier_id="2021"
-        mmsc="http://mms.bell.ca/mms/wapenc"
-        mvno_match_data="3E"
-        mvno_type="gid"
-        protocol="IPV4V6"
-        type="mms,xcap"
+        type="dun"
         user_editable="false"
     />
     <apn
@@ -1940,21 +1718,7 @@
         mvno_match_data="3E"
         mvno_type="gid"
         protocol="IPV6"
-        type="default,mms,supl,dun,hipri,xcap"
-        user_editable="false"
-    />
-    <apn
-        mcc="302"
-        mnc="640"
-        carrier="Virgin Mobile Apps"
-        apn="apps.bell.ca"
-        bearer_bitmask="18"
-        carrier_id="2021"
-        mmsc="http://mms.bell.ca/mms/wapenc"
-        mvno_match_data="3E"
-        mvno_type="gid"
-        protocol="IPV4V6"
-        type="mms,xcap"
+        type="dun"
         user_editable="false"
     />
     <apn
@@ -2007,19 +1771,6 @@
         roaming_protocol="IPV4V6"
         type="ims"
         user_visible="false"
-    />
-    <apn
-        mcc="302"
-        mnc="660"
-        carrier="MTS"
-        apn="sp.mts"
-        carrier_id="578"
-        mmsc="http://mmsc2.mts.net/"
-        mmsport="9401"
-        mmsproxy="wapgw1.mts.net"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,mms,supl"
     />
     <apn
         mcc="302"
@@ -2580,7 +2331,7 @@
         mvno_type="gid"
         protocol="IPV6"
         roaming_protocol="IPV4V6"
-        type="default,mms,supl,hipri,fota"
+        type="fota"
     />
     <apn
         mcc="302"
@@ -2596,7 +2347,7 @@
         mvno_type="imsi"
         protocol="IPV6"
         roaming_protocol="IPV4V6"
-        type="default,mms,supl,hipri,fota"
+        type="fota"
     />
     <apn
         mcc="302"
@@ -2638,7 +2389,7 @@
         mvno_type="gid"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="mms,xcap"
+        type="xcap"
         user_visible="false"
     />
     <apn
@@ -2655,7 +2406,7 @@
         mvno_type="imsi"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="mms,xcap"
+        type="xcap"
         user_visible="false"
     />
     <apn
@@ -2786,66 +2537,5 @@
         mvno_type="gid"
         protocol="IPV4V6"
         type="default,mms,supl,xcap"
-    />
-    <apn
-        mcc="302"
-        mnc="780"
-        carrier="Lum IMS"
-        apn="ims"
-        bearer_bitmask="14|18|20"
-        carrier_id="580"
-        mvno_match_data="5B"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-        user_visible="false"
-    />
-    <apn
-        mcc="302"
-        mnc="780"
-        carrier="SaskTel"
-        apn="pda.stm.sk.ca"
-        carrier_id="580"
-        mmsc="http://mms.sasktel.com/"
-        mmsport="80"
-        mmsproxy="mig.sasktel.com"
-        protocol="IPV4V6"
-        type="default,mms,supl,xcap"
-    />
-    <apn
-        mcc="302"
-        mnc="780"
-        carrier="SaskTel IMS"
-        apn="ims"
-        bearer_bitmask="14|18|20"
-        carrier_id="580"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-        user_visible="false"
-    />
-    <apn
-        mcc="302"
-        mnc="781"
-        carrier="SaskTel"
-        apn="pda.stm.sk.ca"
-        carrier_id="580"
-        mmsc="http://mms.sasktel.com/"
-        mmsport="80"
-        mmsproxy="mig.sasktel.com"
-        protocol="IPV4V6"
-        type="default,mms,supl,xcap"
-    />
-    <apn
-        mcc="302"
-        mnc="781"
-        carrier="SaskTel IMS"
-        apn="ims"
-        bearer_bitmask="14|18|20"
-        carrier_id="580"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-        user_visible="false"
     />
 </apns>

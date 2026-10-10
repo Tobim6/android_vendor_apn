@@ -19,13 +19,4 @@
         type="mms"
         user="wapcu"
     />
-    <apn
-        mcc="362"
-        mnc="69"
-        carrier="Digicel Web"
-        apn="web"
-        password=""
-        type="default,supl"
-        user=""
-    />
 </apns>

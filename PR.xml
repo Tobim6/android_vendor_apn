@@ -31,23 +31,4 @@
         type="mms"
         user=""
     />
-    <apn
-        mcc="330"
-        mnc="110"
-        carrier="LTE CLARO"
-        apn="lte.claropr.com"
-        authtype="1"
-        type="default,supl"
-    />
-    <apn
-        mcc="330"
-        mnc="110"
-        carrier="MMS CLARO"
-        apn="mmslte.claropr.com"
-        authtype="1"
-        mmsc="http://mmsg.claropr.com:10021/mmsc"
-        mmsport="8799"
-        mmsproxy="10.50.38.3"
-        type="mms"
-    />
 </apns>

@@ -17,26 +17,6 @@
     />
     <apn
         mcc="404"
-        mnc="00"
-        carrier="MTS MODEM"
-        apn="Modem"
-        authtype="3"
-        password="MTS"
-        type="default,supl"
-        user="internet@internet.mtsindia.in"
-    />
-    <apn
-        mcc="404"
-        mnc="00"
-        carrier="MTS WAP"
-        apn="WAP"
-        authtype="3"
-        password="MTS"
-        type="default,supl"
-        user="wap@wap.mtsindia.in"
-    />
-    <apn
-        mcc="404"
         mnc="01"
         carrier="Vodafone"
         apn="portalnmms"
@@ -520,74 +500,11 @@
     <apn
         mcc="404"
         mnc="17"
-        carrier="Aircel"
-        apn="aircelwap"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="17"
-        carrier="Aircel GPRS"
-        apn="aircelwap"
-        port="8080"
-        proxy="172.17.83.69"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="17"
         carrier="Aircel MMS"
         apn="aircelmms"
         mmsc="http://172.17.83.67/servlets/mms/"
         mmsport="8080"
         mmsproxy="172.17.83.69"
-        type="mms"
-    />
-    <apn
-        mcc="404"
-        mnc="17"
-        carrier="Aircel Online"
-        apn="aircelgprs"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="18"
-        carrier="NetConnect"
-        apn="rcomnet"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="18"
-        carrier="Reliance GPRS"
-        apn="rcomwap"
-        port="8080"
-        proxy="10.239.221.5"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="18"
-        carrier="Reliance MMS"
-        apn="rcommms"
-        mmsc="http://mms.rcom.co.in/mms"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        port="8080"
-        proxy="10.239.221.5"
-        type="mms"
-    />
-    <apn
-        mcc="404"
-        mnc="18"
-        carrier="Smart MMS"
-        apn="rcommms"
-        mmsc="http://10.239.221.47/mms/"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        port="8080"
-        proxy="10.239.221.5"
         type="mms"
     />
     <apn
@@ -774,28 +691,12 @@
     <apn
         mcc="404"
         mnc="25"
-        carrier="Aircel GPRS"
-        apn="aircelwap"
-        port="8080"
-        proxy="172.17.83.69"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="25"
         carrier="Aircel MMS"
         apn="aircelmms"
         mmsc="http://172.17.83.67/servlets/mms/"
         mmsport="8080"
         mmsproxy="172.17.83.69"
         type="mms"
-    />
-    <apn
-        mcc="404"
-        mnc="25"
-        carrier="Aircel Online"
-        apn="aircelgprs"
-        type="default,supl"
     />
     <apn
         mcc="404"
@@ -829,55 +730,6 @@
     <apn
         mcc="404"
         mnc="28"
-        carrier="Aircel"
-        apn="aircelwap"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="28"
-        carrier="Aircel GPRS"
-        apn="aircelwap"
-        port="8080"
-        proxy="172.17.83.69"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="28"
-        carrier="Aircel MMS"
-        apn="aircelmms"
-        mmsc="http://172.17.83.67/servlets/mms/"
-        mmsport="8080"
-        mmsproxy="172.17.83.69"
-        type="mms"
-    />
-    <apn
-        mcc="404"
-        mnc="28"
-        carrier="Aircel Online"
-        apn="aircelgprs"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="29"
-        carrier="Aircel"
-        apn="aircelwap"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="29"
-        carrier="Aircel GPRS"
-        apn="aircelwap"
-        port="8080"
-        proxy="172.17.83.69"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="29"
         carrier="Aircel MMS"
         apn="aircelmms"
         mmsc="http://172.17.83.67/servlets/mms/"
@@ -888,9 +740,12 @@
     <apn
         mcc="404"
         mnc="29"
-        carrier="Aircel Online"
-        apn="aircelgprs"
-        type="default,supl"
+        carrier="Aircel MMS"
+        apn="aircelmms"
+        mmsc="http://172.17.83.67/servlets/mms/"
+        mmsport="8080"
+        mmsproxy="172.17.83.69"
+        type="mms"
     />
     <apn
         mcc="404"
@@ -950,35 +805,12 @@
     <apn
         mcc="404"
         mnc="33"
-        carrier="Aircel"
-        apn="aircelwap"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="33"
-        carrier="Aircel GPRS"
-        apn="aircelwap"
-        port="8080"
-        proxy="172.17.83.69"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="33"
         carrier="Aircel MMS"
         apn="aircelmms"
         mmsc="http://172.17.83.67/servlets/mms/"
         mmsport="8080"
         mmsproxy="172.17.83.69"
         type="mms"
-    />
-    <apn
-        mcc="404"
-        mnc="33"
-        carrier="Aircel Online"
-        apn="aircelgprs"
-        type="default,supl"
     />
     <apn
         mcc="404"
@@ -1063,46 +895,6 @@
         carrier="Aircel Online"
         apn="aircelgprs"
         type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="36"
-        carrier="NetConnect"
-        apn="rcomnet"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="36"
-        carrier="Reliance GPRS"
-        apn="rcomwap"
-        port="8080"
-        proxy="10.239.221.5"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="36"
-        carrier="Reliance MMS"
-        apn="rcommms"
-        mmsc="http://mms.rcom.co.in/mms"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        port="8080"
-        proxy="10.239.221.5"
-        type="mms"
-    />
-    <apn
-        mcc="404"
-        mnc="36"
-        carrier="Smart MMS"
-        apn="rcommms"
-        mmsc="http://10.239.221.47/mms/"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        port="8080"
-        proxy="10.239.221.5"
-        type="mms"
     />
     <apn
         mcc="404"
@@ -1392,18 +1184,6 @@
     <apn
         mcc="404"
         mnc="46"
-        carrier="BPL MMS"
-        apn="mizone"
-        mmsc="http://mms.bplmobile.com:8080"
-        mmsport="8080"
-        mmsproxy="10.0.0.10"
-        password="bplmmsc"
-        type="mms"
-        user="MSISDN"
-    />
-    <apn
-        mcc="404"
-        mnc="46"
         carrier="Vodafone"
         apn="portalnmms"
         mmsc="http://mms1.live.vodafone.in/mms/"
@@ -1411,7 +1191,7 @@
         mmsproxy="10.10.1.100"
         port="9401"
         proxy="10.10.1.100"
-        type="default,supl,mms"
+        type="default,supl"
     />
     <apn
         mcc="404"
@@ -1437,46 +1217,6 @@
         mmsc="http://100.1.201.171:10021/mmsc"
         mmsport="8799"
         mmsproxy="100.1.201.172"
-        type="mms"
-    />
-    <apn
-        mcc="404"
-        mnc="50"
-        carrier="NetConnect"
-        apn="rcomnet"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="50"
-        carrier="Reliance GPRS"
-        apn="rcomwap"
-        port="8080"
-        proxy="10.239.221.5"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="50"
-        carrier="Reliance MMS"
-        apn="rcommms"
-        mmsc="http://mms.rcom.co.in/mms"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        port="8080"
-        proxy="10.239.221.5"
-        type="mms"
-    />
-    <apn
-        mcc="404"
-        mnc="50"
-        carrier="Smart MMS"
-        apn="rcommms"
-        mmsc="http://10.239.221.47/mms/"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        port="8080"
-        proxy="10.239.221.5"
         type="mms"
     />
     <apn
@@ -1528,46 +1268,6 @@
         mmsproxy="10.210.10.11"
         port="8080"
         proxy="10.210.10.11"
-        type="mms"
-    />
-    <apn
-        mcc="404"
-        mnc="52"
-        carrier="NetConnect"
-        apn="rcomnet"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="52"
-        carrier="Reliance GPRS"
-        apn="rcomwap"
-        port="8080"
-        proxy="10.239.221.5"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="52"
-        carrier="Reliance MMS"
-        apn="rcommms"
-        mmsc="http://mms.rcom.co.in/mms"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        port="8080"
-        proxy="10.239.221.5"
-        type="mms"
-    />
-    <apn
-        mcc="404"
-        mnc="52"
-        carrier="Smart MMS"
-        apn="rcommms"
-        mmsc="http://10.239.221.47/mms/"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        port="8080"
-        proxy="10.239.221.5"
         type="mms"
     />
     <apn
@@ -1815,15 +1515,6 @@
         password="MSISDN"
         type="default,supl"
         user="MSISDN"
-    />
-    <apn
-        mcc="404"
-        mnc="58"
-        carrier="BSNL IMS"
-        apn="bsnlnet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
     />
     <apn
         mcc="404"
@@ -2128,198 +1819,6 @@
         port="8080"
         proxy="10.210.10.11"
         type="mms"
-    />
-    <apn
-        mcc="404"
-        mnc="67"
-        carrier="NetConnect"
-        apn="rcomnet"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="67"
-        carrier="Reliance GPRS"
-        apn="rcomwap"
-        port="8080"
-        proxy="10.239.221.5"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="67"
-        carrier="Reliance MMS"
-        apn="rcommms"
-        mmsc="http://mms.rcom.co.in/mms"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        port="8080"
-        proxy="10.239.221.5"
-        type="mms"
-    />
-    <apn
-        mcc="404"
-        mnc="67"
-        carrier="Smart MMS"
-        apn="rcommms"
-        mmsc="http://10.239.221.47/mms/"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        port="8080"
-        proxy="10.239.221.5"
-        type="mms"
-    />
-    <apn
-        mcc="404"
-        mnc="67"
-        carrier="Vodafone"
-        apn="portalnmms"
-        mmsc="http://mms1.live.vodafone.in/mms/"
-        mmsport="9401"
-        mmsproxy="10.10.1.100"
-        port="9401"
-        proxy="10.10.1.100"
-        type="default,supl,mms"
-    />
-    <apn
-        mcc="404"
-        mnc="68"
-        carrier="MTNL"
-        apn="mtnl.net"
-        password="mtnl123"
-        port="9401"
-        proxy="10.10.10.10"
-        type="default,supl"
-        user="mtnl"
-    />
-    <apn
-        mcc="404"
-        mnc="68"
-        carrier="MTNL GPRS"
-        apn="gprsppsdel"
-        password="mtnl123"
-        type="default,supl"
-        user="mtnl"
-    />
-    <apn
-        mcc="404"
-        mnc="68"
-        carrier="MTNL GPRS"
-        apn="gprsppsmum"
-        authtype="1"
-        password="mtnl123"
-        port="9401"
-        proxy="172.16.39.10"
-        type="default,supl"
-        user="mtnl"
-    />
-    <apn
-        mcc="404"
-        mnc="68"
-        carrier="MTNL MMS"
-        apn="gprsppsdel"
-        authtype="1"
-        mmsc="http://172.16.39.140/mms/"
-        mmsport="9201"
-        mmsproxy="172.16.39.10"
-        password="mtnl123"
-        type="mms"
-        user="mtnl"
-    />
-    <apn
-        mcc="404"
-        mnc="68"
-        carrier="MTNL MMS"
-        apn="gprsppsmum"
-        authtype="1"
-        mmsc="http://172.16.39.140/mms/"
-        mmsport="9401"
-        mmsproxy="172.16.39.10"
-        password="mtnl123"
-        type="mms"
-        user="mtnl"
-    />
-    <apn
-        mcc="404"
-        mnc="68"
-        carrier="MTNL MMS"
-        apn="mtnl.net"
-        mmsc="http://mtnlmms/"
-        mmsport="9401"
-        mmsproxy="10.10.10.10"
-        password="mtnl123"
-        type="mms"
-        user="mtnl"
-    />
-    <apn
-        mcc="404"
-        mnc="69"
-        carrier="MTNL"
-        apn="mtnl.net"
-        password="mtnl123"
-        port="9401"
-        proxy="10.10.10.10"
-        type="default,supl"
-        user="mtnl"
-    />
-    <apn
-        mcc="404"
-        mnc="69"
-        carrier="MTNL GPRS"
-        apn="gprsppsmum"
-        authtype="1"
-        password="mtnl123"
-        port="9401"
-        proxy="172.16.39.10"
-        type="default,supl"
-        user="mtnl"
-    />
-    <apn
-        mcc="404"
-        mnc="69"
-        carrier="MTNL GPRS"
-        apn="gprsppsmum"
-        password="mtnl123"
-        type="default,supl"
-        user="mtnl"
-    />
-    <apn
-        mcc="404"
-        mnc="69"
-        carrier="MTNL MMS"
-        apn="gprsppsdel"
-        authtype="1"
-        mmsc="http://172.16.39.140/mms/"
-        mmsport="9201"
-        mmsproxy="172.16.39.10"
-        password="mtnl123"
-        type="mms"
-        user="mtnl"
-    />
-    <apn
-        mcc="404"
-        mnc="69"
-        carrier="MTNL MMS"
-        apn="gprsppsmum"
-        authtype="1"
-        mmsc="http://172.16.39.140/mms/"
-        mmsport="9401"
-        mmsproxy="172.16.39.10"
-        password="mtnl123"
-        type="mms"
-        user="mtnl"
-    />
-    <apn
-        mcc="404"
-        mnc="69"
-        carrier="MTNL MMS"
-        apn="mtnl.net"
-        mmsc="http://mtnlmms/"
-        mmsport="9401"
-        mmsproxy="10.10.10.10"
-        password="mtnl123"
-        type="mms"
-        user="mtnl"
     />
     <apn
         mcc="404"
@@ -2744,7 +2243,7 @@
         apn="www"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,ia,supl,ims,hipri,fota,cbs,xcap"
+        type="default,mms,supl,ia,hipri,fota,cbs"
     />
     <apn
         mcc="404"
@@ -2913,46 +2412,6 @@
     />
     <apn
         mcc="404"
-        mnc="83"
-        carrier="NetConnect"
-        apn="rcomnet"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="83"
-        carrier="Reliance GPRS"
-        apn="rcomwap"
-        port="8080"
-        proxy="10.239.221.5"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="83"
-        carrier="Reliance MMS"
-        apn="rcommms"
-        mmsc="http://mms.rcom.co.in/mms"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        port="8080"
-        proxy="10.239.221.5"
-        type="mms"
-    />
-    <apn
-        mcc="404"
-        mnc="83"
-        carrier="Smart MMS"
-        apn="rcommms"
-        mmsc="http://10.239.221.47/mms/"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        port="8080"
-        proxy="10.239.221.5"
-        type="mms"
-    />
-    <apn
-        mcc="404"
         mnc="84"
         carrier="Vodafone"
         apn="portalnmms"
@@ -2978,46 +2437,6 @@
         mmsc="http://mms1.live.vodafone.in/mms/"
         mmsport="9401"
         mmsproxy="10.10.1.100"
-        type="mms"
-    />
-    <apn
-        mcc="404"
-        mnc="85"
-        carrier="NetConnect"
-        apn="rcomnet"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="85"
-        carrier="Reliance GPRS"
-        apn="rcomwap"
-        port="8080"
-        proxy="10.239.221.5"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="85"
-        carrier="Reliance MMS"
-        apn="rcommms"
-        mmsc="http://mms.rcom.co.in/mms"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        port="8080"
-        proxy="10.239.221.5"
-        type="mms"
-    />
-    <apn
-        mcc="404"
-        mnc="85"
-        carrier="Smart MMS"
-        apn="rcommms"
-        mmsc="http://10.239.221.47/mms/"
-        mmsport="8080"
-        mmsproxy="10.239.221.5"
-        port="8080"
-        proxy="10.239.221.5"
         type="mms"
     />
     <apn
@@ -3169,29 +2588,6 @@
         mmsport="8799"
         mmsproxy="100.1.201.172"
         type="mms"
-    />
-    <apn
-        mcc="404"
-        mnc="91"
-        carrier="Aircel"
-        apn="aircelgprs"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="91"
-        carrier="Aircel"
-        apn="aircelwap"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
-        mnc="91"
-        carrier="Aircel GPRS"
-        apn="aircelwap"
-        port="8080"
-        proxy="172.17.83.69"
-        type="default,supl"
     />
     <apn
         mcc="404"
@@ -3217,13 +2613,6 @@
     />
     <apn
         mcc="404"
-        mnc="91"
-        carrier="Aircel Online"
-        apn="aircelgprs"
-        type="default,supl"
-    />
-    <apn
-        mcc="404"
         mnc="92"
         carrier="Airtel GPRS"
         apn="airtelgprs.com"
@@ -3351,15 +2740,6 @@
         mmsport="8799"
         mmsproxy="100.1.201.172"
         type="mms"
-    />
-    <apn
-        mcc="404"
-        mnc="97"
-        carrier="Airtel Live"
-        apn="airtelfun.com"
-        port="8080"
-        proxy="100.1.200.99"
-        type="default,supl"
     />
     <apn
         mcc="404"
@@ -5690,35 +5070,6 @@
     />
     <apn
         mcc="405"
-        mnc="750"
-        carrier="Vodafone"
-        apn="portalnmms"
-        mmsc="http://mms1.live.vodafone.in/mms/"
-        mmsport="9401"
-        mmsproxy="10.10.1.100"
-        port="9401"
-        proxy="10.10.1.100"
-        type="default,supl,mms"
-    />
-    <apn
-        mcc="405"
-        mnc="750"
-        carrier="Vodafone IN"
-        apn="www"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="750"
-        carrier="Vodafone IN MMS"
-        apn="portalnmms"
-        mmsc="http://mms1.live.vodafone.in/mms/"
-        mmsport="9401"
-        mmsproxy="10.10.1.100"
-        type="mms"
-    />
-    <apn
-        mcc="405"
         mnc="751"
         carrier="Vodafone"
         apn="portalnmms"
@@ -5727,7 +5078,7 @@
         mmsproxy="10.10.1.100"
         port="9401"
         proxy="10.10.1.100"
-        type="default,supl,mms"
+        type="default,supl"
     />
     <apn
         mcc="405"
@@ -6518,150 +5869,6 @@
     />
     <apn
         mcc="405"
-        mnc="813"
-        carrier="Uninor"
-        apn="Uninor"
-        port="8080"
-        proxy="10.58.10.58"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="813"
-        carrier="Uninor Internet"
-        apn="Uninor"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="814"
-        carrier="Uninor"
-        apn="Uninor"
-        port="8080"
-        proxy="10.58.10.58"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="814"
-        carrier="Uninor Internet"
-        apn="Uninor"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="816"
-        carrier="Uninor"
-        apn="Uninor"
-        port="8080"
-        proxy="10.58.10.58"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="816"
-        carrier="Uninor Internet"
-        apn="Uninor"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="817"
-        carrier="Uninor"
-        apn="Uninor"
-        port="8080"
-        proxy="10.58.10.58"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="817"
-        carrier="Uninor Internet"
-        apn="Uninor"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="818"
-        carrier="Uninor"
-        apn="Uninor"
-        port="8080"
-        proxy="10.58.10.58"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="818"
-        carrier="Uninor Internet"
-        apn="Uninor"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="819"
-        carrier="Uninor"
-        apn="Uninor"
-        port="8080"
-        proxy="10.58.10.58"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="819"
-        carrier="Uninor Internet"
-        apn="Uninor"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="820"
-        carrier="Uninor"
-        apn="Uninor"
-        port="8080"
-        proxy="10.58.10.58"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="820"
-        carrier="Uninor Internet"
-        apn="Uninor"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="821"
-        carrier="Uninor"
-        apn="Uninor"
-        port="8080"
-        proxy="10.58.10.58"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="821"
-        carrier="Uninor Internet"
-        apn="Uninor"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="822"
-        carrier="Uninor"
-        apn="Uninor"
-        port="8080"
-        proxy="10.58.10.58"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="822"
-        carrier="Uninor Internet"
-        apn="Uninor"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
         mnc="840"
         carrier="IMS"
         apn="ims"
@@ -6669,31 +5876,6 @@
         roaming_protocol="IPV4V6"
         type="ims"
         user_visible="false"
-    />
-    <apn
-        mcc="405"
-        mnc="840"
-        carrier="Jio 4G"
-        apn="jionet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="844"
-        carrier="Uninor"
-        apn="Uninor"
-        port="8080"
-        proxy="10.58.10.58"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="844"
-        carrier="Uninor Internet"
-        apn="Uninor"
-        type="default,supl"
     />
     <apn
         mcc="405"
@@ -7157,15 +6339,6 @@
     />
     <apn
         mcc="405"
-        mnc="854"
-        carrier="Jio 4G"
-        apn="jionet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
         mnc="855"
         carrier="IMS"
         apn="ims"
@@ -7173,15 +6346,6 @@
         roaming_protocol="IPV4V6"
         type="ims"
         user_visible="false"
-    />
-    <apn
-        mcc="405"
-        mnc="855"
-        carrier="Jio 4G"
-        apn="jionet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
     />
     <apn
         mcc="405"
@@ -7195,15 +6359,6 @@
     />
     <apn
         mcc="405"
-        mnc="856"
-        carrier="Jio 4G"
-        apn="jionet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
         mnc="857"
         carrier="IMS"
         apn="ims"
@@ -7211,15 +6366,6 @@
         roaming_protocol="IPV4V6"
         type="ims"
         user_visible="false"
-    />
-    <apn
-        mcc="405"
-        mnc="857"
-        carrier="Jio 4G"
-        apn="jionet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
     />
     <apn
         mcc="405"
@@ -7233,15 +6379,6 @@
     />
     <apn
         mcc="405"
-        mnc="858"
-        carrier="Jio 4G"
-        apn="jionet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
         mnc="859"
         carrier="IMS"
         apn="ims"
@@ -7249,15 +6386,6 @@
         roaming_protocol="IPV4V6"
         type="ims"
         user_visible="false"
-    />
-    <apn
-        mcc="405"
-        mnc="859"
-        carrier="Jio 4G"
-        apn="jionet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
     />
     <apn
         mcc="405"
@@ -7271,15 +6399,6 @@
     />
     <apn
         mcc="405"
-        mnc="860"
-        carrier="Jio 4G"
-        apn="jionet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
         mnc="861"
         carrier="IMS"
         apn="ims"
@@ -7287,15 +6406,6 @@
         roaming_protocol="IPV4V6"
         type="ims"
         user_visible="false"
-    />
-    <apn
-        mcc="405"
-        mnc="861"
-        carrier="Jio 4G"
-        apn="jionet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
     />
     <apn
         mcc="405"
@@ -7309,15 +6419,6 @@
     />
     <apn
         mcc="405"
-        mnc="862"
-        carrier="Jio 4G"
-        apn="jionet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
         mnc="863"
         carrier="IMS"
         apn="ims"
@@ -7325,15 +6426,6 @@
         roaming_protocol="IPV4V6"
         type="ims"
         user_visible="false"
-    />
-    <apn
-        mcc="405"
-        mnc="863"
-        carrier="Jio 4G"
-        apn="jionet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
     />
     <apn
         mcc="405"
@@ -7347,15 +6439,6 @@
     />
     <apn
         mcc="405"
-        mnc="864"
-        carrier="Jio 4G"
-        apn="jionet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
         mnc="865"
         carrier="IMS"
         apn="ims"
@@ -7363,15 +6446,6 @@
         roaming_protocol="IPV4V6"
         type="ims"
         user_visible="false"
-    />
-    <apn
-        mcc="405"
-        mnc="865"
-        carrier="Jio 4G"
-        apn="jionet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
     />
     <apn
         mcc="405"
@@ -7385,15 +6459,6 @@
     />
     <apn
         mcc="405"
-        mnc="866"
-        carrier="Jio 4G"
-        apn="jionet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
         mnc="867"
         carrier="IMS"
         apn="ims"
@@ -7401,15 +6466,6 @@
         roaming_protocol="IPV4V6"
         type="ims"
         user_visible="false"
-    />
-    <apn
-        mcc="405"
-        mnc="867"
-        carrier="Jio 4G"
-        apn="jionet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
     />
     <apn
         mcc="405"
@@ -7423,15 +6479,6 @@
     />
     <apn
         mcc="405"
-        mnc="868"
-        carrier="Jio 4G"
-        apn="jionet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
         mnc="869"
         carrier="IMS"
         apn="ims"
@@ -7439,15 +6486,6 @@
         roaming_protocol="IPV4V6"
         type="ims"
         user_visible="false"
-    />
-    <apn
-        mcc="405"
-        mnc="869"
-        carrier="Jio 4G"
-        apn="jionet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
     />
     <apn
         mcc="405"
@@ -7461,15 +6499,6 @@
     />
     <apn
         mcc="405"
-        mnc="870"
-        carrier="Jio 4G"
-        apn="jionet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
         mnc="871"
         carrier="IMS"
         apn="ims"
@@ -7477,15 +6506,6 @@
         roaming_protocol="IPV4V6"
         type="ims"
         user_visible="false"
-    />
-    <apn
-        mcc="405"
-        mnc="871"
-        carrier="Jio 4G"
-        apn="jionet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
     />
     <apn
         mcc="405"
@@ -7499,15 +6519,6 @@
     />
     <apn
         mcc="405"
-        mnc="872"
-        carrier="Jio 4G"
-        apn="jionet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
         mnc="873"
         carrier="IMS"
         apn="ims"
@@ -7518,15 +6529,6 @@
     />
     <apn
         mcc="405"
-        mnc="873"
-        carrier="Jio 4G"
-        apn="jionet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
         mnc="874"
         carrier="IMS"
         apn="ims"
@@ -7534,111 +6536,6 @@
         roaming_protocol="IPV4V6"
         type="ims"
         user_visible="false"
-    />
-    <apn
-        mcc="405"
-        mnc="874"
-        carrier="Jio 4G"
-        apn="jionet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="875"
-        carrier="Uninor"
-        apn="Uninor"
-        port="8080"
-        proxy="10.58.10.58"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="875"
-        carrier="Uninor Internet"
-        apn="Uninor"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="876"
-        carrier="Uninor"
-        apn="Uninor"
-        port="8080"
-        proxy="10.58.10.58"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="876"
-        carrier="Uninor Internet"
-        apn="Uninor"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="877"
-        carrier="Uninor"
-        apn="Uninor"
-        port="8080"
-        proxy="10.58.10.58"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="877"
-        carrier="Uninor Internet"
-        apn="Uninor"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="878"
-        carrier="Uninor"
-        apn="Uninor"
-        port="8080"
-        proxy="10.58.10.58"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="878"
-        carrier="Uninor Internet"
-        apn="Uninor"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="879"
-        carrier="Uninor"
-        apn="Uninor"
-        port="8080"
-        proxy="10.58.10.58"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="879"
-        carrier="Uninor Internet"
-        apn="Uninor"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="880"
-        carrier="Uninor"
-        apn="Uninor"
-        port="8080"
-        proxy="10.58.10.58"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="880"
-        carrier="Uninor Internet"
-        apn="Uninor"
-        type="default,supl"
     />
     <apn
         mcc="405"
@@ -7669,161 +6566,5 @@
         password="MTS"
         type="default,supl"
         user="wap@wap.mtsindia.in"
-    />
-    <apn
-        mcc="405"
-        mnc="908"
-        carrier="SPICE"
-        apn="spicegprs"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="908"
-        carrier="SPICE MMS"
-        apn="spicemms"
-        mmsc="http://10.200.200.3:8514"
-        mmsport="8080"
-        mmsproxy="10.200.200.3"
-        password="spice"
-        type="mms"
-        user="User Mobile number"
-    />
-    <apn
-        mcc="405"
-        mnc="909"
-        carrier="SPICE"
-        apn="spicegprs"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="909"
-        carrier="SPICE MMS"
-        apn="spicemms"
-        mmsc="http://10.200.200.3:8514"
-        mmsport="8080"
-        mmsproxy="10.200.200.3"
-        password="spice"
-        type="mms"
-        user="User Mobile number"
-    />
-    <apn
-        mcc="405"
-        mnc="910"
-        carrier="SPICE"
-        apn="spicegprs"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="910"
-        carrier="SPICE MMS"
-        apn="spicemms"
-        mmsc="http://10.200.200.3:8514"
-        mmsport="8080"
-        mmsproxy="10.200.200.3"
-        password="spice"
-        type="mms"
-        user="User Mobile number"
-    />
-    <apn
-        mcc="405"
-        mnc="911"
-        carrier="SPICE"
-        apn="spicegprs"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="911"
-        carrier="SPICE MMS"
-        apn="spicemms"
-        mmsc="http://10.200.200.3:8514"
-        mmsport="8080"
-        mmsproxy="10.200.200.3"
-        password="spice"
-        type="mms"
-        user="User Mobile number"
-    />
-    <apn
-        mcc="405"
-        mnc="925"
-        carrier="Uninor"
-        apn="Uninor"
-        port="8080"
-        proxy="10.58.10.58"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="925"
-        carrier="Uninor Internet"
-        apn="Uninor"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="926"
-        carrier="Uninor"
-        apn="Uninor"
-        port="8080"
-        proxy="10.58.10.58"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="926"
-        carrier="Uninor Internet"
-        apn="Uninor"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="927"
-        carrier="Uninor"
-        apn="Uninor"
-        port="8080"
-        proxy="10.58.10.58"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="927"
-        carrier="Uninor Internet"
-        apn="Uninor"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="928"
-        carrier="Uninor"
-        apn="Uninor"
-        port="8080"
-        proxy="10.58.10.58"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="928"
-        carrier="Uninor Internet"
-        apn="Uninor"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="929"
-        carrier="Uninor"
-        apn="Uninor"
-        port="8080"
-        proxy="10.58.10.58"
-        type="default,supl"
-    />
-    <apn
-        mcc="405"
-        mnc="929"
-        carrier="Uninor Internet"
-        apn="Uninor"
-        type="default,supl"
     />
 </apns>

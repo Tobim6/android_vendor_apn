@@ -7,41 +7,6 @@
 <apns version="8">
     <apn
         mcc="604"
-        mnc="00"
-        carrier="Imédia"
-        apn="wap.meditel.ma"
-        authtype="1"
-        password="MEDIWAP"
-        port="8080"
-        proxy="10.8.8.8"
-        type="default,supl"
-        user="MEDIWAP"
-    />
-    <apn
-        mcc="604"
-        mnc="00"
-        carrier="Meditel Internet"
-        apn="internet1.meditel.ma"
-        authtype="1"
-        password="MEDINET"
-        type="default,supl"
-        user="MEDINET"
-    />
-    <apn
-        mcc="604"
-        mnc="00"
-        carrier="Meditel MMS"
-        apn="mms.meditel.ma"
-        authtype="1"
-        mmsc="http://mms.meditel.ma:8088/mms"
-        mmsport="8080"
-        mmsproxy="10.8.8.9"
-        password="MEDIMMS"
-        type="mms"
-        user="MEDIMMS"
-    />
-    <apn
-        mcc="604"
         mnc="01"
         carrier="IAM"
         apn="www.iamgprs1.ma"
@@ -108,7 +73,7 @@
         mnc="02"
         carrier="Inwi"
         apn="www.inwi.ma"
-        type="default,supl,hipri,dun,fota,cbs"
+        type="dun,fota,cbs"
     />
     <apn
         mcc="604"

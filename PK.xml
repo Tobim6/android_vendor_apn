@@ -8,13 +8,6 @@
     <apn
         mcc="410"
         mnc="01"
-        carrier="Mobilink"
-        apn="connect.mobilinkworld.com"
-        type="default,supl"
-    />
-    <apn
-        mcc="410"
-        mnc="01"
         carrier="Mobilink MMS"
         apn="mms.mobilinkworld.com"
         mmsc="http://mms"
@@ -78,23 +71,6 @@
         password="Telenor"
         type="mms"
         user="Telenor"
-    />
-    <apn
-        mcc="410"
-        mnc="07"
-        carrier="Warid PK"
-        apn="warid"
-        type="default,supl"
-    />
-    <apn
-        mcc="410"
-        mnc="07"
-        carrier="Warid PK MMS"
-        apn="mms.warid"
-        mmsc="http://10.4.0.132/servlets/MMS"
-        mmsport="8080"
-        mmsproxy="10.4.2.1"
-        type="mms"
     />
     <apn
         mcc="410"

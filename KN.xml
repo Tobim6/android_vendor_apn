@@ -14,7 +14,7 @@
         password=""
         port="8799"
         proxy=""
-        type="default,supl"
+        type="supl"
         user=""
     />
     <apn
@@ -38,7 +38,7 @@
         password=""
         port="8799"
         proxy=""
-        type="default,supl"
+        type="supl"
         user=""
     />
     <apn

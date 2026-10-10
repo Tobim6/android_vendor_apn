@@ -8,17 +8,6 @@
     <apn
         mcc="704"
         mnc="02"
-        carrier="INTERNET TIGO GT"
-        apn="internet.tigo.gt"
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="704"
-        mnc="02"
         carrier="MMS TIGO GT"
         apn="mms.tigo.gt"
         mmsc="http://mms"

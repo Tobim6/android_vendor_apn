@@ -7,46 +7,6 @@
 <apns version="8">
     <apn
         mcc="455"
-        mnc="00"
-        carrier="SmarTone"
-        apn="smartweb"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="455"
-        mnc="00"
-        carrier="SmarTone MMS"
-        apn="smartgprs"
-        mmsc="http://mms.smartone.com.mo/dmog/mo"
-        mmsport="9201"
-        mmsproxy="10.9.9.29"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="455"
-        mnc="00"
-        carrier="SmarTone Macau"
-        apn="smartgprs"
-        mmsc="http://mms.smartone.com.mo/dmog/mo"
-        mmsport="8080"
-        mmsproxy="10.9.9.29"
-        password=""
-        port="8080"
-        proxy="10.9.9.29"
-        type="default,supl,mms"
-        user=""
-    />
-    <apn
-        mcc="455"
         mnc="01"
         carrier="CTM (Prepaid)"
         apn="ctmprepaid"
@@ -56,7 +16,7 @@
         mmsproxy="192.168.99.3"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,ia,supl,mms"
+        type="mms,ia"
     />
     <apn
         mcc="455"
@@ -66,7 +26,7 @@
         authtype="0"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,ia,supl"
+        type="ia"
     />
     <apn
         mcc="455"
@@ -129,41 +89,7 @@
         authtype="3"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,ia,supl,xcap"
-    />
-    <apn
-        mcc="455"
-        mnc="03"
-        carrier="3MACAU"
-        apn="mobile.three.com.mo"
-        authtype="3"
-        mmsc="http://mms.three.com.mo:10021/mmsc"
-        mmsport="8080"
-        mmsproxy="172.20.80.80"
-        password=""
-        port=""
-        proxy=""
-        type="default,mms"
-        user=""
-    />
-    <apn
-        mcc="455"
-        mnc="03"
-        carrier="Hutchison Macau"
-        apn="web-g.three.com.hk"
-        password="1234"
-        type="default,supl"
-        user="hutchison"
-    />
-    <apn
-        mcc="455"
-        mnc="03"
-        carrier="Hutchison Macau MMS"
-        apn="mms.hutchisonmacau.com"
-        mmsc="http://10.30.15.51:10021/mmsc"
-        mmsport="8080"
-        mmsproxy="10.30.15.53"
-        type="mms"
+        type="supl,ia"
     />
     <apn
         mcc="455"
@@ -175,7 +101,7 @@
         mmsproxy="192.168.99.3"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,ia,supl,mms"
+        type="mms,ia"
     />
     <apn
         mcc="455"
@@ -184,7 +110,7 @@
         apn="ctm-mobile"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,ia,supl"
+        type="ia"
     />
     <apn
         mcc="455"
@@ -246,6 +172,6 @@
         authtype="3"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,ia,supl,xcap"
+        type="supl,ia"
     />
 </apns>

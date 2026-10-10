@@ -42,15 +42,6 @@
     <apn
         mcc="730"
         mnc="02"
-        carrier="Movistar CL"
-        apn="web.tmovil.cl"
-        password="web"
-        type="default,supl"
-        user="web"
-    />
-    <apn
-        mcc="730"
-        mnc="02"
         carrier="Movistar CL MMS"
         apn="mms.tmovil.cl"
         mmsc="http://mms.tmovil.cl"
@@ -59,15 +50,6 @@
         password="mms"
         type="mms"
         user="mms"
-    />
-    <apn
-        mcc="730"
-        mnc="02"
-        carrier="Movistar INTERNET"
-        apn="wap.tmovil.cl"
-        password="wap"
-        type="default,supl"
-        user="wap"
     />
     <apn
         mcc="730"
@@ -82,15 +64,6 @@
         proxy=""
         type="mms"
         user="mms"
-    />
-    <apn
-        mcc="730"
-        mnc="03"
-        carrier="BAM Claro"
-        apn="bam.clarochile.cl"
-        password="clarochile"
-        type="default,supl"
-        user="clarochile"
     />
     <apn
         mcc="730"

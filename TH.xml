@@ -35,16 +35,6 @@
     />
     <apn
         mcc="520"
-        mnc="01"
-        carrier="AIS MMS"
-        apn="multimedia"
-        mmsc="http://mms.mobilelife.co.th"
-        mmsport="8080"
-        mmsproxy="203.170.229.34"
-        type="mms"
-    />
-    <apn
-        mcc="520"
         mnc="03"
         carrier="AIS Internet"
         apn="internet"

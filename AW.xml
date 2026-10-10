@@ -14,7 +14,7 @@
         password=""
         port=""
         proxy=""
-        type="default,supl"
+        type="supl"
         user=""
     />
     <apn
@@ -44,14 +44,5 @@
         proxy=""
         type="mms"
         user="waparuba"
-    />
-    <apn
-        mcc="363"
-        mnc="02"
-        carrier="Digicel Web"
-        apn="web"
-        password=""
-        type="default,supl"
-        user=""
     />
 </apns>

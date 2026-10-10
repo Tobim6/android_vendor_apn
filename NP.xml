@@ -14,7 +14,7 @@
         password=""
         port="8000"
         proxy="192.80.7.133"
-        type="default,supl"
+        type="supl"
         user=""
     />
     <apn
@@ -36,7 +36,7 @@
         mnc="01"
         carrier="Nepal Telecom Internet"
         apn="ntnet"
-        type="default,supl"
+        type="supl"
     />
     <apn
         mcc="429"
@@ -54,7 +54,7 @@
         carrier="WEB"
         apn="ntnet"
         password=""
-        type="default,supl"
+        type="supl"
         user=""
     />
     <apn

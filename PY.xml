@@ -28,29 +28,6 @@
     />
     <apn
         mcc="744"
-        mnc="02"
-        carrier="Claro PY"
-        apn="igprs.claro.com.py"
-        authtype="1"
-        password="ctigprs999"
-        type="default,supl"
-        user="ctigprs"
-    />
-    <apn
-        mcc="744"
-        mnc="02"
-        carrier="MMS GPRS PY"
-        apn="mms.ctimovil.com.py"
-        authtype="1"
-        mmsc="http://mms.ctimovil.com.py"
-        mmsport="8080"
-        mmsproxy="170.51.255.240"
-        password="ctimms999"
-        type="mms"
-        user="ctimms"
-    />
-    <apn
-        mcc="744"
         mnc="04"
         carrier="INTERNET TIGO PY"
         apn="internet.tigo.py"

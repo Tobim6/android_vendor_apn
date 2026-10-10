@@ -8,16 +8,6 @@
     <apn
         mcc="716"
         mnc="06"
-        carrier="Movistar INTERNET"
-        apn="movistar.pe"
-        authtype="1"
-        password="movistar"
-        type="default,supl"
-        user="movistar@datos"
-    />
-    <apn
-        mcc="716"
-        mnc="06"
         carrier="Movistar MMS"
         apn="mms.movistar.pe"
         authtype="1"
@@ -54,16 +44,6 @@
         proxy=""
         type="mms"
         user="claro"
-    />
-    <apn
-        mcc="716"
-        mnc="17"
-        carrier="Entel Internet"
-        apn="entel.pe"
-        authtype="0"
-        password=""
-        type="default,supl"
-        user=""
     />
     <apn
         mcc="716"

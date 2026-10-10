@@ -8,18 +8,6 @@
     <apn
         mcc="216"
         mnc="01"
-        carrier="Pannon"
-        apn="net"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="216"
-        mnc="01"
         carrier="Pannon MMS"
         apn="mms"
         mmsc="http://mmsc.pgsm.hu/"
@@ -43,113 +31,6 @@
         port=""
         proxy=""
         type="mms"
-        user=""
-    />
-    <apn
-        mcc="216"
-        mnc="01"
-        carrier="Telenor Net"
-        apn="net"
-        type="default,supl"
-    />
-    <apn
-        mcc="216"
-        mnc="01"
-        carrier="Telenor Net"
-        apn="net"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="216"
-        mnc="01"
-        carrier="Telenor online"
-        apn="online"
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="216"
-        mnc="30"
-        carrier="T-Mobile HU"
-        apn="wnw"
-        mmsc="http://mms.t-mobile.hu/servlets/mms"
-        mmsport="8080"
-        mmsproxy="212.51.126.10"
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="216"
-        mnc="30"
-        carrier="T-Mobile MMS"
-        apn="mms"
-        authtype="1"
-        mmsc="http://mms.t-mobile.hu/servlets/mms"
-        mmsport="8080"
-        mmsproxy="212.051.126.010"
-        password="mms"
-        port=""
-        proxy=""
-        type="mms"
-        user="mms"
-    />
-    <apn
-        mcc="216"
-        mnc="30"
-        carrier="T-Mobile NET GPRS"
-        apn="internet"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="216"
-        mnc="30"
-        carrier="Telekom HU MMS"
-        apn="internet.telekom"
-        mmsc="http://mms.t-mobile.hu/servlets/mms"
-        mmsport="8080"
-        mmsproxy="212.51.126.10"
-        type="mms"
-    />
-    <apn
-        mcc="216"
-        mnc="30"
-        carrier="Telekom HU NET"
-        apn="internet.telekom"
-        type="default,supl"
-    />
-    <apn
-        mcc="216"
-        mnc="70"
-        carrier="VF Internet VitaMax"
-        apn="vitamax.internet.vodafone.net"
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="216"
-        mnc="70"
-        carrier="Vodafone HU"
-        apn="internet.vodafone.net"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
         user=""
     />
     <apn

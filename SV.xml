@@ -7,23 +7,6 @@
 <apns version="8">
     <apn
         mcc="706"
-        mnc="01"
-        carrier="Claro SV"
-        apn="internet.claro.sv"
-        type="default,supl"
-    />
-    <apn
-        mcc="706"
-        mnc="01"
-        carrier="Claro SV MMS"
-        apn="mms.claro.sv"
-        mmsc="http://mms.claro.sv"
-        mmsport="8080"
-        mmsproxy="216.230.133.66"
-        type="mms"
-    />
-    <apn
-        mcc="706"
         mnc="02"
         carrier="Digicel MMS"
         apn="wap"
@@ -39,28 +22,12 @@
     <apn
         mcc="706"
         mnc="02"
-        carrier="Digicel SV"
-        apn="wap.digicelsv.com"
-        type="default,supl"
-    />
-    <apn
-        mcc="706"
-        mnc="02"
         carrier="Digicel SV MMS"
         apn="wap.digicelsv.com"
         mmsc="http://172.26.5.132/servlets/mms"
         mmsport="8080"
         mmsproxy="172.26.5.12"
         type="mms"
-    />
-    <apn
-        mcc="706"
-        mnc="02"
-        carrier="Digicel Web"
-        apn="web"
-        password=""
-        type="default,supl"
-        user=""
     />
     <apn
         mcc="706"

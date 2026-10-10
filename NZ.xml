@@ -98,46 +98,6 @@
     />
     <apn
         mcc="530"
-        mnc="05"
-        carrier="TelecomDefault"
-        apn="wap.telecom.co.nz"
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="530"
-        mnc="05"
-        carrier="TelecomMMS"
-        apn="wap.telecom.co.nz"
-        mmsc="http://lsmmsc.xtra.co.nz"
-        mmsport="8080"
-        mmsproxy="210.55.11.73"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="530"
-        mnc="05"
-        carrier="XT Mobile"
-        apn="internet.telecom.co.nz"
-        type="default,supl"
-    />
-    <apn
-        mcc="530"
-        mnc="05"
-        carrier="XT Mobile MMS"
-        apn="wap.telecom.co.nz"
-        mmsc="http://lsmmsc.xtra.co.nz"
-        mmsport="8080"
-        mmsproxy="210.55.11.73"
-        type="mms"
-    />
-    <apn
-        mcc="530"
         mnc="24"
         carrier="2 degrees mobile"
         apn="2degrees"
@@ -145,15 +105,8 @@
         password=""
         port="8080"
         proxy="118.148.1.118"
-        type="default,supl,mms"
+        type="mms"
         user=""
-    />
-    <apn
-        mcc="530"
-        mnc="24"
-        carrier="2degrees Internet"
-        apn="internet"
-        type="default,supl"
     />
     <apn
         mcc="530"

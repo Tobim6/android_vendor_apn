@@ -530,17 +530,6 @@
     <apn
         mcc="208"
         mnc="09"
-        carrier="SFR IMS"
-        apn="ims"
-        bearer_bitmask="14|18|20"
-        carrier_id="27"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="208"
-        mnc="09"
         carrier="SFR attach"
         apn=""
         carrier_id="27"
@@ -557,28 +546,7 @@
         mmsport="8080"
         mmsproxy="10.151.0.1"
         protocol="IPV4V6"
-        type="default,mms,supl,dun,hipri,xcap"
-    />
-    <apn
-        mcc="208"
-        mnc="10"
-        carrier="Auchan MMS"
-        apn="mms65"
-        mmsc="http://mms65"
-        mmsport="8080"
-        mmsproxy="10.143.156.8"
-        port=""
-        proxy=""
-        type="mms"
-    />
-    <apn
-        mcc="208"
-        mnc="10"
-        carrier="Auchan WAP"
-        apn="wap65"
-        port="8080"
-        proxy="192.168.21.8"
-        type="default,supl"
+        type="dun"
     />
     <apn
         mcc="208"
@@ -602,7 +570,7 @@
         carrier="Coriolis WEB"
         apn="internetcoriolis"
         authtype="0"
-        type="default,supl,fota,dun"
+        type="fota,dun"
     />
     <apn
         mcc="208"
@@ -624,7 +592,7 @@
         carrier="Internet Joe"
         apn="sl2sfr"
         authtype="0"
-        type="default,supl,fota"
+        type="fota"
     />
     <apn
         mcc="208"
@@ -646,18 +614,7 @@
         carrier="Keyyo Mobile Internet"
         apn="internet68"
         authtype="0"
-        type="default,supl,fota,dun"
-    />
-    <apn
-        mcc="208"
-        mnc="10"
-        carrier="Keyyo Mobile MMS"
-        apn="mms68"
-        authtype="0"
-        mmsc="http://mms68"
-        mmsport="8080"
-        mmsproxy="10.143.156.11"
-        type="mms"
+        type="fota,dun"
     />
     <apn
         mcc="208"
@@ -667,7 +624,7 @@
         authtype="0"
         port="8080"
         proxy="192.168.21.11"
-        type="default,supl,fota"
+        type="fota"
     />
     <apn
         mcc="208"
@@ -679,22 +636,6 @@
         mmsport="8080"
         mmsproxy="10.151.0.1"
         mvno_match_data="Joe"
-        mvno_type="spn"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="208"
-        mnc="10"
-        carrier="MMS La Poste Mobile"
-        apn="mmsdebitel"
-        mmsc="http://mmsdebitel"
-        mmsport="8080"
-        mmsproxy="10.143.156.3"
-        mvno_match_data="La Poste Mobile"
         mvno_type="spn"
         password=""
         port=""
@@ -721,18 +662,6 @@
     <apn
         mcc="208"
         mnc="10"
-        carrier="MMS LeclercMobile"
-        apn="mms66"
-        mmsc="http://mms65"
-        mmsport="8080"
-        mmsproxy="10.143.156.9"
-        port=""
-        proxy=""
-        type="mms"
-    />
-    <apn
-        mcc="208"
-        mnc="10"
         carrier="MMS Mobisud"
         apn="mms62"
         mmsc="http://mms62"
@@ -741,32 +670,6 @@
         password=""
         port="8080"
         proxy="10.143.156.7"
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="208"
-        mnc="10"
-        carrier="MMS simplicime"
-        apn="mmsdebitel"
-        mmsc="http://mmsdebitel"
-        mmsport="8080"
-        mmsproxy="10.143.156.3"
-        port=""
-        proxy=""
-        type="mms"
-    />
-    <apn
-        mcc="208"
-        mnc="10"
-        carrier="NRJ MMS"
-        apn="mmsnrj"
-        mmsc="http://mmsnrj"
-        mmsport="8080"
-        mmsproxy="10.143.156.5"
-        password=""
-        port=""
-        proxy=""
         type="mms"
         user=""
     />
@@ -785,44 +688,12 @@
     <apn
         mcc="208"
         mnc="10"
-        carrier="NRJ WAP"
-        apn="wapnrj"
-        port="8080"
-        proxy="192.168.21.5"
-        type="default,supl"
-    />
-    <apn
-        mcc="208"
-        mnc="10"
-        carrier="NRJ WEB"
-        apn="fnetnrj"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="208"
-        mnc="10"
-        carrier="RegloMobile MMS"
-        apn="mms66"
-        authtype="0"
-        mmsc="http://mms66"
-        mmsport="8080"
-        mmsproxy="10.143.156.9"
-        type="mms"
-    />
-    <apn
-        mcc="208"
-        mnc="10"
         carrier="RegloMobile WAP"
         apn="wap66"
         authtype="0"
         port="8080"
         proxy="192.168.21.9"
-        type="default,supl,fota,dun"
+        type="fota,dun"
     />
     <apn
         mcc="208"
@@ -854,16 +725,7 @@
         mmsport="8080"
         mmsproxy="10.151.0.1"
         protocol="IPV4V6"
-        type="default,mms,supl,dun,hipri,xcap"
-    />
-    <apn
-        mcc="208"
-        mnc="10"
-        carrier="WAP LeclercMobile"
-        apn="wap66"
-        port="8080"
-        proxy="192.168.21.9"
-        type="default,supl"
+        type="dun"
     />
     <apn
         mcc="208"
@@ -876,29 +738,6 @@
         password=""
         port="8080"
         proxy="192.168.21.7"
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="208"
-        mnc="10"
-        carrier="WAP simplicime"
-        apn="wapdebitel"
-        port="8080"
-        proxy="192.168.21.3"
-        type="default,supl"
-    />
-    <apn
-        mcc="208"
-        mnc="10"
-        carrier="WEB La Poste Mobile"
-        apn="wapdebitel"
-        mmsc=""
-        mvno_match_data="La Poste Mobile"
-        mvno_type="spn"
-        password=""
-        port="8080"
-        proxy="192.168.21.3"
         type="default,supl"
         user=""
     />
@@ -918,124 +757,6 @@
     />
     <apn
         mcc="208"
-        mnc="10"
-        carrier="WEB simplicime"
-        apn="internetdebitel"
-        type="default,supl"
-    />
-    <apn
-        mcc="208"
-        mnc="10"
-        carrier="Web La Poste"
-        apn="wapdebitel"
-        port="8080"
-        proxy="192.168.21.3"
-        type="default,supl"
-    />
-    <apn
-        mcc="208"
-        mnc="10"
-        carrier="Web La Poste"
-        apn="wapdebitel"
-        mmsc=""
-        password=""
-        port="8080"
-        proxy="192.168.21.3"
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="208"
-        mnc="10"
-        carrier="internet68"
-        apn="internet68"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="208"
-        mnc="10"
-        carrier="internet69"
-        apn="internet69"
-        authtype="1"
-        mmsc=""
-        password=""
-        port="8080"
-        proxy="10.143.156.12"
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="208"
-        mnc="10"
-        carrier="mms65"
-        apn="mms65"
-        mmsc="http://mms65/"
-        mmsport="8080"
-        mmsproxy="10.143.156.8"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="208"
-        mnc="10"
-        carrier="mms68"
-        apn="mms68"
-        mmsc="http://mms68/"
-        mmsport="8080"
-        mmsproxy="10.143.156.11"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="208"
-        mnc="10"
-        carrier="mms69"
-        apn="mms69"
-        authtype="1"
-        mmsc="http://mms69"
-        password=""
-        port="8080"
-        proxy="10.143.156.12"
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="208"
-        mnc="10"
-        carrier="wap65"
-        apn="wap65"
-        mmsc="http://wap.auchantelecom.fr"
-        password=""
-        port="8080"
-        proxy="192.168.21.8"
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="208"
-        mnc="10"
-        carrier="wap68"
-        apn="wap68"
-        mmsc=""
-        password=""
-        port="8080"
-        proxy="192.168.21.11"
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="208"
         mnc="15"
         carrier="Free"
         apn="free"
@@ -1044,31 +765,7 @@
         mmsc="http://mms.free.fr"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,dun,hipri,supl,mms,ia"
-    />
-    <apn
-        mcc="208"
-        mnc="15"
-        carrier="Free Gp"
-        apn="free.gp"
-        mmsc="http://mms.free.gp"
-        mvno_match_data="F007"
-        mvno_type="gid"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,mms"
-    />
-    <apn
-        mcc="208"
-        mnc="15"
-        carrier="Free Mq"
-        apn="free.mq"
-        mmsc="http://mms.free.mq"
-        mvno_match_data="F008"
-        mvno_type="gid"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,mms"
+        type="dun,ia"
     />
     <apn
         mcc="208"
@@ -1081,7 +778,7 @@
         mvno_type="gid"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,dun,supl,mms"
+        type="dun"
     />
     <apn
         mcc="208"
@@ -1258,18 +955,6 @@
         password=""
         port="8080"
         proxy="195.230.105.25"
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="208"
-        mnc="20"
-        carrier="Web"
-        apn="mmsbouygtel.com"
-        mmsc="http://wap.bouygtel.fr/"
-        password=""
-        port=""
-        proxy=""
         type="default,supl"
         user=""
     />

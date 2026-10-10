@@ -7,32 +7,6 @@
 <apns version="8">
     <apn
         mcc="283"
-        mnc="01"
-        carrier="BeeLine AM MMS"
-        apn="mms.beeline.am"
-        mmsc="http://mms/"
-        mmsport="8080"
-        mmsproxy="10.3.2.205"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="283"
-        mnc="01"
-        carrier="Beeline AM"
-        apn="internet.beeline.am"
-        mmsc=""
-        password="internet"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="internet"
-    />
-    <apn
-        mcc="283"
         mnc="05"
         carrier="VivaCell"
         apn="connect.vivacell.am"

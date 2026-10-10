@@ -98,25 +98,6 @@
     />
     <apn
         mcc="502"
-        mnc="13"
-        carrier="Xpax"
-        apn="celcom"
-        type="default,supl"
-    />
-    <apn
-        mcc="502"
-        mnc="13"
-        carrier="Xpax MMS"
-        apn="celcom3g"
-        mmsc="http://mms.celcom.net.my"
-        mmsport="8080"
-        mmsproxy="10.128.1.242"
-        password="mms"
-        type="mms"
-        user="mms"
-    />
-    <apn
-        mcc="502"
         mnc="153"
         carrier="Unifi"
         apn="unifi"
@@ -176,102 +157,5 @@
         password="mms"
         type="mms"
         user="mms"
-    />
-    <apn
-        mcc="502"
-        mnc="18"
-        carrier="U Mobile Internet"
-        apn="my3g"
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="502"
-        mnc="18"
-        carrier="U Mobile Internet"
-        apn="my3g"
-        type="default,supl"
-    />
-    <apn
-        mcc="502"
-        mnc="18"
-        carrier="U Mobile MMS"
-        apn="my3g"
-        mmsc="http://10.30.3.11/servlets/mms"
-        mmsport="8080"
-        mmsproxy="10.30.5.11"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="502"
-        mnc="18"
-        carrier="U Mobile MMS"
-        apn="my3g"
-        mmsc="http://10.30.3.11/servlets/mms"
-        mmsport="8080"
-        mmsproxy="10.30.5.11"
-        type="mms"
-    />
-    <apn
-        mcc="502"
-        mnc="19"
-        carrier="Celcom 2G Internet"
-        apn="celcom.net.my"
-        type="default,supl"
-    />
-    <apn
-        mcc="502"
-        mnc="19"
-        carrier="Celcom 2G MMS"
-        apn="mms.celcom.net.my"
-        mmsc="http://mms.celcom.net.my"
-        mmsport="8080"
-        mmsproxy="10.128.1.242"
-        type="mms"
-    />
-    <apn
-        mcc="502"
-        mnc="19"
-        carrier="Celcom 3G Internet"
-        apn="celcom3g"
-        type="default,supl"
-    />
-    <apn
-        mcc="502"
-        mnc="19"
-        carrier="Celcom 3G MMS"
-        apn="celcom3g"
-        mmsc="http://mms.celcom.net.my"
-        mmsport="8080"
-        mmsproxy="10.128.1.242"
-        type="mms"
-    />
-    <apn
-        mcc="502"
-        mnc="19"
-        carrier="celcom"
-        apn="celcom3g"
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="502"
-        mnc="19"
-        carrier="celcom MMS"
-        apn="celcom3G"
-        mmsc="http://mms.celcom.net.my"
-        mmsport="8080"
-        mmsproxy="10.128.1.242"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
     />
 </apns>

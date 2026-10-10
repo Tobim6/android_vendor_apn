@@ -10,7 +10,7 @@
         mnc="01"
         carrier="Orange GPRS"
         apn="internet"
-        type="default,supl"
+        type="supl"
     />
     <apn
         mcc="608"
@@ -44,7 +44,7 @@
         password="wap"
         port="8080"
         proxy="172.16.30.9"
-        type="default,supl"
+        type="supl"
         user="wap"
     />
     <apn
@@ -55,7 +55,7 @@
         password="wap"
         port="8080"
         proxy="172.16.30.9"
-        type="default,supl"
+        type="supl"
         user="wap"
     />
     <apn
@@ -64,7 +64,7 @@
         carrier="Orange Web SN"
         apn="internet"
         password="internet"
-        type="default,supl"
+        type="supl"
         user="internet"
     />
 </apns>

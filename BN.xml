@@ -8,13 +8,6 @@
     <apn
         mcc="528"
         mnc="02"
-        carrier="B-Mobile"
-        apn="bmobilewap"
-        type="default,supl"
-    />
-    <apn
-        mcc="528"
-        mnc="02"
         carrier="B-Mobile MMS"
         apn="bmobilemms"
         mmsc="http://mms.bmobile.com.bn/was"

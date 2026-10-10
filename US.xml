@@ -129,7 +129,7 @@
         port=""
         proxy=""
         server="*"
-        type="default,supl,mms"
+        type="mms"
         user="*"
     />
     <apn
@@ -154,26 +154,12 @@
     <apn
         mcc="310"
         mnc="004"
-        carrier="Verizon IMS"
-        apn="VZWIMS"
-        bearer_bitmask="13|14"
-        max_conns="1023"
-        max_conns_time="300"
-        modem_cognitive="true"
-        profile_id="2"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="310"
-        mnc="004"
         carrier="Verizon Internet"
         apn="VZWINTERNET"
         mmsc="http://mms.vtext.com/servlets/mms"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,dun,supl,mms"
+        type="mms,dun"
     />
     <apn
         mcc="310"
@@ -288,16 +274,6 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="default,dun,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="020"
-        carrier="UNIONINTERNET"
-        apn="SMART.COM"
-        authtype="0"
-        password=""
-        type="default,supl"
-        user=""
     />
     <apn
         mcc="310"
@@ -343,35 +319,9 @@
     <apn
         mcc="310"
         mnc="030"
-        carrier="Internet"
-        apn="private.centennialwireless.com"
-        mmsc=""
-        password="priv"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="privuser"
-    />
-    <apn
-        mcc="310"
-        mnc="030"
         carrier="Truphone"
         apn="truphone.com"
-        type="default,dun"
-    />
-    <apn
-        mcc="310"
-        mnc="030"
-        carrier="myBlue Pix"
-        apn="mmswap.centennialwireless.com"
-        mmsc="http://mms.myblue.com/servlets/mms"
-        mmsport="8080"
-        mmsproxy="63.99.231.135"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
+        type="dun"
     />
     <apn
         mcc="310"
@@ -498,85 +448,6 @@
     />
     <apn
         mcc="310"
-        mnc="100"
-        carrier="PLAT-OTA-MMS"
-        apn="plateaumms"
-        mmsc="http://208.254.124.11:8514"
-        mmsport="8080"
-        mmsproxy="208.254.124.11"
-        password="mmsc"
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="310"
-        mnc="100"
-        carrier="PLATWEB"
-        apn="plateauweb"
-        type="default,supl"
-    />
-    <apn
-        mcc="310"
-        mnc="100"
-        carrier="PLATWEB"
-        apn="plateauweb"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="310"
-        mnc="120"
-        carrier="Credo Mobile"
-        apn="n.w1.ispsn"
-        mmsc="http://mms.plspictures.com"
-        mmsport="80"
-        mmsproxy="68.28.31.7"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="mms"
-    />
-    <apn
-        mcc="310"
-        mnc="120"
-        carrier="FreedomPop EHRPD"
-        apn="n.f6.ispsn"
-        bearer="13"
-        mmsc="http://mms.sprintpcs.com"
-        mmsport="80"
-        mmsproxy="68.28.31.7"
-        type="supl,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="120"
-        carrier="FreedomPop LTE"
-        apn="n.f6.ispsn"
-        bearer="14"
-        mmsc="http://mms.sprintpcs.com"
-        mmsport="80"
-        mmsproxy="68.28.31.7"
-        type="supl,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="120"
-        carrier="Ringplus"
-        apn="n.r5.ispsn"
-        mmsc="http://mms.plspictures.com"
-        mmsport="80"
-        mmsproxy="68.28.31.7"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="supl,mms"
-    />
-    <apn
-        mcc="310"
         mnc="120"
         carrier="SPCS Global"
         apn="cinet.spcs"
@@ -584,7 +455,7 @@
         mmsc="http://mms.sprintpcs.com"
         mmsport="80"
         mmsproxy="68.28.31.7"
-        type="default,supl,mms,dun"
+        type="dun"
     />
     <apn
         mcc="310"
@@ -595,7 +466,7 @@
         mmsc="http://mms.sprintpcs.com"
         mmsport="80"
         mmsproxy="68.28.31.7"
-        type="default,supl,mms,ims,cbs"
+        type="ims,cbs"
     />
     <apn
         mcc="310"
@@ -607,20 +478,7 @@
         mmsport="80"
         mmsproxy="68.28.31.7"
         profile_id="1"
-        type="default,supl,mms,ims,cbs,dun"
-    />
-    <apn
-        mcc="310"
-        mnc="120"
-        carrier="Sprint EHRPD internet"
-        apn="n.ispsn"
-        bearer="13"
-        mmsc="http://mms.sprintpcs.com"
-        mmsport="80"
-        mmsproxy="68.28.31.7"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,mms,supl,hipri"
+        type="ims,cbs,dun"
     />
     <apn
         mcc="310"
@@ -642,7 +500,7 @@
         mmsproxy="68.28.31.7"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,supl,hipri,dun"
+        type="dun"
     />
     <apn
         mcc="310"
@@ -656,20 +514,6 @@
     <apn
         mcc="310"
         mnc="120"
-        carrier="Sprint MMS"
-        apn="Sprint"
-        authtype="3"
-        mmsc="http://oap7.sprintpcs.com"
-        mmsport="80"
-        mmsproxy="68.28.31.7"
-        password="*"
-        server="*"
-        type="mms"
-        user="Sprint"
-    />
-    <apn
-        mcc="310"
-        mnc="120"
         carrier="Sprint internet"
         apn="n.ispsn"
         mmsc="http://mms.sprintpcs.com"
@@ -677,34 +521,7 @@
         mmsproxy="68.28.31.7"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="mms,supl,hipri"
-    />
-    <apn
-        mcc="310"
-        mnc="120"
-        carrier="Ting"
-        apn="n.t8.ispsn"
-        mmsc="http://mms.plspictures.com"
-        mmsport="80"
-        mmsproxy="68.28.31.7"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="120"
-        carrier="USCC"
-        apn="internet"
-        authtype="3"
-        mmsc="http://mmsc1.uscc.net/mmsc/MMS"
-        mmsport="80"
-        mmsproxy=""
-        password=""
-        port="80"
-        proxy=""
-        type="mms"
-        user=""
+        type="hipri"
     />
     <apn
         mcc="310"
@@ -715,20 +532,8 @@
         mmsport="80"
         mmsproxy="68.28.31.7"
         password="*"
-        type="supl,mms,fota,dun"
+        type="fota,dun"
         user="Sprint"
-    />
-    <apn
-        mcc="310"
-        mnc="130"
-        carrier="My Multi Media"
-        apn="mms.c1.ama"
-        mmsc="http://mms.iot1.com/amarillo/mms.php"
-        password="cell1"
-        port=""
-        proxy=""
-        type="mms"
-        user="cell1mms"
     />
     <apn
         mcc="310"
@@ -738,7 +543,7 @@
         mmsc="http://mmsc.aiowireless.net"
         mmsport="80"
         mmsproxy="proxy.aiowireless.net"
-        type="default,mms,fota,hipri,supl"
+        type="fota"
     />
     <apn
         mcc="310"
@@ -755,14 +560,14 @@
     />
     <apn
         mcc="310"
-        mnc="170"
+        mnc="180"
         carrier="ATT Broadband"
         apn="Broadband"
-        type="default,supl"
+        type="supl"
     />
     <apn
         mcc="310"
-        mnc="170"
+        mnc="180"
         carrier="ATT WAP"
         apn="wap.cingular"
         mmsc="http://mmsc.cingular.com"
@@ -770,59 +575,7 @@
         mmsproxy="wireless.cingular.com"
         port="80"
         proxy="wireless.cingular.com"
-        type="default,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="170"
-        carrier="Cingular MMS"
-        apn="wap.cingular"
-        mmsc="http://mmsc.cingular.com"
-        mmsport="8080"
-        mmsproxy="66.209.11.32"
-        password="CINGULAR1"
-        port=""
-        proxy=""
         type="mms"
-        user="WAP@CINGULARGPRS.COM"
-    />
-    <apn
-        mcc="310"
-        mnc="170"
-        carrier="DataConnect"
-        apn="isp.cingular"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="310"
-        mnc="170"
-        carrier="FreedomPop"
-        apn="fp.com.attz"
-        type="default"
-    />
-    <apn
-        mcc="310"
-        mnc="180"
-        carrier="ATT Broadband"
-        apn="Broadband"
-        type="default,supl"
-    />
-    <apn
-        mcc="310"
-        mnc="180"
-        carrier="ATT WAP"
-        apn="wap.cingular"
-        mmsc="http://mmsc.cingular.com"
-        mmsport="80"
-        mmsproxy="wireless.cingular.com"
-        port="80"
-        proxy="wireless.cingular.com"
-        type="default,mms"
     />
     <apn
         mcc="310"
@@ -831,7 +584,7 @@
         apn="internet.wcc.net"
         authtype="0"
         password="mmsc"
-        type="default,supl"
+        type="supl"
         user="3257630000"
     />
     <apn
@@ -861,7 +614,7 @@
         password="mmsc"
         port="80"
         proxy="209.55.70.244"
-        type="default,mms"
+        type="mms"
         user="3257630000"
     />
     <apn
@@ -875,7 +628,7 @@
         mvno_type="gid"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,supl,mms,ia"
+        type="ia"
     />
     <apn
         mcc="310"
@@ -900,7 +653,7 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         server="*"
-        type="default,supl,mms,fota,cbs"
+        type="fota,cbs"
         user="none"
     />
     <apn
@@ -914,73 +667,7 @@
         mvno_type="gid"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,fota,mms,supl,hipri,dun"
-    />
-    <apn
-        mcc="310"
-        mnc="240"
-        carrier="US Mobile"
-        apn="pwg"
-        mmsc="http://pwg.mmsmvno.com/mms/wapenc"
-        mvno_match_data="6901"
-        mvno_type="gid"
-        protocol="IPV4V6"
-        roaming_protocol="IP"
-        type="default,supl,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="240"
-        carrier="tello"
-        apn="tello"
-        carrier_id="2578"
-        mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
-        mvno_match_data="6941"
-        mvno_type="gid"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="260"
-        carrier="Consumer Cellular"
-        apn="wholesale"
-        carrier_id="10023"
-        mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
-        mmsport="80"
-        mmsproxy=""
-        mvno_match_data="2AC9"
-        mvno_type="gid"
-        password=""
-        port=""
-        proxy=""
-        type="default,mms,supl,hipri"
-        user=""
-    />
-    <apn
-        mcc="310"
-        mnc="260"
-        carrier="Family Mobile"
-        apn="web.omwtoday.com"
-        carrier_id="2063"
-        mmsc="http://wirelessfour.mmsmvno.com/mms/wapenc"
-        mvno_match_data="4D4B"
-        mvno_type="gid"
-        port=""
-        type="default,mms,supl"
-    />
-    <apn
-        mcc="310"
-        mnc="260"
-        carrier="GoSmart"
-        apn="multibrand"
-        carrier_id="2064"
-        mmsc="http://gsmt.mmsmvno.com/mms/wapenc"
-        mvno_match_data="4753"
-        mvno_type="gid"
-        port=""
-        type="default,mms,supl"
+        type="fota,dun"
     />
     <apn
         mcc="310"
@@ -1010,18 +697,6 @@
     <apn
         mcc="310"
         mnc="260"
-        carrier="MetroPCS 260 IMS"
-        apn="ims"
-        mtu="1440"
-        mvno_match_data="6D"
-        mvno_type="gid"
-        protocol="IPV6"
-        roaming_protocol="IPV6"
-        type="ims"
-    />
-    <apn
-        mcc="310"
-        mnc="260"
         carrier="Project Fi - T"
         apn="h2g2"
         mvno_match_data="31026097"
@@ -1042,19 +717,8 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         server="*"
-        type="default,supl,mms,fota,cbs"
+        type="supl,fota,cbs"
         user="none"
-    />
-    <apn
-        mcc="310"
-        mnc="260"
-        carrier="Red Pocket Mobile"
-        apn="wholesale"
-        carrier_id="10011"
-        mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
-        mvno_match_data="4201"
-        mvno_type="gid"
-        type="default,mms,supl"
     />
     <apn
         mcc="310"
@@ -1065,7 +729,7 @@
         mmsc="http://smpl.mms.msg.eng.t-mobile.com/mms/wapenc"
         mvno_match_data="534D"
         mvno_type="gid"
-        type="default,mms,supl,hipri,fota"
+        type="fota"
     />
     <apn
         mcc="310"
@@ -1110,19 +774,6 @@
     <apn
         mcc="310"
         mnc="260"
-        carrier="T-Mobile MMS"
-        apn="TMUS"
-        bearer_bitmask="18"
-        carrier_id="1"
-        mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
-        protocol="IPV6"
-        roaming_protocol="IPV6"
-        type="mms,xcap"
-        user_visible="false"
-    />
-    <apn
-        mcc="310"
-        mnc="260"
         carrier="T-Mobile Tethering"
         apn="pcweb.tmobile.com"
         carrier_id="1"
@@ -1140,44 +791,7 @@
         mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
         mtu="1440"
         protocol="IPV6"
-        type="default,supl,ia,mms,xcap"
-    />
-    <apn
-        mcc="310"
-        mnc="260"
-        carrier="T-Mobile US IMS"
-        apn="ims"
-        bearer_bitmask="14|18|20"
-        carrier_id="1"
-        mtu="1440"
-        protocol="IPV6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-        user_visible="false"
-    />
-    <apn
-        mcc="310"
-        mnc="260"
-        carrier="TFWAP"
-        apn="wap.tracfone"
-        bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20"
-        carrier_id="10001"
-        mmsc="http://TF.mmsmvno.com/mms/wapenc"
-        mvno_match_data="DDFF"
-        mvno_type="gid"
-        type="default,mms,supl"
-    />
-    <apn
-        mcc="310"
-        mnc="260"
-        carrier="TFWAP"
-        apn="wap.tracfone"
-        bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20"
-        carrier_id="10001"
-        mmsc="http://TF.mmsmvno.com/mms/wapenc"
-        mvno_match_data="DEFF"
-        mvno_type="gid"
-        type="default,mms,supl"
+        type="ia"
     />
     <apn
         mcc="310"
@@ -1247,7 +861,7 @@
         mvno_type="gid"
         protocol="IPV6"
         roaming_protocol="IPV6"
-        type="default,fota,mms,supl,hipri,dun"
+        type="fota,dun"
     />
     <apn
         mcc="310"
@@ -1259,32 +873,7 @@
         mvno_type="gid"
         protocol="IPV6"
         roaming_protocol="IPV6"
-        type="default,fota,mms,supl,hipri,dun"
-    />
-    <apn
-        mcc="310"
-        mnc="260"
-        carrier="Ting MMS"
-        apn="wholesale"
-        carrier_id="2080"
-        mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
-        mvno_match_data="6135"
-        mvno_type="gid"
-        protocol="IP"
-        roaming_protocol="IP"
-        type="mms"
-    />
-    <apn
-        mcc="310"
-        mnc="260"
-        carrier="US Mobile"
-        apn="pwg"
-        mmsc="http://pwg.mmsmvno.com/mms/wapenc"
-        mvno_match_data="4358"
-        mvno_type="gid"
-        protocol="IPV4V6"
-        roaming_protocol="IP"
-        type="default,supl,mms"
+        type="fota,dun"
     />
     <apn
         mcc="310"
@@ -1295,7 +884,7 @@
         mvno_match_data="6132"
         mvno_type="gid"
         port="8080"
-        type="default,mms,supl,dun"
+        type="dun"
     />
     <apn
         mcc="310"
@@ -1307,56 +896,6 @@
         mvno_type="gid"
         port=""
         type="default,mms,supl"
-    />
-    <apn
-        mcc="310"
-        mnc="260"
-        carrier="ZIP SIM"
-        apn="wholesale"
-        carrier_id="2071"
-        mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
-        mvno_match_data="7031"
-        mvno_type="gid"
-        type="default,mms,supl"
-    />
-    <apn
-        mcc="310"
-        mnc="260"
-        carrier="service"
-        apn="service"
-        bearer_bitmask="18"
-        carrier_id="10001"
-        mmsc="http://TF.mmsmvno.com/mms/wapenc"
-        mvno_match_data="DDFF"
-        mvno_type="gid"
-        type="mms"
-        user_visible="false"
-    />
-    <apn
-        mcc="310"
-        mnc="260"
-        carrier="service"
-        apn="service"
-        bearer_bitmask="18"
-        carrier_id="10001"
-        mmsc="http://TF.mmsmvno.com/mms/wapenc"
-        mvno_match_data="DEFF"
-        mvno_type="gid"
-        type="mms"
-        user_visible="false"
-    />
-    <apn
-        mcc="310"
-        mnc="260"
-        carrier="tello"
-        apn="tello"
-        carrier_id="2578"
-        mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
-        mvno_match_data="6941"
-        mvno_type="gid"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl,mms"
     />
     <apn
         mcc="310"
@@ -1526,7 +1065,7 @@
         mvno_type="gid"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,supl,hipri,fota"
+        type="supl,fota"
     />
     <apn
         mcc="310"
@@ -1542,7 +1081,7 @@
         mvno_type="gid"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,supl,hipri,fota"
+        type="supl,fota"
     />
     <apn
         mcc="310"
@@ -1574,7 +1113,7 @@
         mvno_type="gid"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,supl,hipri,fota"
+        type="supl,fota"
     />
     <apn
         mcc="310"
@@ -1590,7 +1129,7 @@
         mvno_type="gid"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,supl,hipri,fota"
+        type="supl,fota"
     />
     <apn
         mcc="310"
@@ -1621,7 +1160,7 @@
         proxy="wireless.cingular.com"
         roaming_protocol="IPV4V6"
         server="cingulargprs.com"
-        type="default,mms,supl"
+        type="supl"
     />
     <apn
         mcc="310"
@@ -1638,7 +1177,7 @@
         proxy="wireless.cingular.com"
         roaming_protocol="IPV4V6"
         server="cingulargprs.com"
-        type="default,mms,supl"
+        type="supl"
     />
     <apn
         mcc="310"
@@ -1689,7 +1228,7 @@
         proxy="wireless.cingular.com"
         roaming_protocol="IPV4V6"
         server="cingulargprs.com"
-        type="default,mms,supl"
+        type="supl"
     />
     <apn
         mcc="310"
@@ -1706,7 +1245,7 @@
         proxy="wireless.cingular.com"
         roaming_protocol="IPV4V6"
         server="cingulargprs.com"
-        type="default,mms,supl"
+        type="supl"
     />
     <apn
         mcc="310"
@@ -1747,7 +1286,7 @@
         mmsproxy="proxy.mobile.att.net"
         mvno_match_data="4201"
         mvno_type="gid"
-        type="default,mms,supl"
+        type="supl"
     />
     <apn
         mcc="310"
@@ -1762,7 +1301,7 @@
         mvno_type="gid"
         protocol="IP"
         roaming_protocol="IP"
-        type="default,mms,supl,hipri,fota"
+        type="fota"
     />
     <apn
         mcc="310"
@@ -1777,7 +1316,7 @@
         mvno_type="gid"
         protocol="IP"
         roaming_protocol="IP"
-        type="default,mms,supl,hipri,fota"
+        type="fota"
     />
     <apn
         mcc="310"
@@ -1805,7 +1344,7 @@
         mnc="300"
         carrier="Truphone"
         apn="truphone.com"
-        type="default,dun"
+        type="dun"
     />
     <apn
         mcc="310"
@@ -1847,53 +1386,6 @@
     />
     <apn
         mcc="310"
-        mnc="380"
-        carrier="ATT Broadband"
-        apn="Broadband"
-        type="default,supl"
-    />
-    <apn
-        mcc="310"
-        mnc="380"
-        carrier="ATT WAP"
-        apn="wap.cingular"
-        mmsc="http://mmsc.cingular.com"
-        mmsport="80"
-        mmsproxy="wireless.cingular.com"
-        port="80"
-        proxy="wireless.cingular.com"
-        type="default,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="380"
-        carrier="AWS MMS"
-        apn="proxy"
-        mmsc="http://mmsc.mymmode.com"
-        mmsport="8080"
-        mmsproxy="10.250.250.55"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="310"
-        mnc="380"
-        carrier="Cingular 380 ATT"
-        apn="proxy"
-        mmsc="http://mmsc.cingular.com/"
-        mmsport=""
-        mmsproxy="wireless.cingular.com"
-        password=""
-        port="80"
-        proxy="wireless.cingular.com"
-        type="default,supl,mms"
-        user=""
-    />
-    <apn
-        mcc="310"
         mnc="390"
         carrier="COET Web"
         apn="web.celloneet.com"
@@ -1923,40 +1415,6 @@
     <apn
         mcc="310"
         mnc="410"
-        carrier="ATT"
-        apn="phone"
-        mmsc="http://mmsc.mobile.att.net/"
-        mmsport="80"
-        mmsproxy="proxy.mobile.att.net"
-        type="default,mms,supl"
-    />
-    <apn
-        mcc="310"
-        mnc="410"
-        carrier="ATT"
-        apn="wap.cingular"
-        mmsc="http://mmsc.cingular.com"
-        mmsport="80"
-        mmsproxy="wireless.cingular.com"
-        password=""
-        port=""
-        proxy=""
-        type="default,supl,mms"
-        user="WAP@CINGULARGPRS.COM"
-    />
-    <apn
-        mcc="310"
-        mnc="410"
-        carrier="ATT Broadband"
-        apn="broadband"
-        mmsc=""
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="310"
-        mnc="410"
         carrier="ATT Enhancedphone"
         apn="enhancedphone"
         carrier_id="1187"
@@ -1968,17 +1426,6 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="default,fota,mms,supl"
-    />
-    <apn
-        mcc="310"
-        mnc="410"
-        carrier="ATT GoPhone"
-        apn="pta"
-        mmsc="http://mmsc.mobile.att.net"
-        mmsport="80"
-        mmsproxy="proxy.mobile.att.net"
-        port=""
-        type="default,mms,supl"
     />
     <apn
         mcc="310"
@@ -2021,20 +1468,6 @@
     <apn
         mcc="310"
         mnc="410"
-        carrier="ATT LTE"
-        apn="pta"
-        mmsc="http://mmsc.mobile.att.net"
-        mmsport="80"
-        mmsproxy="proxy.mobile.att.net"
-        password=""
-        port=""
-        proxy=""
-        type="default,supl,mms"
-        user=""
-    />
-    <apn
-        mcc="310"
-        mnc="410"
         carrier="ATT Nextgenphone"
         apn="nxtgenphone"
         mmsc="http://mmsc.mobile.att.net"
@@ -2043,7 +1476,7 @@
         mtu="1410"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,supl,fota,hipri"
+        type="fota"
     />
     <apn
         mcc="310"
@@ -2072,7 +1505,7 @@
         mtu="1410"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,supl,fota,hipri"
+        type="fota"
     />
     <apn
         mcc="310"
@@ -2120,18 +1553,6 @@
     <apn
         mcc="310"
         mnc="410"
-        carrier="AirVoice Wireless"
-        apn="att.mvno"
-        mmsc="http://mmsc.cingular.com"
-        mmsport="80"
-        mmsproxy="66.209.11.33"
-        port="80"
-        proxy="66.209.11.33"
-        type="default,mms,supl"
-    />
-    <apn
-        mcc="310"
-        mnc="410"
         carrier="Black Wireless"
         apn="att.mvno"
         authtype="1"
@@ -2140,7 +1561,7 @@
         mmsproxy="66.209.11.33"
         port="80"
         proxy="66.209.11.33"
-        type="default,mms,supl,fota"
+        type="fota"
     />
     <apn
         mcc="310"
@@ -2166,7 +1587,7 @@
         mmsproxy="66.209.11.32"
         port="80"
         proxy="66.209.11.32"
-        type="default,mms,supl,fota"
+        type="fota"
     />
     <apn
         mcc="310"
@@ -2178,65 +1599,7 @@
         mmsproxy="proxy.mobile.att.net"
         port=""
         proxy=""
-        type="default,mms,supl,fota"
-    />
-    <apn
-        mcc="310"
-        mnc="410"
-        carrier="Good 2Go Mobile"
-        apn="att.mvno"
-        mmsc="http://mmsc.cingular.com"
-        mmsport="80"
-        mmsproxy="proxy.mvno.att.ztarmobile.com"
-        port="80"
-        proxy="proxy.mvno.att.ztarmobile.com"
-        type="default,mms,supl,hipri"
-    />
-    <apn
-        mcc="310"
-        mnc="410"
-        carrier="H2O Wireless"
-        apn="PRODATA"
-        mmsc="http://mmsc.mobile.att.net"
-        mmsport="80"
-        mmsproxy="proxy.mobile.att.net"
-        type="default,mms,supl"
-    />
-    <apn
-        mcc="310"
-        mnc="410"
-        carrier="Jolt Mobile"
-        apn="att.mvno"
-        mmsc="http://mmsc.cingular.com"
-        mmsport="80"
-        mmsproxy="66.209.11.33"
-        port="80"
-        proxy="66.209.11.33"
-        type="default,mms,supl"
-    />
-    <apn
-        mcc="310"
-        mnc="410"
-        carrier="Net 10"
-        apn="tfdata"
-        mmsc="http://mms-tf.net"
-        mmsport="80"
-        mmsproxy="mms3.tracfone.com"
-        protocol="IP"
-        roaming_protocol="IP"
-        type="default,supl,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="410"
-        carrier="Pure Talk USA"
-        apn="att.mvno"
-        mmsc="http://mmsc.cingular.com"
-        mmsport="80"
-        mmsproxy="proxy.mvno.telrite.com"
-        port=""
-        proxy=""
-        type="default,mms,supl"
+        type="fota"
     />
     <apn
         mcc="310"
@@ -2249,56 +1612,7 @@
         mvno_match_data="4201"
         mvno_type="gid"
         port=""
-        type="default,mms,supl"
-    />
-    <apn
-        mcc="310"
-        mnc="410"
-        carrier="Straight Talk"
-        apn="tfdata"
-        mmsc="http://mms-tf.net"
-        mmsport="80"
-        mmsproxy="mms3.tracfone.com"
-        mvno_match_data="deff"
-        mvno_type="gid"
-        port="80"
-        type="default,mms,supl"
-    />
-    <apn
-        mcc="310"
-        mnc="410"
-        carrier="StraightTalk ATT"
-        apn="att.mvno"
-        mmsc="http://mmsc.cingular.com"
-        mmsport="80"
-        mmsproxy="66.209.11.33"
-        password=""
-        port=""
-        proxy=""
-        type="default,supl,mms"
-        user=""
-    />
-    <apn
-        mcc="310"
-        mnc="410"
-        carrier="StraightTalk ATT"
-        apn="tfdata"
-        mmsc="http://mms-tf.net"
-        mmsport="80"
-        mmsproxy="mms3.tracfone.com"
-        port="80"
-        type="default,supl,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="410"
-        carrier="StraightTalk ATT.mvno"
-        apn="att.mvno"
-        mmsc="http://mmsc.cingular.com"
-        mmsport="80"
-        mmsproxy="66.209.11.33"
-        port="80"
-        type="default,supl,mms"
+        type="supl"
     />
     <apn
         mcc="310"
@@ -2399,7 +1713,7 @@
         password=""
         port=""
         proxy=""
-        type="default,supl"
+        type="supl"
         user=""
     />
     <apn
@@ -2408,7 +1722,7 @@
         carrier="Docomo Pacific"
         apn="internet"
         password=""
-        type="default,supl"
+        type="supl"
         user=""
     />
     <apn
@@ -2434,20 +1748,8 @@
         password="CINGULAR1"
         port=""
         proxy=""
-        type="default,supl,mms"
+        type="supl,mms"
         user="WAP@CINGULARGPRS.COM"
-    />
-    <apn
-        mcc="310"
-        mnc="480"
-        carrier="DataConnect"
-        apn="isp.cingular"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
     />
     <apn
         mcc="310"
@@ -2460,7 +1762,7 @@
         password="CINGULAR1"
         port=""
         proxy=""
-        type="default,supl,mms"
+        type="mms"
         user="WAP@CINGULARGPRS.COM"
     />
     <apn
@@ -2499,7 +1801,7 @@
         mmsc="http://mms.vtext.com/servlets/mms"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,dun,mms"
+        type="mms,dun"
     />
     <apn
         mcc="310"
@@ -2652,67 +1954,6 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="default,dun,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="490"
-        carrier="GoodCall Picture Message"
-        apn="good.call"
-        mmsc="http://mms.suncom.net:8088/mms"
-        mmsport="8080"
-        mmsproxy="66.150.33.125"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="310"
-        mnc="490"
-        carrier="Suncom MMS"
-        apn="mms"
-        mmsc="http://mms.suncom.net:8088/mms"
-        mmsport="8080"
-        mmsproxy="66.150.33.125"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="310"
-        mnc="560"
-        carrier="ATT Broadband"
-        apn="Broadband"
-        type="default,supl"
-    />
-    <apn
-        mcc="310"
-        mnc="560"
-        carrier="ATT WAP"
-        apn="wap.cingular"
-        mmsc="http://mmsc.cingular.com"
-        mmsport="80"
-        mmsproxy="wireless.cingular.com"
-        port="80"
-        proxy="wireless.cingular.com"
-        type="default,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="560"
-        carrier="DobsonMMS"
-        apn="dobsoncellularwap"
-        mmsc="http://mmsc"
-        mmsport="8799"
-        mmsproxy="172.23.1.252"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
     />
     <apn
         mcc="310"
@@ -2750,32 +1991,12 @@
     <apn
         mcc="310"
         mnc="580"
-        carrier="Inland Cellular"
-        apn="internet.inland.com"
-        authtype="3"
-        mmsc="http://mms.inland3g.com/inland/mms.php"
-        type="default,mms"
-    />
-    <apn
-        mcc="310"
-        mnc="580"
         carrier="Inland Cellular FOTA"
         apn="ota.inland.com"
         bearer="14"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="fota"
-    />
-    <apn
-        mcc="310"
-        mnc="580"
-        carrier="Inland Cellular LTE"
-        apn="internet.inland.com"
-        bearer="14"
-        mmsc="http://mms.inland3g.com/inland/mms.php"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,mms,supl"
     />
     <apn
         mcc="310"
@@ -2848,23 +2069,6 @@
         proxy=""
         type="mms"
         user=""
-    />
-    <apn
-        mcc="310"
-        mnc="640"
-        carrier="Airfire GPRS"
-        apn="internet.air.net"
-        authtype="0"
-        type="default,supl"
-    />
-    <apn
-        mcc="310"
-        mnc="640"
-        carrier="Airfire MMS"
-        apn="internet.air.net"
-        authtype="0"
-        mmsc="http://mms.airfiremobile.com/+1"
-        type="mms"
     />
     <apn
         mcc="310"
@@ -3088,7 +2292,7 @@
         authtype="0"
         port="8080"
         proxy="204.181.155.218"
-        type="default,supl"
+        type="supl"
     />
     <apn
         mcc="310"
@@ -3226,25 +2430,12 @@
     <apn
         mcc="311"
         mnc="080"
-        carrier="Pine MMS"
-        apn="pine"
-        authtype="0"
-        mmsc="http://69.8.34.146/mms/"
-        mmsport="9401"
-        mmsproxy="69.8.34.146"
-        password=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="311"
-        mnc="080"
         carrier="Pine WAP"
         apn="pine"
         authtype="0"
         port="9401"
         proxy="69.8.34.146"
-        type="default,supl"
+        type="supl"
     />
     <apn
         mcc="311"
@@ -3283,37 +2474,6 @@
         port="80"
         proxy="wireless.cingular.com"
         type="default,mms"
-    />
-    <apn
-        mcc="311"
-        mnc="180"
-        carrier="ATT Broadband"
-        apn="Broadband"
-        type="default,supl"
-    />
-    <apn
-        mcc="311"
-        mnc="180"
-        carrier="ATT WAP"
-        apn="wap.cingular"
-        mmsc="http://mmsc.cingular.com"
-        mmsport="80"
-        mmsproxy="wireless.cingular.com"
-        port="80"
-        proxy="wireless.cingular.com"
-        type="default,mms"
-    />
-    <apn
-        mcc="311"
-        mnc="190"
-        carrier="MMS"
-        apn="wap.cellular1.net"
-        mmsc="http://mms.cellular1.net/ecit/mms.php"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
     />
     <apn
         mcc="311"
@@ -3349,7 +2509,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3361,7 +2521,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3373,18 +2533,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
-    />
-    <apn
-        mcc="311"
-        mnc="220"
-        carrier="USCC"
-        apn="internet"
-        authtype="3"
-        mmsc="http://mmsc1.uscc.net/mmsc/MMS"
-        mmsport="80"
-        port="80"
-        type="mms"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3396,7 +2545,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3408,7 +2557,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3420,7 +2569,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3432,7 +2581,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3444,7 +2593,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3456,7 +2605,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3468,7 +2617,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3480,7 +2629,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3492,7 +2641,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3504,7 +2653,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3516,7 +2665,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3528,7 +2677,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3539,7 +2688,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,dun,mms,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3551,7 +2700,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3563,7 +2712,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3575,7 +2724,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3587,7 +2736,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3599,7 +2748,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3611,7 +2760,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3623,7 +2772,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3635,7 +2784,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3647,7 +2796,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3659,7 +2808,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3671,7 +2820,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3683,7 +2832,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3695,7 +2844,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3707,7 +2856,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -3752,7 +2901,7 @@
         password=""
         protocol="IP"
         roaming_protocol="IP"
-        type="default,dun,mms"
+        type="dun"
         user=""
     />
     <apn
@@ -3813,7 +2962,7 @@
         password=""
         protocol="IP"
         roaming_protocol="IP"
-        type="default,dun,mms"
+        type="dun"
         user=""
     />
     <apn
@@ -3853,16 +3002,6 @@
     <apn
         mcc="311"
         mnc="370"
-        carrier="GCI MMS"
-        apn="mms.gci"
-        mmsc="http://mmsc.gci.net"
-        mmsport="9201"
-        mmsproxy="24.237.158.34"
-        type="mms"
-    />
-    <apn
-        mcc="311"
-        mnc="370"
         carrier="GCI Web"
         apn="web.gci"
         type="default,supl"
@@ -3895,7 +3034,7 @@
         mvno_type="gid"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,dun,supl"
+        type="dun"
     />
     <apn
         mcc="311"
@@ -3911,7 +3050,7 @@
         profile_id="2"
         protocol="IPV4V6"
         roaming_protocol="IPV6"
-        type="ims,ia"
+        type="ia"
         user_visible="false"
     />
     <apn
@@ -3946,7 +3085,7 @@
         profile_id="4"
         protocol="IPV4V6"
         roaming_protocol="IP"
-        type="cbs,mms"
+        type="cbs"
         user_visible="false"
     />
     <apn
@@ -3963,7 +3102,7 @@
         profile_id="0"
         protocol="IPV4V6"
         roaming_protocol="IP"
-        type="default,dun,supl"
+        type="dun"
     />
     <apn
         mcc="311"
@@ -3975,7 +3114,7 @@
         carrier_id="1839"
         mmsc="http://mms.vtext.com/servlets/mms"
         protocol="IPV4V6"
-        type="default,mms,supl,fota,cbs,dun"
+        type="fota,cbs,dun"
         user_visible="false"
     />
     <apn
@@ -3990,7 +3129,7 @@
         mvno_match_data="BA01450000000000"
         mvno_type="gid"
         protocol="IPV4V6"
-        type="default,mms,supl,fota,cbs,dun"
+        type="fota,cbs,dun"
         user_visible="false"
     />
     <apn
@@ -4059,7 +3198,7 @@
         profile_id="2"
         protocol="IPV4V6"
         roaming_protocol="IPV6"
-        type="ia,ims"
+        type="ia"
         user_visible="false"
     />
     <apn
@@ -4095,7 +3234,7 @@
         mvno_type="gid"
         profile_id="0"
         protocol="IPV4V6"
-        type="default,dun,supl"
+        type="dun"
     />
     <apn
         mcc="311"
@@ -4113,7 +3252,7 @@
         profile_id="2"
         protocol="IPV4V6"
         roaming_protocol="IPV6"
-        type="ims,ia"
+        type="ia"
         user_visible="false"
     />
     <apn
@@ -4150,7 +3289,7 @@
         mvno_type="gid"
         profile_id="4"
         protocol="IPV4V6"
-        type="cbs,mms"
+        type="cbs"
         user_visible="false"
     />
     <apn
@@ -4244,31 +3383,6 @@
     />
     <apn
         mcc="311"
-        mnc="490"
-        carrier="Virgin Mobile CdmaNai"
-        apn="CdmaNai"
-        bearer="6"
-        carrier_enabled="false"
-        mmsc="http://mmsc.vmobl.com:8088"
-        mmsport="80"
-        mmsproxy="68.28.31.2"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="mms"
-    />
-    <apn
-        mcc="311"
-        mnc="490"
-        carrier="Virgin Mobile US"
-        apn="0"
-        mmsc="http://mmsc.vmobl.com:8088/mms?"
-        mmsport="81"
-        mmsproxy="205.239.233.136"
-        port=""
-        type="mms"
-    />
-    <apn
-        mcc="311"
         mnc="500"
         carrier="Mosiac WAP"
         apn="WAP"
@@ -4284,7 +3398,7 @@
         apn="mms.mymobiletxt.com"
         authtype="0"
         mmsc="http://mms2.mymobiletxt.net"
-        type="default,supl,mms"
+        type="supl"
     />
     <apn
         mcc="311"
@@ -4295,7 +3409,7 @@
         mmsc="http://172.16.16.103/mms/"
         mmsport="8080"
         mmsproxy="172.16.16.102"
-        type="default,ia,mms"
+        type="ia"
     />
     <apn
         mcc="311"
@@ -4325,7 +3439,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,dun,mms,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4337,7 +3451,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4349,7 +3463,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4361,7 +3475,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4373,7 +3487,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4385,7 +3499,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4397,7 +3511,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4409,7 +3523,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4421,7 +3535,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4433,7 +3547,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4445,7 +3559,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4457,7 +3571,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4469,7 +3583,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4481,7 +3595,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4493,7 +3607,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4505,7 +3619,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4517,7 +3631,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4529,7 +3643,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4541,7 +3655,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4553,7 +3667,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4565,7 +3679,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4577,7 +3691,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4589,7 +3703,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4601,7 +3715,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4613,7 +3727,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4625,7 +3739,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4637,7 +3751,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4649,7 +3763,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4661,7 +3775,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4673,7 +3787,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4685,7 +3799,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4697,7 +3811,7 @@
         mmsc="http://mmsc1.uscc.net/mmsc/MMS"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
-        type="default,mms,dun,hipri,fota"
+        type="dun,fota"
     />
     <apn
         mcc="311"
@@ -4823,19 +3937,5 @@
         port="80"
         proxy="wireless.cingular.com"
         type="default,mms"
-    />
-    <apn
-        mcc="312"
-        mnc="530"
-        carrier="Sprint CdmaNai"
-        apn="CdmaNai"
-        bearer="6"
-        carrier_enabled="false"
-        mmsc="http://mms.sprintpcs.com"
-        mmsport="80"
-        mmsproxy="68.28.31.7"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="mms"
     />
 </apns>

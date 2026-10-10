@@ -8,22 +8,6 @@
     <apn
         mcc="546"
         mnc="01"
-        carrier="3g OPT KNC"
-        apn="3g"
-        type="default,supl"
-        user="3g"
-    />
-    <apn
-        mcc="546"
-        mnc="01"
-        carrier="Internet OPT KNC"
-        apn="internet"
-        type="default,supl"
-        user="internet"
-    />
-    <apn
-        mcc="546"
-        mnc="01"
         carrier="Mms OPT KNC"
         apn="mms"
         mmsc="http://mms.mobitag.nc/mmsc/"
@@ -32,16 +16,5 @@
         password="mms123"
         type="mms"
         user="mms"
-    />
-    <apn
-        mcc="546"
-        mnc="01"
-        carrier="Wap OPT KNC"
-        apn="wap"
-        password="Wap123"
-        port="3130"
-        proxy="192.168.39.101"
-        type="default,supl"
-        user="Wap"
     />
 </apns>

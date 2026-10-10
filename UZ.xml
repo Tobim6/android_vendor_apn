@@ -61,29 +61,4 @@
         type="default,supl"
         user="perfectum@perfectum.com"
     />
-    <apn
-        mcc="434"
-        mnc="07"
-        carrier="MTS Internet"
-        apn="net.mts.uz"
-        authtype="1"
-        password="mts"
-        type="default,supl"
-        user="mts"
-    />
-    <apn
-        mcc="434"
-        mnc="07"
-        carrier="MTS MMS"
-        apn="mms.mts.uz"
-        authtype="1"
-        mmsc="http://mmsc/was"
-        mmsport="8080"
-        mmsproxy="10.10.0.10"
-        password="mts"
-        port=""
-        proxy=""
-        type="mms"
-        user="mts"
-    />
 </apns>
